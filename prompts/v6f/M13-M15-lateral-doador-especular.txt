@@ -1,0 +1,21 @@
+USE CASE
+lighting-weather edit for a real automotive studio photograph; create one registered photometric donor for the specifically masked painted side panel only.
+
+INPUT ROLES
+Image 1 is the absolute authority for the Porsche Panamera, camera, perspective, panel geometry, paint hue, metallic flake, door gaps, handles, e-hybrid badge, wheel arches and photographic texture.
+Image 2 is Studio H and defines only the neutral studio lighting direction and softness. Do not copy room content, logo, walls or floor into Image 1.
+
+CHANGE ONLY
+Replace recognizable outdoor reflections inside the supplied painted-panel mask with physically plausible reflections from Studio H. The result is a luminance donor, not permission to redraw the car.
+
+POLISHED SIDE-PANEL TARGET
+Keep the factory dark blue-gray metallic basecoat and glossy clear coat. Build one long soft camera-left strip reflection along the upper shoulder, a quieter mid-tone transition through the door volume, and a restrained low neutral floor bounce. Preserve a dark separation band between the upper key and lower bounce so the clear coat has depth. Maintain local contrast around the factory character line without drawing or moving it. The finish must not become matte, satin, wrapped, uniformly dark, uniformly bright, textureless, plastic or CGI.
+
+IDENTITY LOCK
+Do not alter any wheel, tire, brake, panel boundary, gap, handle, mirror, badge, lettering, window, trim, sill, headlight, bumper or camera geometry. Do not add, delete or move any element. Preserve all unmasked pixels exactly.
+
+FORBIDDEN REFLECTION CONTENT
+No sky, clouds, trees, buildings, windows, cables, poles, people, vehicles, street markings, yellow lines or storefronts. No random light strips and no literal copy of the room architecture.
+
+FINAL INVARIANT
+Only the studio illumination reflected by the already-existing painted panel may change. Everything else remains registered to Image 1.

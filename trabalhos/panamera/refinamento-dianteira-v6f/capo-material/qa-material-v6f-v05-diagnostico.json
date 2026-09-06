@@ -1,0 +1,43 @@
+{
+  "status": "technical_targets_failed",
+  "profile_id": "GARAGE665-PAINT-DARK-GRAY-METALLIC-V6F",
+  "source_sha256": "22312113e2927947932dbfc186670d8b0d8c1f1a2c1cd138e486753a28dac6af",
+  "donor_sha256": "e15d01bf29b41ffd64ab0ca0efd81fc95912c691722599f4aedec7febb01ea07",
+  "mask_sha256": "72b7764adac2ece34f442cb3516ae3b426a0b05c2f9666e809c38825dbd85230",
+  "registration": {
+    "matches": 938,
+    "inlier_fraction": 0.7942430703624733,
+    "inlier_reprojection_p95_px": 1.8785510063171387,
+    "maximum_transform_displacement_px": 10.218137741088867
+  },
+  "material_sources": {
+    "low_and_mid_frequency_illumination": "aligned donor Lab L only",
+    "basecoat_direction": "source photograph Lab a/b",
+    "fine_texture": "source photograph only",
+    "geometry": "source photograph only"
+  },
+  "generated_rgb_used": false,
+  "generated_fine_texture_used": false,
+  "changed_pixels_outside_mask": 0,
+  "metrics": {
+    "hood_chroma_mean": 12.74936580657959,
+    "hood_mid_frequency_rms": 6.813150882720947,
+    "hood_fine_frequency_rms": 1.6690213680267334,
+    "hood_L_p95_minus_p05": 83.0,
+    "hood_near_white_percent_L240": 0.0,
+    "hood_chroma_ratio_to_source": 0.9938536286354065,
+    "hood_hue_mean_absolute_delta_degrees": 4.057136535644531
+  },
+  "checks": {
+    "hood_chroma_mean": true,
+    "hood_mid_frequency_rms": false,
+    "hood_fine_frequency_rms": true,
+    "hood_L_p95_minus_p05": true,
+    "hood_chroma_ratio_to_source": true,
+    "hood_near_white_percent_L240": true,
+    "hood_hue_mean_absolute_delta_degrees": false,
+    "changed_pixels_outside_mask": true,
+    "generated_rgb_used": true,
+    "generated_fine_texture_used": true
+  }
+}

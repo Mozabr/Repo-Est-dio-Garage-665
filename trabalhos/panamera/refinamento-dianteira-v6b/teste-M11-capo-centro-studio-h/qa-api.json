@@ -1,0 +1,15 @@
+{
+  "status": "generated_and_hard_contained_not_visually_approved",
+  "model": "gpt-image-2-2026-04-21",
+  "quality": "high",
+  "size": "2048x1536",
+  "source_sha256": "bb92bbb5b112a5abaf3f51c6770e19d69514d7ad9ea25b7bc77e6e8d0c4b6a8b",
+  "mask_sha256": "9dd590329b712434f47ca43288d5547792503af23ea4da2e3beee102c8f380b2",
+  "prompt_sha256": "c437e3aabe89526e020930900449e40d97d6de67cbb48f6e0e74e048155d9c7c",
+  "reference_sha256": [
+    "cda3e17fcb73546fc65da5e03718e1957d63bce88a1a43e683fbd7549a9a9955",
+    "3d04ee37df8db719c2e0d6198cd2d913d31761ff8466e2f2614fbafd07acaa60",
+    "d5cfa581bdcd503236acd394f7e4b5151c683b78378b558e3e65c1c9de952598"
+  ],
+  "changed_pixels_outside_mask": 0
+}

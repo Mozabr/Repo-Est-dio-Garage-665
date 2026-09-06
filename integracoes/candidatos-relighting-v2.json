@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-09-06",
+  "status": "research_only_not_installed",
+  "target_machine": "Apple M5 arm64",
+  "production_candidates": [
+    {
+      "name": "Depth-Anything-V2-Small",
+      "url": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "role": "relative depth guide",
+      "license": "Apache-2.0 for Small checkpoint",
+      "execution": "separate MPS environment"
+    },
+    {
+      "name": "Real-ESRGAN",
+      "url": "https://github.com/xinntao/Real-ESRGAN",
+      "role": "controlled final restoration and upscale",
+      "license": "BSD-3-Clause",
+      "execution": "separate environment; low denoise; A/B approval"
+    }
+  ],
+  "lab_candidates": [
+    {
+      "name": "Marigold",
+      "url": "https://github.com/prs-eth/Marigold",
+      "role": "normals and intrinsic decomposition",
+      "license": "Apache-2.0 code; RAIL++-M model terms require commercial review"
+    },
+    {
+      "name": "IC-Light",
+      "url": "https://github.com/lllyasviel/IC-Light",
+      "role": "low-frequency illumination proposal only",
+      "license": "Apache-2.0 code; replace non-commercial BRIA RMBG with existing BiRefNet",
+      "execution": "isolated Linux/CUDA lab"
+    },
+    {
+      "name": "libcom",
+      "url": "https://github.com/bcmi/libcom",
+      "role": "harmonization, shadow candidates and quality scoring",
+      "license": "Apache-2.0 project; review each checkpoint",
+      "execution": "isolated Linux/CUDA lab"
+    },
+    {
+      "name": "DiffusionLight",
+      "url": "https://github.com/DiffusionLight/DiffusionLight",
+      "role": "estimate target studio HDR environment map",
+      "license": "MIT code; review dependent model terms",
+      "execution": "isolated CUDA/OpenEXR lab"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Neural Gaffer",
+      "reason": "256px base resolution and documented fine-detail identity failures"
+    },
+    {
+      "name": "SUPIR",
+      "reason": "commercial use requires a separate license"
+    }
+  ]
+}

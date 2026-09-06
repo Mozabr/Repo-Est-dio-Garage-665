@@ -1,0 +1,36 @@
+{
+  "status": "preferred_candidate_pending_human_approval",
+  "generated_treatment_share": 0.7,
+  "original_reflection_share": 0.30000000000000004,
+  "blend_space": "linear sRGB",
+  "source": {
+    "L_mean": 130.5260772705078,
+    "L_p10_p50_p90": [
+      86.0,
+      117.0,
+      188.0
+    ],
+    "a_mean": 123.74756622314453,
+    "b_mean": 112.3904037475586
+  },
+  "candidate": {
+    "L_mean": 126.19419860839844,
+    "L_p10_p50_p90": [
+      91.0,
+      124.0,
+      163.0
+    ],
+    "a_mean": 124.52677917480469,
+    "b_mean": 111.34838104248047
+  },
+  "delta_L_mean": -4.331878662109375,
+  "delta_a_mean": 0.7792129516601562,
+  "delta_b_mean": -1.042022705078125,
+  "changed_pixels_outside_mask": 0,
+  "meaning": "Original share preserves some authentic reflection and transmission. This is an aesthetic candidate, not a physical measurement of glass reflectance.",
+  "approval": {
+    "technical_containment": true,
+    "visual": false,
+    "publication": false
+  }
+}

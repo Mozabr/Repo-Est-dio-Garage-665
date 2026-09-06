@@ -1,0 +1,101 @@
+{
+  "id": "perfil",
+  "status": "technical_pilot_not_approved_for_publication",
+  "source_sha256": "17e452125393678c016a256df582bb91514fbf7e0ab3ed7ecd5c8603dfd0db0e",
+  "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+  "source_native_size": [
+    1280,
+    960
+  ],
+  "stage_size": [
+    4096,
+    3072
+  ],
+  "master_size": [
+    4096,
+    3072
+  ],
+  "upscaled": true,
+  "super_resolution_generative": false,
+  "transform": [
+    [
+      2.9232285022735596,
+      0.0,
+      180.0569610595703
+    ],
+    [
+      0.0,
+      2.9232285022735596,
+      200.28030395507812
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "plate_quad_source": null,
+  "plate_quad_stage": null,
+  "colour": {
+    "protected_pixels": 308900,
+    "max_protected_rgb_change_8bit": 0.0,
+    "paint_patches": [
+      {
+        "box": [
+          364,
+          567,
+          403,
+          583
+        ],
+        "delta_e_2000": 0.0
+      }
+    ],
+    "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+  },
+  "limitations": [
+    "original urban reflections remain; requires controlled capture or local retouch",
+    "No ColorChecker supplied; physical paint colour cannot be certified.",
+    "Camera/light mismatch with indoor studio remains in archive photographs."
+  ],
+  "wall_sign": {
+    "plate_bbox_source": [
+      1717,
+      579,
+      669,
+      436
+    ],
+    "logo_transform": [
+      [
+        0.8698254227638245,
+        0.0,
+        1806.209228515625
+      ],
+      [
+        0.0,
+        0.8698254227638245,
+        622.5999755859375
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "logo_regenerated": false,
+    "base_native_size": [
+      4096,
+      3072
+    ],
+    "generation_native_size": [
+      1448,
+      1086
+    ],
+    "construction": "generated physical plate; exact original artwork composited at master resolution"
+  },
+  "vehicle_bbox_stage": [
+    328,
+    1528,
+    3767,
+    2628
+  ]
+}

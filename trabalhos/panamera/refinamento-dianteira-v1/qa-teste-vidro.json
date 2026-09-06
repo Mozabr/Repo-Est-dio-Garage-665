@@ -1,0 +1,40 @@
+{
+  "status": "contained_trial_not_visually_approved",
+  "generated_native_size": [
+    1448,
+    1086
+  ],
+  "source_size": [
+    1280,
+    960
+  ],
+  "matches": 1303,
+  "inlier_fraction": 0.8633921719109747,
+  "registration_H": [
+    [
+      0.9987489304813681,
+      -0.00010959493245209576,
+      -0.04482046584180487
+    ],
+    [
+      -7.543177572633202e-05,
+      0.9999336160796044,
+      0.16700460307189569
+    ],
+    [
+      -4.2509720502666967e-07,
+      -1.4410548526051118e-06,
+      1.0
+    ]
+  ],
+  "maximum_registration_displacement_px": 0.6016249656677246,
+  "changed_pixels_outside_mask": 0,
+  "source_pixels_outside_mask": 1191934,
+  "source_sha256": "1713f766a1f234d5b0c2e879af3450fe899f217fcc13391b750071feddd42930",
+  "visual_review_required": [
+    "cloud remnants",
+    "glass gradient seam",
+    "cabin hallucination",
+    "windshield tint"
+  ]
+}

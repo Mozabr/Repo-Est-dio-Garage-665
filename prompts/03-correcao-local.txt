@@ -1,0 +1,5 @@
+Corrigir exclusivamente o defeito descrito abaixo, dentro da mascara fornecida. Manter todo o restante da composicao e do veiculo pixel a pixel sempre que possivel.
+
+DEFEITO: {{DESCREVER_UMA_UNICA_FALHA}}
+
+Nao alterar modelo, geometria, cor-base, verniz, rodas, pneus, freios, farois, lanternas, grades, emblemas, textos, sensores, vincos, frisos, maçanetas, vidros, interior, escapamentos, placa, camera, escala, fundo ou iluminacao fora da regiao indicada. O resultado deve parecer um retoque fotografico local, nao uma nova geracao.

@@ -1,0 +1,11 @@
+{
+  "status": "rejected_registration_gate",
+  "matches": 61,
+  "inlier_fraction": 0.4426229508196721,
+  "maximum_registration_displacement_px": 28.737491607666016,
+  "gate": {
+    "minimum_inlier_fraction": 0.6,
+    "maximum_displacement_px": 12
+  },
+  "changed_pixels_outside_mask": 0
+}

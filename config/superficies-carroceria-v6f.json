@@ -1,0 +1,15 @@
+{
+  "schema_version": "6f",
+  "authority_source": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+  "mask_root": "trabalhos/panamera/refinamento-dianteira-v6c/guias-palco",
+  "output_root": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral",
+  "crop_source_xyxy": [1088, 640, 1856, 1152],
+  "api_size": [1536, 1024],
+  "surfaces": [
+    {"id": "M13-paralama-proximo", "stage": 2, "mask": "M13-paralama-proximo-editar.png"},
+    {"id": "M14-portas-superiores", "stage": 3, "mask": "M14-portas-superiores-editar.png"},
+    {"id": "M15-portas-inferiores", "stage": 4, "mask": "M15-portas-inferiores-editar.png"}
+  ],
+  "order_rule": "Capo M11U must receive visual approval before M13; approve each surface before continuing",
+  "merge_rule": "Every accepted surface is recomposed from the same authority frame; masks are normalized and never accumulated additively"
+}

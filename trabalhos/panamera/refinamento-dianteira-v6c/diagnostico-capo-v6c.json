@@ -1,0 +1,86 @@
+{
+  "status": "measured_before_relighting_not_visual_approval",
+  "image": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+  "mask": "trabalhos/panamera/refinamento-dianteira-v6c/guias-palco/M11U-capo-integral-editar.png",
+  "bounds_xyxy": [
+    457,
+    770,
+    1136,
+    995
+  ],
+  "editable_pixels_at_50_percent": 93785,
+  "whole_hood": {
+    "pixels": 93785,
+    "Lab_L_mean": 145.419,
+    "Lab_L_p05": 107.2,
+    "Lab_L_p95": 190.0,
+    "Lab_L_dynamic_range_p95_p05": 82.8,
+    "Lab_chroma_mean": 12.864,
+    "broad_gradient_p95": 19.584
+  },
+  "zones": {
+    "windshield_side": {
+      "pixels": 33921,
+      "Lab_L_mean": 143.783,
+      "Lab_L_p05": 107.0,
+      "Lab_L_p95": 197.0,
+      "Lab_L_dynamic_range_p95_p05": 90.0,
+      "Lab_chroma_mean": 18.424,
+      "broad_gradient_p95": 19.627
+    },
+    "middle": {
+      "pixels": 33941,
+      "Lab_L_mean": 141.64,
+      "Lab_L_p05": 98.0,
+      "Lab_L_p95": 186.0,
+      "Lab_L_dynamic_range_p95_p05": 88.0,
+      "Lab_chroma_mean": 10.881,
+      "broad_gradient_p95": 20.299
+    },
+    "nose_side": {
+      "pixels": 25923,
+      "Lab_L_mean": 152.507,
+      "Lab_L_p05": 116.0,
+      "Lab_L_p95": 187.0,
+      "Lab_L_dynamic_range_p95_p05": 71.0,
+      "Lab_chroma_mean": 8.186,
+      "broad_gradient_p95": 17.592
+    },
+    "camera_left": {
+      "pixels": 35617,
+      "Lab_L_mean": 152.75,
+      "Lab_L_p05": 95.0,
+      "Lab_L_p95": 193.0,
+      "Lab_L_dynamic_range_p95_p05": 98.0,
+      "Lab_chroma_mean": 9.374,
+      "broad_gradient_p95": 21.795
+    },
+    "center": {
+      "pixels": 44099,
+      "Lab_L_mean": 147.123,
+      "Lab_L_p05": 113.0,
+      "Lab_L_p95": 188.0,
+      "Lab_L_dynamic_range_p95_p05": 75.0,
+      "Lab_chroma_mean": 13.288,
+      "broad_gradient_p95": 18.49
+    },
+    "camera_right": {
+      "pixels": 14069,
+      "Lab_L_mean": 121.519,
+      "Lab_L_p05": 107.0,
+      "Lab_L_p95": 163.0,
+      "Lab_L_dynamic_range_p95_p05": 56.0,
+      "Lab_chroma_mean": 20.372,
+      "broad_gradient_p95": 15.791
+    }
+  },
+  "brightest_decile": {
+    "broad_Lab_L_threshold": 171.27,
+    "connected_regions": 8,
+    "largest_region_pixels": 2443
+  },
+  "interpretation_limits": [
+    "These measurements describe the pixels; semantic outdoor reflections require visual review.",
+    "They do not identify the physical Porsche paint color without a calibrated color target."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "6e",
+  "status": "hood_crop_photometric_edit_ready",
+  "view": "dianteira-3-4",
+  "authority_source": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+  "edit_target": "trabalhos/panamera/refinamento-dianteira-v6e/preparo/alvo-crop-2048x1024.png",
+  "working": {"width": 2048, "height": 1024, "format": "PNG", "color_profile": "sRGB"},
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "2048x1024",
+    "output_format": "png",
+    "input_fidelity_parameter": "omit",
+    "surfaces_per_call": 1,
+    "candidates_per_surface": 1
+  },
+  "references": {
+    "studio": "estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png",
+    "lighting_rig": "config/rig-iluminacao-studio-v6b.json",
+    "prompt_manifest": "prompts/v6e/manifest.json"
+  },
+  "edit_mask": "trabalhos/panamera/refinamento-dianteira-v6e/preparo/mascara-editar-2048x1024.png",
+  "api_mask": "trabalhos/panamera/refinamento-dianteira-v6e/preparo/mascara-api-alpha-2048x1024.png",
+  "crop_source_xyxy": [285, 626, 1309, 1138],
+  "hard_rules": {
+    "full_vehicle_generation": false,
+    "generated_rgb_opacity_100_percent": false,
+    "pixels_outside_reviewed_mask_may_change": false,
+    "registration_gate_required_before_recomposition": true,
+    "maximum_registration_displacement_px": 8,
+    "minimum_registration_inlier_fraction": 0.7,
+    "original_high_frequency_reinserted": true,
+    "wheel_is_outside_editable_mask": true,
+    "vehicle_elements_must_be_pixel_copied": true,
+    "approval_required_after_each_surface": true
+  }
+}

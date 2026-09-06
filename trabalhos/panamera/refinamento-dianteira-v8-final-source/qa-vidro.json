@@ -1,0 +1,12 @@
+{
+  "status": "balanced_not_visually_approved",
+  "treatment_share": 0.95,
+  "original_share": 0.050000000000000044,
+  "blend_space": "linear sRGB",
+  "delta_Lab_mean": [
+    -3.4097824096679688,
+    0.4553680419921875,
+    -1.0135955810546875
+  ],
+  "changed_pixels_outside_mask": 0
+}

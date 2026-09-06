@@ -1,0 +1,139 @@
+[
+  {
+    "id": "dianteira-3-4",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "1713f766a1f234d5b0c2e879af3450fe899f217fcc13391b750071feddd42930",
+    "studio_sha256": "555e95d33344f0433f49b1e02d57485893c92eac6bc6441de40c14ab1cd0b03e",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      2048,
+      1536
+    ],
+    "master_size": [
+      2048,
+      1536
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        1.283437728881836,
+        0.0,
+        234.68576049804688
+      ],
+      [
+        0.0,
+        1.283437728881836,
+        281.3960266113281
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        202,
+        609
+      ],
+      [
+        321,
+        618
+      ],
+      [
+        318,
+        667
+      ],
+      [
+        198,
+        658
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        493.940185546875,
+        1063.0096435546875
+      ],
+      [
+        646.6692504882812,
+        1074.560546875
+      ],
+      [
+        642.8189697265625,
+        1137.448974609375
+      ],
+      [
+        488.8064270019531,
+        1125.8980712890625
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 474346,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            557,
+            541,
+            587,
+            554
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "authority target before relighting; outdoor reflections intentionally still present",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1732,
+        776,
+        631,
+        416
+      ],
+      "logo_transform": [
+        [
+          0.8299251794815063,
+          0.0,
+          1813.4610595703125
+        ],
+        [
+          0.0,
+          0.8299251794815063,
+          817.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "logo_finish": "matte_physical",
+      "construction": "generated physical plate; exact original artwork composited at master resolution",
+      "mounting": "matte carrier panel with physical wall standoffs; raised emblem with short contact shadow"
+    },
+    "vehicle_bbox_stage": [
+      307,
+      556,
+      1740,
+      1313
+    ]
+  }
+]

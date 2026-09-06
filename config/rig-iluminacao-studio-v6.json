@@ -1,0 +1,56 @@
+{
+  "id": "GARAGE665-RIG-V6-A",
+  "prompt_block": "One very large diffused softbox above and front-left of camera, azimuth -32 degrees and elevation 58 degrees. Its reflection is one broad, curved, continuous ribbon with soft edges and gradual rolloff; never a triangle, rectangle or hard strip. A camera-right diffused fill is two stops weaker and must appear only as a subtle gradient. A weak frontal fill is three stops below the key. Neutral floor bounce is three and a half stops below the key. White balance is neutral 5200 K.",
+  "status": "candidate_frozen_for_front_three_quarter_validation",
+  "camera_view": "front-three-quarter-driver-side",
+  "color": {
+    "working_space": "sRGB",
+    "white_balance_kelvin": 5200,
+    "tint": "neutral",
+    "wall_floor_vehicle_share_white_balance": true
+  },
+  "lights": [
+    {
+      "id": "KEY-01",
+      "type": "very_large_rectangular_diffused_softbox",
+      "position": "above_and_front_left_of_camera",
+      "azimuth_degrees": -32,
+      "elevation_degrees": 58,
+      "relative_ev": 0.0,
+      "reflection_signature": "one_broad_curved_continuous_ribbon_with_soft_edges"
+    },
+    {
+      "id": "FILL-01",
+      "type": "large_diffused_panel",
+      "position": "camera_right",
+      "azimuth_degrees": 48,
+      "elevation_degrees": 35,
+      "relative_ev": -2.0,
+      "reflection_signature": "subtle_gradient_without_separate_white_strip"
+    },
+    {
+      "id": "FRONT-01",
+      "type": "large_weak_diffused_fill",
+      "position": "near_camera_axis",
+      "relative_ev": -3.0,
+      "purpose": "retain_grille_bumper_and_dark_paint_detail"
+    },
+    {
+      "id": "BOUNCE-01",
+      "type": "neutral_floor_bounce",
+      "relative_ev": -3.5,
+      "purpose": "ground_vehicle_without_bright_lower_body_band"
+    }
+  ],
+  "material_response": {
+    "paint": "dark_gray_metallic_clearcoat_not_matte_not_mirror",
+    "glass": "original_transmission_retained_reflections_reduced_not_blackened",
+    "chrome": "controlled_neutral_highlights_no_clipping",
+    "logo_sign": "matte_physical_sign_low_specular_response"
+  },
+  "forbidden_reflections": [
+    "sky", "cloud", "tree", "building", "cable", "pole", "person",
+    "other_vehicle", "yellow_pavement_line", "storefront", "street"
+  ],
+  "continuity_rule": "KEY-01 must keep the same direction, softness and energy across roof, hood, fender and doors; only its projected width may change with surface curvature"
+}

@@ -1,0 +1,14 @@
+TAREFA
+Editar somente a area transparente da mascara M02-fundo-editavel da IMAGEM 1. Substituir o ambiente externo pela placa-mestre de estudio correspondente ao angulo informado. A IMAGEM 1 e a autoridade absoluta para o veiculo. A IMAGEM 2, quando fornecida, e apenas a referencia do estudio.
+
+VEICULO BLOQUEADO
+Preservar sem redesenhar ou reinterpretar: silhueta, proporcoes, distancia entre eixos, altura, perspectiva da camera, posicao no quadro, pintura, cor-base, textura do verniz, rodas, pneus, pinças, discos, farois, lanternas, grades, emblemas, letras, sensores, frisos, maçanetas, vidros, interior visivel, escapamentos, placa e todos os sinais reais de uso.
+
+AMBIENTE
+Estudio automotivo real, branco quente neutro, ciclorama fisico discreto, piso acetinado com textura fina e pequenas variacoes naturais. Iluminacao grande, difusa e fisicamente plausivel, fora do enquadramento. Horizonte, arquitetura, escala e temperatura iguais a placa-mestre. Sombra externa suave e coerente; manter o contato curto e escuro junto aos pneus.
+
+PROIBIDO
+Nao gerar um carro novo. Nao alterar o contorno do carro. Nao mudar modelo, versao, rodas, pinças, farois, para-choques ou emblemas. Nao aplicar acabamento fosco, plastico ou CGI. Nao inventar reflexos retangulares de softbox. Nao mostrar equipamentos, cabos, tripes, outras pessoas ou outros veiculos. Nao gerar logo, textos ou tampa-placa.
+
+SAIDA
+Fotografia automotiva editorial realista. O veiculo deve continuar sendo exatamente o veiculo da IMAGEM 1. Alterar somente o que esta autorizado pela mascara.

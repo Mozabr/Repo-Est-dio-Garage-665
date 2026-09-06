@@ -1,0 +1,16 @@
+{
+  "status": "ready_for_visual_mask_review",
+  "pipeline": "config/pipeline-v6b.json",
+  "rig_id": "GARAGE665-RIG-V6-B",
+  "checks": {
+    "required_files_present": true,
+    "work_sizes_match": true,
+    "rig_hash_matches_prompt_manifest": true,
+    "prompt_hashes_match": true,
+    "mask_containment_passed": true,
+    "depth_is_guidance_only": true,
+    "one_surface_per_call": true,
+    "full_vehicle_generation_blocked": true
+  },
+  "missing": []
+}

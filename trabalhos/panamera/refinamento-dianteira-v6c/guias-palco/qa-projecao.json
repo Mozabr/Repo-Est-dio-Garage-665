@@ -1,0 +1,69 @@
+{
+  "status": "projected_guides_ready_for_visual_review",
+  "target_size": [
+    2048,
+    1536
+  ],
+  "target_sha256": "8314f3db38bcb318868167bf084edd7fed4426bd1db8c944c32685541eceba8d",
+  "source_to_stage_transform": [
+    [
+      0.8021485805511475,
+      0.0,
+      234.68576049804688
+    ],
+    [
+      0.0,
+      0.8021485805511475,
+      281.3960266113281
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "masks": [
+    {
+      "id": "M10-teto-pintura",
+      "editable_pixels": 7453
+    },
+    {
+      "id": "M11-capo-centro",
+      "editable_pixels": 68492
+    },
+    {
+      "id": "M11U-capo-integral",
+      "editable_pixels": 101783
+    },
+    {
+      "id": "M12-capo-lateral-distante",
+      "editable_pixels": 33377
+    },
+    {
+      "id": "M12-capo-lateral-proxima",
+      "editable_pixels": 16770
+    },
+    {
+      "id": "M13-paralama-proximo",
+      "editable_pixels": 51261
+    },
+    {
+      "id": "M14-portas-superiores",
+      "editable_pixels": 29210
+    },
+    {
+      "id": "M15-portas-inferiores",
+      "editable_pixels": 26214
+    },
+    {
+      "id": "M16-para-brisa",
+      "editable_pixels": 71179
+    },
+    {
+      "id": "M17-vidros-laterais",
+      "editable_pixels": 29537
+    }
+  ],
+  "normal_role": "geometry guide only",
+  "target_pixels_modified": false
+}

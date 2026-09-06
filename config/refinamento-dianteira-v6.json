@@ -1,0 +1,23 @@
+{
+  "version": "masks-dianteira-v6-surface-separated",
+  "source": "trabalhos/panamera/refinamento-dianteira-v6/entrada/source-2048x1536.png",
+  "vehicle_alpha": "trabalhos/panamera/refinamento-dianteira-v6/entrada/alpha-2048x1536.png",
+  "out": "trabalhos/panamera/refinamento-dianteira-v6/mascaras",
+  "coordinate_size": [1280, 960],
+  "work_size": [2048, 1536],
+  "inherit_protection_from": "config/refinamento-dianteira-v4.json",
+  "edge_inset_px_at_coordinate_size": 4,
+  "feather_inside_px_at_coordinate_size": 7,
+  "regions": [
+    {"id": "M11U-capo-integral", "polygon": [[191,452],[216,418],[275,391],[354,378],[414,373],[460,382],[521,385],[671,394],[725,401],[640,449],[532,504],[477,544],[352,563],[164,549],[172,517]], "stage": "replacement-for-split-hood"},
+    {"id": "M10-teto-pintura", "polygon": [[548,249],[579,229],[668,218],[832,216],[918,224],[972,246],[930,259],[823,239],[671,239],[593,257]], "stage": 1},
+    {"id": "M11-capo-centro", "polygon": [[274,392],[354,378],[414,373],[463,383],[558,388],[670,395],[626,438],[532,504],[477,544],[354,562],[306,528],[325,475]], "stage": 2},
+    {"id": "M12-capo-lateral-distante", "polygon": [[191,452],[216,418],[275,391],[354,378],[325,475],[306,528],[354,562],[164,549],[172,517]], "stage": 3},
+    {"id": "M12-capo-lateral-proxima", "polygon": [[414,373],[460,382],[521,385],[671,394],[725,401],[681,426],[640,449],[532,504],[477,544],[509,490],[570,441]], "stage": 3},
+    {"id": "M13-paralama-proximo", "polygon": [[732,396],[806,373],[887,374],[935,407],[957,451],[955,524],[927,602],[864,613],[807,568],[785,510],[790,448]], "stage": 4},
+    {"id": "M14-portas-superiores", "polygon": [[923,405],[1122,357],[1144,399],[1128,474],[1091,500],[945,531],[932,478]], "stage": 5},
+    {"id": "M15-portas-inferiores", "polygon": [[945,520],[1090,489],[1128,470],[1115,530],[1040,605],[946,645],[932,560]], "stage": 6},
+    {"id": "M16-para-brisa", "polygon": [[442,351],[480,306],[531,263],[567,244],[660,236],[825,236],[909,242],[902,289],[887,342],[881,369],[720,362],[530,359]], "stage": 7},
+    {"id": "M17-vidros-laterais", "polygon": [[914,247],[977,256],[1043,277],[1103,315],[1117,345],[1038,369],[936,394],[909,365]], "stage": 8}
+  ]
+}

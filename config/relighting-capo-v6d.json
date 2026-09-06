@@ -1,0 +1,35 @@
+{
+  "schema_version": "6d",
+  "status": "deterministic_pixel_locked_candidate",
+  "method": "frequency_separated_Lab_relighting",
+  "source": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+  "mask": "trabalhos/panamera/refinamento-dianteira-v6c/guias-palco/M11U-capo-integral-editar.png",
+  "controls": {
+    "base_percentile_L": 35,
+    "original_broad_shape_retention": 0.22,
+    "broad_blur_sigma": 28.0,
+    "key_amplitude_L": 18.0,
+    "key_center_u_at_windshield": 0.39,
+    "key_center_u_at_nose": 0.47,
+    "key_width_u": 0.29,
+    "key_center_v": 0.38,
+    "key_height_v": 0.62,
+    "left_fill_amplitude_L": 3.5,
+    "nose_rolloff_L": -2.5,
+    "micro_blur_sigma": 1.35,
+    "micro_retention": 0.90,
+    "micro_clip_L": 2.8,
+    "chroma_broad_retention": 0.42,
+    "chroma_micro_retention": 0.75,
+    "chroma_micro_clip": 1.8
+  },
+  "hard_rules": {
+    "geometry_transform": false,
+    "generated_rgb_used": false,
+    "pixels_outside_mask_changed": false,
+    "protected_emblem_changed": false,
+    "wheel_pixels_changed": false,
+    "license_plate_cover_changed": false,
+    "studio_pixels_changed": false
+  }
+}

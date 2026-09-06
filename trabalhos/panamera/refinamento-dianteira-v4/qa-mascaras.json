@@ -1,0 +1,35 @@
+{
+  "status": "containment_tests_passed_visual_review_required",
+  "source_sha256": "1713f766a1f234d5b0c2e879af3450fe899f217fcc13391b750071feddd42930",
+  "regions": [
+    {
+      "id": "para-brisa",
+      "nonzero_pixels": 44250,
+      "fully_editable_pixels": 38602,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "first-local-test"
+    },
+    {
+      "id": "capo",
+      "nonzero_pixels": 63111,
+      "fully_editable_pixels": 57049,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "next-after-glass-review"
+    },
+    {
+      "id": "lateral",
+      "nonzero_pixels": 34401,
+      "fully_editable_pixels": 30729,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "continuous-side-reflection"
+    }
+  ],
+  "source_pixels_modified": false,
+  "notes": [
+    "Native resolution only; API alpha convention differs from editing-strength mask.",
+    "Masks are conservative first-pass local zones, not exhaustive removal of every reflection."
+  ]
+}

@@ -1,0 +1,922 @@
+[
+  {
+    "id": "frontal",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "2c8d88360df42f93d0e916b7ea0e4c6daac61ed32f2542494426b9d98a356000",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.8636205196380615,
+        0.0,
+        172.32858276367188
+      ],
+      [
+        0.0,
+        2.8636205196380615,
+        292.7093200683594
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        570,
+        658
+      ],
+      [
+        737,
+        658
+      ],
+      [
+        737,
+        713
+      ],
+      [
+        570,
+        713
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        1804.59228515625,
+        2176.9716796875
+      ],
+      [
+        2282.81689453125,
+        2176.9716796875
+      ],
+      [
+        2282.81689453125,
+        2334.470703125
+      ],
+      [
+        1804.59228515625,
+        2334.470703125
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 346411,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            405,
+            588,
+            445,
+            608
+          ],
+          "delta_e_2000": 0.0
+        },
+        {
+          "box": [
+            805,
+            585,
+            835,
+            605
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      902,
+      1107,
+      3194,
+      2627
+    ]
+  },
+  {
+    "id": "dianteira-3-4",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "9a9a3e10bc34a481c12336fef32ba02c737ed6369a22a468eb95dd3495e64ab8",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.566875457763672,
+        0.0,
+        469.37152099609375
+      ],
+      [
+        0.0,
+        2.566875457763672,
+        562.7920532226562
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        202,
+        609
+      ],
+      [
+        321,
+        618
+      ],
+      [
+        318,
+        667
+      ],
+      [
+        198,
+        658
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        987.88037109375,
+        2126.019287109375
+      ],
+      [
+        1293.3385009765625,
+        2149.12109375
+      ],
+      [
+        1285.637939453125,
+        2274.89794921875
+      ],
+      [
+        977.6128540039062,
+        2251.796142578125
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 474346,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            557,
+            541,
+            587,
+            554
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      614,
+      1111,
+      3481,
+      2627
+    ]
+  },
+  {
+    "id": "perfil",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "17e452125393678c016a256df582bb91514fbf7e0ab3ed7ecd5c8603dfd0db0e",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.9232285022735596,
+        0.0,
+        180.0569610595703
+      ],
+      [
+        0.0,
+        2.9232285022735596,
+        200.28030395507812
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": null,
+    "plate_quad_stage": null,
+    "colour": {
+      "protected_pixels": 308900,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            364,
+            567,
+            403,
+            583
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      328,
+      1528,
+      3767,
+      2628
+    ]
+  },
+  {
+    "id": "dianteira-3-4-oposta",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "31a9900c269d6a3c28069edefbdfe6917bc5275f8b6a3948f4d2a320c9e89d35",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.989780902862549,
+        0.0,
+        -20.928466796875
+      ],
+      [
+        0.0,
+        2.989780902862549,
+        76.27678680419922
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        885,
+        671
+      ],
+      [
+        1003,
+        666
+      ],
+      [
+        1005,
+        718
+      ],
+      [
+        886,
+        721
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        2625.027587890625,
+        2082.419677734375
+      ],
+      [
+        2977.82177734375,
+        2067.470947265625
+      ],
+      [
+        2983.80126953125,
+        2222.939453125
+      ],
+      [
+        2628.017333984375,
+        2231.908935546875
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 347045,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            686,
+            577,
+            706,
+            590
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      615,
+      1133,
+      3480,
+      2627
+    ]
+  },
+  {
+    "id": "traseira-3-4",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "78600f959cd093cde7d1eb2f7e63f85ec90c91e576e36e91e6bdcff5175ffa59",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.689681053161621,
+        0.0,
+        309.1212158203125
+      ],
+      [
+        0.0,
+        2.689681053161621,
+        297.29620361328125
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        302,
+        593
+      ],
+      [
+        448,
+        603
+      ],
+      [
+        445,
+        663
+      ],
+      [
+        298,
+        653
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        1121.4049072265625,
+        1892.277099609375
+      ],
+      [
+        1514.098388671875,
+        1919.173828125
+      ],
+      [
+        1506.029296875,
+        2080.5546875
+      ],
+      [
+        1110.6461181640625,
+        2053.657958984375
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 471525,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            470,
+            450,
+            490,
+            465
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      616,
+      1056,
+      3481,
+      2629
+    ]
+  },
+  {
+    "id": "traseira-3-4-oposta",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "e10fe61cda1526fa7be3901babb9438d458309cca8cbdbc21e6ec71ccdf2a6e8",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.436023712158203,
+        0.0,
+        442.6603088378906
+      ],
+      [
+        0.0,
+        2.436023712158203,
+        512.0913696289062
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        1053,
+        623
+      ],
+      [
+        1170,
+        609
+      ],
+      [
+        1176,
+        662
+      ],
+      [
+        1059,
+        676
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        3007.793212890625,
+        2029.734130859375
+      ],
+      [
+        3292.80810546875,
+        1995.6297607421875
+      ],
+      [
+        3307.42431640625,
+        2124.739013671875
+      ],
+      [
+        3022.409423828125,
+        2158.843505859375
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 419978,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            704,
+            503,
+            724,
+            515
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      615,
+      1358,
+      3482,
+      2626
+    ]
+  },
+  {
+    "id": "perfil-oposto",
+    "status": "technical_pilot_not_approved_for_publication",
+    "source_sha256": "960f37c8e48317ffec5029b14b349910d9df3869625aaa5f55d686f17486d501",
+    "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+    "source_native_size": [
+      1280,
+      960
+    ],
+    "stage_size": [
+      4096,
+      3072
+    ],
+    "master_size": [
+      4096,
+      3072
+    ],
+    "upscaled": true,
+    "super_resolution_generative": false,
+    "transform": [
+      [
+        2.9789090156555176,
+        0.0,
+        147.45599365234375
+      ],
+      [
+        0.0,
+        2.9789090156555176,
+        115.33963775634766
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "plate_quad_source": [
+      [
+        81,
+        619
+      ],
+      [
+        129,
+        628
+      ],
+      [
+        122,
+        662
+      ],
+      [
+        75,
+        653
+      ]
+    ],
+    "plate_quad_stage": [
+      [
+        388.74761962890625,
+        1959.2843017578125
+      ],
+      [
+        531.7352294921875,
+        1986.094482421875
+      ],
+      [
+        510.8829040527344,
+        2087.37744140625
+      ],
+      [
+        370.8741760253906,
+        2060.567138671875
+      ]
+    ],
+    "colour": {
+      "protected_pixels": 326288,
+      "max_protected_rgb_change_8bit": 0.0,
+      "paint_patches": [
+        {
+          "box": [
+            750,
+            556,
+            770,
+            565
+          ],
+          "delta_e_2000": 0.0
+        }
+      ],
+      "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+    },
+    "limitations": [
+      "original urban reflections remain; requires controlled capture or local retouch",
+      "No ColorChecker supplied; physical paint colour cannot be certified.",
+      "Camera/light mismatch with indoor studio remains in archive photographs."
+    ],
+    "wall_sign": {
+      "plate_bbox_source": [
+        1717,
+        579,
+        669,
+        436
+      ],
+      "logo_transform": [
+        [
+          0.8698254227638245,
+          0.0,
+          1806.209228515625
+        ],
+        [
+          0.0,
+          0.8698254227638245,
+          622.5999755859375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "logo_regenerated": false,
+      "base_native_size": [
+        4096,
+        3072
+      ],
+      "generation_native_size": [
+        1448,
+        1086
+      ],
+      "construction": "generated physical plate; exact original artwork composited at master resolution"
+    },
+    "vehicle_bbox_stage": [
+      329,
+      1385,
+      3767,
+      2627
+    ]
+  }
+]

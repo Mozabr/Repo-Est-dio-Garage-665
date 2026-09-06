@@ -1,0 +1,68 @@
+{
+  "schema_version": 2,
+  "active_pipeline": "scripts/executar_studio_v2.sh",
+  "active_config": "config/piloto-v2.json",
+  "active_studio": "estudio-mestre/STUDIO_F-placa-fisica-v03-oficial.png",
+  "matting": {
+    "primary": "BiRefNet",
+    "refiner": "ViTMatte",
+    "input_resolution": "original_native",
+    "model_lock": "integracoes/modelos-lock.json",
+    "sam2_role": "optional_selection_assist",
+    "opaque_rgb_protected": true
+  },
+  "color_control": {
+    "engine": "colour-science",
+    "chart_detection": "colour-checker-detection:segmentation",
+    "metric": "CIEDE2000",
+    "physical_calibration_requires_reference_chart": true,
+    "automatic_paint_neutralization": false
+  },
+  "vehicle_policy": {
+    "source_of_truth": "original_photo_for_each_view",
+    "full_vehicle_generation": false,
+    "generated_view_from_other_angle": false,
+    "max_candidates_per_mask": 3,
+    "max_accumulated_generative_edits": 0,
+    "manual_approval_required": true
+  },
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "3264x2448",
+    "output_format": "png",
+    "input_fidelity_parameter": "omit"
+  },
+  "mask_sets": [
+    "M01-carro-completo",
+    "M02-fundo-editavel",
+    "M03-pintura-reflexos",
+    "M04-vidros-reflexos",
+    "M05-detalhes-bloqueados",
+    "M06-sombra-externa"
+  ],
+  "studio_views": {
+    "STUDIO_A": "dianteira-3-4",
+    "STUDIO_B": "perfil",
+    "STUDIO_C": "traseira-3-4",
+    "STUDIO_D": "frontal-ou-traseira-simetrica",
+    "STUDIO_E": "detalhes-externos"
+  },
+  "master": {
+    "width": 4096,
+    "height": 3072,
+    "format": "PNG",
+    "color_profile": "sRGB"
+  },
+  "deliveries": {
+    "feed": {"width": 4096, "height": 3072, "format": "JPEG", "quality": 95},
+    "story_horizontal": {"width": 3840, "height": 2160, "format": "JPEG", "quality": 95, "crop": "center"},
+    "webmotors": {"width": 1920, "height": 1440, "format": "JPEG", "quality": 94}
+  },
+  "plate": {
+    "geometry": "four_point_quadrilateral_per_photo",
+    "point_order": ["top_left", "top_right", "bottom_right", "bottom_left"],
+    "inner_safe_margin_percent": [8, 12],
+    "generated": false
+  }
+}

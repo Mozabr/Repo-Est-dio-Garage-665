@@ -1,0 +1,11 @@
+{
+  "status": "geometry_guides_generated",
+  "model": "Depth Anything V2 Small",
+  "device": "cpu",
+  "source_sha256": "bb92bbb5b112a5abaf3f51c6770e19d69514d7ad9ea25b7bc77e6e8d0c4b6a8b",
+  "depth_percentile_1": 0.0,
+  "depth_percentile_99": 7.041569957733154,
+  "depth_is_metric": false,
+  "normal_is_approximation_from_relative_depth": true,
+  "allowed_use": "geometry guidance and QA only; never appearance or paint color"
+}

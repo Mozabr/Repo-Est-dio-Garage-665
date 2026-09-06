@@ -1,0 +1,13 @@
+{
+  "source": "/Users/kauanclaudinodossantos/Documents/Next-Assessoria/Clientes/Garage 665/Fotos/OneDrive_1_9-3-2026/WhatsApp Image 2025-11-24 at 09.57.05 (2).jpeg",
+  "source_size": [
+    1280,
+    960
+  ],
+  "device": "cpu",
+  "matting_seconds": 1.03,
+  "foreground_fraction": 0.2553328450520833,
+  "fractional_edge_pixels": 11142,
+  "interior_rgb_rebuilt": false,
+  "status": "needs_visual_review"
+}

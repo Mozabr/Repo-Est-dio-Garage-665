@@ -1,0 +1,24 @@
+USE CASE
+lighting-weather edit for a real automotive studio photograph; create a registered photometric donor for the existing hood only.
+
+INPUT ROLES
+Image 1 is the edit target and the absolute authority for camera, crop, Porsche Panamera identity, hood geometry, panel edges, creases, Porsche crest, paint hue, metallic-flake scale and photographic detail.
+Image 2 is Studio H and is reference only for the direction, size, softness, neutral white balance and physical plausibility of the light sources. Do not copy its wall, ceiling, floor, logo or architecture into Image 1.
+
+CHANGE ONLY
+Inside the transparent mask, replace recognizable outdoor illumination on the painted hood with the reflection response of a professional automotive studio. This output will be used only as an aligned luminance donor; nevertheless keep the edited hood registered to Image 1 at pixel level.
+
+POLISHED CLEAR-COAT TARGET
+The existing dark blue-gray metallic paint remains polished factory automotive paint under a smooth glossy clear coat. It must not read as matte, satin, vinyl wrapped, uniformly gray, airbrushed, foggy, waxy, plastic or CGI. Create a layered specular response: one broad soft overhead key reflection, a narrower controlled shoulder inside that reflection, a darker separation band that proves clear-coat depth, and a much weaker camera-left fill. Retain tonal variation across the convex hood; do not flatten it. Highlights roll off smoothly and stay below clipping. Dark values remain dark enough to describe curvature.
+
+LIGHT SHAPE AND DIRECTION
+The dominant key comes from a large overhead/front-left diffuser, matching Studio H. Its long soft highlight follows the existing hood curvature from the windshield side toward the nose and tapers naturally. Add only a restrained secondary edge highlight; no multiple random softboxes, no ceiling grid and no literal rectangular panel printed on the paint. The two original hood creases remain legible through continuous highlight gradients, not through drawn lines.
+
+PIXEL-LEVEL IDENTITY LOCK
+Do not move, rotate, scale, crop, redraw or reinterpret any part of the image. Preserve exactly the Porsche crest and the paint immediately around it, hood perimeter, shut line, headlights, sensors, windshield, mirrors, grille, plate cover, wheels and every object outside the mask. Do not denoise or sharpen. Do not invent metallic flakes, scratches, panel lines, seams, wedges, patches, badges or contours.
+
+FORBIDDEN REFLECTION CONTENT
+No sky, clouds, trees, buildings, windows, cables, poles, people, vehicles, street, yellow lines or storefronts on the hood. Do not remove all reflections: exchange those outdoor reflections for the controlled studio light response above.
+
+FINAL INVARIANT
+Only illumination reflected by the existing hood paint may change. If any lighting change would alter geometry, color identity or a physical detail, leave that detail unchanged.

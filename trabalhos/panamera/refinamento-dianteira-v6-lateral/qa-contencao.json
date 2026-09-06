@@ -1,0 +1,8 @@
+{
+  "status": "contained_not_visually_approved",
+  "matches": 1698,
+  "inlier_fraction": 0.9098939929328622,
+  "maximum_registration_displacement_px": 0.7845733761787415,
+  "changed_pixels_outside_mask": 0,
+  "editable_pixels": 21207
+}

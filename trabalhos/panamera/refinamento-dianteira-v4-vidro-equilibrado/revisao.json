@@ -1,0 +1,28 @@
+{
+  "status": "preferred_glass_candidate_pending_user_approval",
+  "candidate": "para-brisa-candidato-equilibrado.png",
+  "studio_preview": "../studio-v2-vidro-v4/dianteira-3-4/preview.png",
+  "decision": "Retain original glass appearance while reducing reflection contrast, not remove all reflections.",
+  "treatment": {
+    "generated_reflection_reduction_share": 0.7,
+    "original_glass_share": 0.3,
+    "blend_space": "linear sRGB"
+  },
+  "measurements": {
+    "delta_L_mean": -4.3319,
+    "delta_a_mean": 0.7792,
+    "delta_b_mean": -1.042,
+    "changed_pixels_outside_mask": 0
+  },
+  "visual_notes": [
+    "Windshield stays visibly translucent and cabin remains readable.",
+    "Recognizable white clouds are reduced but a mild authentic reflection remains.",
+    "No paint, wheel, headlight, body or background pixel changes outside the windshield mask.",
+    "Studio preview is for judging context; original paint reflections remain for later stages."
+  ],
+  "approval": {
+    "technical_containment": true,
+    "visual": false,
+    "publication": false
+  }
+}

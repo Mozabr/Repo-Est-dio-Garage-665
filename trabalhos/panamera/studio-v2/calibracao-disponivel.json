@@ -1,0 +1,7 @@
+{
+  "source": "trabalhos/panamera/studio-v2/frontal/source-srgb.png",
+  "method": "segmentation",
+  "charts_detected": 0,
+  "calibration_applied": false,
+  "status": "no_chart_no_colour_calibration"
+}

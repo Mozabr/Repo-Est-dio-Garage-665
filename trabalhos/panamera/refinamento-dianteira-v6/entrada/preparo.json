@@ -1,0 +1,15 @@
+{
+  "status": "prepared",
+  "source_original": "/Users/kauanclaudinodossantos/Documents/Next-Assessoria/Clientes/Garage 665/Referencias/Projeto-Tratativa-Garage-665/trabalhos/panamera/studio-v2/dianteira-3-4/source-srgb.png",
+  "source_original_sha256": "1713f766a1f234d5b0c2e879af3450fe899f217fcc13391b750071feddd42930",
+  "alpha_original_sha256": "12861bbb65862f8ea82d2fb240dcb1b5992912472e177834cf4fade142f808ec",
+  "work_size": [
+    2048,
+    1536
+  ],
+  "source_work_sha256": "bb92bbb5b112a5abaf3f51c6770e19d69514d7ad9ea25b7bc77e6e8d0c4b6a8b",
+  "alpha_work_sha256": "727dd56011ab54da3e5623a77e4c6aecb81a45001866051f55df310b578ad1d5",
+  "crop_performed": false,
+  "source_pixels_modified": false,
+  "note": "The working copy is resized; the authority source remains untouched."
+}

@@ -1,0 +1,91 @@
+{
+  "reviewed_at": "2026-09-05",
+  "policy": "Nenhum repositorio pode redesenhar o veiculo inteiro. Pesos e dependencias devem ter licenca revisada antes de uso comercial.",
+  "revision_policy": "Antes do uso em producao, registrar o commit testado de cada repositorio e impedir atualizacao automatica.",
+  "repositories": [
+    {
+      "name": "openai-python",
+      "url": "https://github.com/openai/openai-python",
+      "tier": "production-core",
+      "role": "Cliente oficial da API de edicao GPT Image 2",
+      "license": "Apache-2.0",
+      "install": "PyPI; manter major version menor que 3"
+    },
+    {
+      "name": "sam2",
+      "url": "https://github.com/facebookresearch/sam2",
+      "tier": "production-mask-assist",
+      "role": "Mascara semantica inicial do veiculo e de regioes grandes",
+      "license": "Apache-2.0 para codigo e checkpoints; fontes do demo possuem licencas proprias",
+      "install": "Ambiente PyTorch separado"
+    },
+    {
+      "name": "BiRefNet",
+      "url": "https://github.com/ZhengPeng7/BiRefNet",
+      "tier": "integrated-and-tested",
+      "role": "Selecao principal; snapshot local fixado; teste executado em sete fotos externas reais da Panamera",
+      "license": "MIT",
+      "install": ".venv-mask; modelos/birefnet; revisao e hashes em modelos-lock.json"
+    },
+    {
+      "name": "ViTMatte",
+      "url": "https://github.com/hustvl/ViTMatte",
+      "tier": "integrated-and-tested",
+      "role": "Refinamento de alpha com trimap na resolucao nativa",
+      "license": "Checkpoint hustvl/vitmatte-small-composition-1k: Apache-2.0 conforme model card",
+      "install": ".venv-mask via transformers; snapshot em modelos/vitmatte"
+    },
+    {
+      "name": "colour-science",
+      "url": "https://github.com/colour-science/colour",
+      "tier": "integrated-and-tested",
+      "role": "CIEDE2000 para comparacao com a foto de origem; matriz de cor opcional com cartela",
+      "license": "BSD-3-Clause",
+      "install": "colour-science==0.4.7"
+    },
+    {
+      "name": "colour-checker-detection",
+      "url": "https://github.com/colour-science/colour-checker-detection",
+      "tier": "integrated; real-capture-calibration-awaits-chart",
+      "role": "Deteccao por segmentacao; nao usa o caminho YOLO",
+      "license": "BSD-3-Clause para o caminho usado; inferencia YOLO tem termos distintos e nao foi instalada",
+      "install": "colour-checker-detection==0.2.3"
+    },
+    {
+      "name": "opencv",
+      "url": "https://github.com/opencv/opencv",
+      "tier": "production-core",
+      "role": "Composicao, mascaras, perspectiva do tampa-placa e verificacoes",
+      "license": "Apache-2.0",
+      "install": "Ambiente studio: opencv-python==4.14.0.94; nao instalar headless simultaneamente"
+    },
+    {
+      "name": "libcom",
+      "url": "https://github.com/bcmi/libcom",
+      "tier": "controlled-lab",
+      "role": "Candidatos de harmonizacao e sombra e avaliacao de composicao",
+      "license": "Apache-2.0 no projeto; revisar pesos por modulo",
+      "install": "Somente ambiente Linux isolado"
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "tier": "prompt-reference-only",
+      "role": "Biblioteca comunitaria de estruturas de prompt",
+      "license": "Revisar no repositorio antes de redistribuir conteudo",
+      "install": "Nao instalar em producao; consultar e adaptar apenas principios"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Intrinsic",
+      "url": "https://github.com/compphoto/Intrinsic",
+      "reason": "Implementacao declarada apenas para uso academico e com protecao de propriedade intelectual"
+    },
+    {
+      "name": "IC-Light",
+      "url": "https://github.com/lllyasviel/IC-Light",
+      "reason": "Risco de redesenho do material e restricao comercial associada ao peso BRIA RMBG do fluxo"
+    }
+  ]
+}

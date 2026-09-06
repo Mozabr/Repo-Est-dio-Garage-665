@@ -1,0 +1,5 @@
+FINAL PROMPT — LOCAL SIDE REFLECTION RETOUCH
+
+Edit only the continuous white side-body region shown in the supplied mask/reference. Preserve the exact Porsche Panamera geometry, door shut lines, handles, mirror, wheel arches, wheels, tires, brake calipers, badge, glass, paint color, metallic flake, perspective, camera and every pixel outside the indicated region. Remove identifiable pavement, yellow line, building, trees, poles, people and outdoor street reflections from the visible doors and lower side. Replace them with subtle physically plausible reflections from the same real neutral automotive studio: a broad diffused overhead-left source, weak right fill, gentle vertical neutral gradient and restrained floor bounce that follow the body curvature. Keep enough variation to remain photographic; do not make the surface flat, matte, airbrushed, CGI, or plastic. Do not repaint or redesign the car.
+
+Containment after generation: deterministic re-registration to the source followed by linear-sRGB blending at 80% inside one continuous refined side mask. All pixels outside the mask remain exact.

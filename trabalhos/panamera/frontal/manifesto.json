@@ -1,0 +1,33 @@
+{
+  "id": "panamera-frontal-001",
+  "status": "gerado_em_revisao_visual_v09",
+  "fonte": "entrada-3264x2448.png",
+  "estudio": "../../../estudio-mestre/STUDIO_A-limpo-sem-equipamentos-sem-logo-4x3-v04.png",
+  "segmentacao": {
+    "motor": "sam2.1_hiera_small",
+    "checkpoint": "../../../modelos/sam2/sam2.1_hiera_small.pt",
+    "mascara_aprovada": "M02-fundo-editavel-SAM2-v02.png",
+    "score": 0.95349
+  },
+  "composicao_pre_api": "composicao-estudio-SAM2-v02.png",
+  "edicao_gpt_image_2": {
+    "mascara": "M03-M04-reflexos-localizados-FINAL.png",
+    "area_editavel_percentual": 14.60,
+    "chamadas_realizadas": 1,
+    "trava_de_pixels_fora_da_mascara": true
+  },
+  "pos_processamento": {
+    "versao_recomendada_para_revisao": "panamera-frontal-recuperada-v09.png",
+    "metodo": "paineis_SAM2_mais_suavizacao_de_reflexos_e_reposicao_do_emblema_original",
+    "nova_chamada_api": false
+  },
+  "tampa_placa": {
+    "pontos_3264x2448": [[1435, 1650], [1872, 1650], [1872, 1820], [1435, 1820]]
+  },
+  "entregas": {
+    "master": "4096x3072",
+    "feed": "4096x3072",
+    "story_horizontal": "3840x2160",
+    "webmotors": "1920x1440"
+  }
+}

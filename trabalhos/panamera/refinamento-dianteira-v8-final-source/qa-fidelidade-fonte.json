@@ -1,0 +1,19 @@
+{
+  "status": "technical_containment_passed_visual_approval_pending",
+  "source_size": [
+    1280,
+    960
+  ],
+  "source_sha256": "1713f766a1f234d5b0c2e879af3450fe899f217fcc13391b750071feddd42930",
+  "treated_sha256": "13f4c20298b9321ee80b47ee12af4309ad9cb9460e386f404705eed8157c39d8",
+  "editable_pixels_by_mask": {
+    "para_brisa": 44250,
+    "capo": 63111,
+    "lateral": 34401
+  },
+  "editable_union_pixels": 141762,
+  "protected_pixels": 1087038,
+  "changed_pixels_outside_approved_masks": 0,
+  "max_rgb_change_outside_approved_masks_8bit": 0,
+  "interpretation": "Geometry/details outside windshield, hood and continuous side masks are byte-identical to the source. Plate artwork is applied later inside the measured source quadrilateral."
+}

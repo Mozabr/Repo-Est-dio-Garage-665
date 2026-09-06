@@ -1,0 +1,15 @@
+{
+  "status": "recomposed_not_visually_approved",
+  "changed_pixels_outside_mask": 0,
+  "editable_pixels": 105886,
+  "light_strength": 0.72,
+  "micro_strength": 0.82,
+  "max_light_delta_Lab_L": 18.0,
+  "mean_abs_chroma_delta_ab": [
+    0.8192631006240845,
+    3.837977647781372
+  ],
+  "microdetail_rms_original": 5.102238655090332,
+  "microdetail_rms_output": 4.5202484130859375,
+  "note": "Only low-frequency illumination comes from the candidate; original fine detail is clamped and reinserted."
+}

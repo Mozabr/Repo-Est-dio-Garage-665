@@ -1,0 +1,365 @@
+{
+  "source": "/Users/kauanclaudinodossantos/Documents/Next-Assessoria/Clientes/Garage 665/Fotos/OneDrive_1_9-3-2026/WhatsApp Image 2025-11-24 at 09.57.06 (1).jpg",
+  "sha256": "9a9a3e10bc34a481c12336fef32ba02c737ed6369a22a468eb95dd3495e64ab8",
+  "size": [
+    1280,
+    960
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "icc_present": true,
+  "capture_metadata": {},
+  "vehicle_bbox_xyxy": [
+    57,
+    214,
+    1173,
+    804
+  ],
+  "opaque_pixels": 480175,
+  "mixed_alpha_pixels": 17212,
+  "any_channel_ge250_pct_opaque": 0.09933878273546103,
+  "all_channels_le5_pct_opaque": 2.458686937054199,
+  "stats_caveat": "Threshold statistics are not a RAW clipping diagnosis; black redaction and black parts are included.",
+  "regions": [
+    {
+      "id": "R1",
+      "name": "Para-brisa",
+      "polygon": [
+        [
+          444,
+          355
+        ],
+        [
+          556,
+          242
+        ],
+        [
+          906,
+          232
+        ],
+        [
+          959,
+          338
+        ],
+        [
+          773,
+          379
+        ]
+      ],
+      "observation": "Ceu e nuvens muito reconheciveis; cabine parcialmente ocultada",
+      "risk": "alto",
+      "action": "Trocar apenas reflexao optica em teste separado; nao inventar bancos, volante ou transparencias"
+    },
+    {
+      "id": "R2",
+      "name": "Capo",
+      "polygon": [
+        [
+          189,
+          408
+        ],
+        [
+          440,
+          362
+        ],
+        [
+          765,
+          392
+        ],
+        [
+          517,
+          505
+        ],
+        [
+          359,
+          558
+        ],
+        [
+          123,
+          535
+        ]
+      ],
+      "observation": "Nuvens, fios e construcoes sobrepostos a volumes e brilho metalico",
+      "risk": "alto",
+      "action": "Retoque por trechos, protegendo emblema, vincos e textura; substituir ambiente reconhecivel por reflexos amplos, nunca por superficie fosca"
+    },
+    {
+      "id": "R3",
+      "name": "Portas e lateral",
+      "polygon": [
+        [
+          940,
+          367
+        ],
+        [
+          1101,
+          355
+        ],
+        [
+          1151,
+          449
+        ],
+        [
+          1094,
+          591
+        ],
+        [
+          934,
+          683
+        ],
+        [
+          925,
+          504
+        ]
+      ],
+      "observation": "Fachada escura e piso claro refletidos; nao sao duas cores de tinta",
+      "risk": "alto",
+      "action": "Separar paineis e frisos; nao aplicar dessaturacao global ou preencher toda lateral"
+    },
+    {
+      "id": "R4",
+      "name": "Faixa pintada do para-choque",
+      "polygon": [
+        [
+          90,
+          548
+        ],
+        [
+          360,
+          583
+        ],
+        [
+          734,
+          558
+        ],
+        [
+          764,
+          612
+        ],
+        [
+          422,
+          639
+        ],
+        [
+          84,
+          605
+        ]
+      ],
+      "observation": "Reflexos horizontais do ambiente sobre curva frontal",
+      "risk": "medio-alto",
+      "action": "Ajustar apenas areas pintadas; preservar sensores e toda grade"
+    },
+    {
+      "id": "R5",
+      "name": "Farol proximo",
+      "polygon": [
+        [
+          520,
+          537
+        ],
+        [
+          591,
+          472
+        ],
+        [
+          725,
+          418
+        ],
+        [
+          774,
+          444
+        ],
+        [
+          772,
+          489
+        ],
+        [
+          716,
+          535
+        ],
+        [
+          618,
+          561
+        ]
+      ],
+      "observation": "Conjunto optico, lentes e reflexos misturados",
+      "risk": "critico",
+      "action": "Bloqueado para geracao; nao mudar modulos, LEDs ou contorno"
+    },
+    {
+      "id": "R6",
+      "name": "Roda dianteira visivel",
+      "polygon": [
+        [
+          797,
+          545
+        ],
+        [
+          855,
+          505
+        ],
+        [
+          905,
+          516
+        ],
+        [
+          932,
+          590
+        ],
+        [
+          919,
+          707
+        ],
+        [
+          877,
+          781
+        ],
+        [
+          824,
+          787
+        ],
+        [
+          794,
+          727
+        ]
+      ],
+      "observation": "Raios finos, pneu, freio e pinca verde caracteristicos",
+      "risk": "critico",
+      "action": "Preservar pixel e geometria; nao reconstruir"
+    },
+    {
+      "id": "R7",
+      "name": "Tampa-placa",
+      "polygon": [
+        [
+          202,
+          609
+        ],
+        [
+          321,
+          618
+        ],
+        [
+          318,
+          667
+        ],
+        [
+          198,
+          658
+        ]
+      ],
+      "observation": "Tarja preta medida no arquivo original",
+      "risk": "controlado",
+      "action": "Arte oficial por perspectiva, sem extrapolar quadrilatero"
+    }
+  ],
+  "region_coordinates": "Original 1280x960, origin top-left. Approximate analysis polygons; overlapping; NOT approved editing masks.",
+  "samples": [
+    {
+      "id": "P1-faixa-metalica",
+      "box_xyxy": [
+        557,
+        541,
+        587,
+        554
+      ],
+      "rgb_median": [
+        157.5,
+        175.5,
+        180.0
+      ],
+      "lab_d65_median": [
+        70.428466796875,
+        -2.6640625,
+        -5.71875
+      ],
+      "rgb_percentile_10": [
+        76.0,
+        86.0,
+        94.9
+      ],
+      "rgb_percentile_90": [
+        187.0,
+        197.0,
+        204.0
+      ],
+      "meaning": "Appearance sample only: mixture of paint, light and reflection; not factory colour or a neutral reference."
+    },
+    {
+      "id": "P2-capo",
+      "box_xyxy": [
+        400,
+        514,
+        430,
+        530
+      ],
+      "rgb_median": [
+        146.0,
+        160.0,
+        168.0
+      ],
+      "lab_d65_median": [
+        64.794921875,
+        -2.890625,
+        -6.21875
+      ],
+      "rgb_percentile_10": [
+        104.0,
+        121.0,
+        137.0
+      ],
+      "rgb_percentile_90": [
+        173.0,
+        187.0,
+        194.0
+      ],
+      "meaning": "Appearance sample only: mixture of paint, light and reflection; not factory colour or a neutral reference."
+    },
+    {
+      "id": "P3-lateral-escura",
+      "box_xyxy": [
+        1000,
+        402,
+        1013,
+        415
+      ],
+      "rgb_median": [
+        14.0,
+        18.0,
+        21.0
+      ],
+      "lab_d65_median": [
+        5.322265625,
+        -0.859375,
+        -2.34375
+      ],
+      "rgb_percentile_10": [
+        6.0,
+        10.0,
+        13.0
+      ],
+      "rgb_percentile_90": [
+        17.0,
+        21.0,
+        24.0
+      ],
+      "meaning": "Appearance sample only: mixture of paint, light and reflection; not factory colour or a neutral reference."
+    }
+  ],
+  "factory_paint_code": null,
+  "physical_colour_calibrated": false,
+  "protected_details": [
+    "silhueta e vincos",
+    "emblema Porsche",
+    "e-hybrid",
+    "ambos farois",
+    "rodas e pneus",
+    "pincas verdes",
+    "frisos cromados",
+    "retrovisores",
+    "macanetas",
+    "grades, sensores e LEDs",
+    "tampa-placa"
+  ],
+  "policy": "No image pixels modified by this diagnosis."
+}

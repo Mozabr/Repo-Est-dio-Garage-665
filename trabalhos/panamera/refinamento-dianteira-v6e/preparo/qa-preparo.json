@@ -1,0 +1,29 @@
+{
+  "status": "crop_ready",
+  "source": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+  "source_sha256": "8314f3db38bcb318868167bf084edd7fed4426bd1db8c944c32685541eceba8d",
+  "source_size": [
+    2048,
+    1536
+  ],
+  "crop_source_xyxy": [
+    285,
+    626,
+    1309,
+    1138
+  ],
+  "crop_source_size": [
+    1024,
+    512
+  ],
+  "api_size": [
+    2048,
+    1024
+  ],
+  "scale": [
+    2.0,
+    2.0
+  ],
+  "editable_pixels_api": 409355,
+  "note": "The wheel, plate, glass and studio may appear as locked context, but their mask alpha is opaque and they are copied from the source after the call."
+}

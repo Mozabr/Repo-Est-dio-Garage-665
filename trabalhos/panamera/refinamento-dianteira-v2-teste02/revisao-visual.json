@@ -1,0 +1,14 @@
+{
+  "status": "not_approved_for_publication",
+  "preferred_trial": "refinamento-dianteira-v2-teste02",
+  "observations": [
+    "Cloud silhouettes replaced more effectively in upper glass than first trial.",
+    "Original paint, body details and exterior remain pixel-identical outside edit mask.",
+    "Glass is darker and smoother; risk of opaque/plastic appearance remains.",
+    "Cloud remnants and transitions remain near wipers, steering rim and protected central interior detail."
+  ],
+  "next_action": "Refine glass boundary and original cabin detail masks; tune reflection intensity while preserving optical depth. Do not expand to hood or series until glass is visually accepted.",
+  "studio_changes": "Proposed only in 19-referencias-e-mascaras.md; active studio unmodified.",
+  "reference_blue_colour_used": false,
+  "visual_approval": false
+}

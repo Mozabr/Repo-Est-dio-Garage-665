@@ -1,0 +1,43 @@
+{
+  "status": "containment_tests_passed_visual_review_required",
+  "source_sha256": "1713f766a1f234d5b0c2e879af3450fe899f217fcc13391b750071feddd42930",
+  "regions": [
+    {
+      "id": "para-brisa",
+      "nonzero_pixels": 36866,
+      "fully_editable_pixels": 32596,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "first-local-test"
+    },
+    {
+      "id": "capo",
+      "nonzero_pixels": 59548,
+      "fully_editable_pixels": 51718,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "next-after-glass-review"
+    },
+    {
+      "id": "porta-dianteira",
+      "nonzero_pixels": 12680,
+      "fully_editable_pixels": 10430,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "pending"
+    },
+    {
+      "id": "porta-traseira",
+      "nonzero_pixels": 8527,
+      "fully_editable_pixels": 6804,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0,
+      "stage": "pending"
+    }
+  ],
+  "source_pixels_modified": false,
+  "notes": [
+    "Native resolution only; API alpha convention differs from editing-strength mask.",
+    "Masks are conservative first-pass local zones, not exhaustive removal of every reflection."
+  ]
+}

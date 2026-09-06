@@ -1,0 +1,95 @@
+{
+  "status": "containment_tests_passed_visual_review_required",
+  "source_sha256": "bb92bbb5b112a5abaf3f51c6770e19d69514d7ad9ea25b7bc77e6e8d0c4b6a8b",
+  "work_size": [
+    2048,
+    1536
+  ],
+  "regions": [
+    {
+      "id": "M11U-capo-integral",
+      "stage": "replacement-for-split-hood",
+      "editable_pixels": 157437,
+      "fully_editable_pixels": 133833,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M10-teto-pintura",
+      "stage": 1,
+      "editable_pixels": 11225,
+      "fully_editable_pixels": 361,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M11-capo-centro",
+      "stage": 2,
+      "editable_pixels": 105886,
+      "fully_editable_pixels": 88884,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M12-capo-lateral-distante",
+      "stage": 3,
+      "editable_pixels": 51492,
+      "fully_editable_pixels": 40681,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M12-capo-lateral-proxima",
+      "stage": 3,
+      "editable_pixels": 25684,
+      "fully_editable_pixels": 13097,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M13-paralama-proximo",
+      "stage": 4,
+      "editable_pixels": 79210,
+      "fully_editable_pixels": 66234,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M14-portas-superiores",
+      "stage": 5,
+      "editable_pixels": 45053,
+      "fully_editable_pixels": 34560,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M15-portas-inferiores",
+      "stage": 6,
+      "editable_pixels": 40424,
+      "fully_editable_pixels": 31141,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M16-para-brisa",
+      "stage": 7,
+      "editable_pixels": 109826,
+      "fully_editable_pixels": 88330,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    },
+    {
+      "id": "M17-vidros-laterais",
+      "stage": 8,
+      "editable_pixels": 45561,
+      "fully_editable_pixels": 36164,
+      "protected_overlap_pixels": 0,
+      "outside_vehicle_pixels": 0
+    }
+  ],
+  "overlap_pixels": 160135,
+  "outside_vehicle_pixels_total": 0,
+  "protected_overlap_pixels_total": 0,
+  "source_pixels_modified": false,
+  "api_mask_convention": "transparent alpha is editable"
+}

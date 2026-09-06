@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "references": [
+    {
+      "file": "referencias/panamera-cor-estudio/a02d9525b5574f798ca809e501c1594c_1712087709889.jpg",
+      "colour_reference": true,
+      "usage": "qualitative paint appearance only; user identifies same colour"
+    },
+    {
+      "file": "referencias/panamera-cor-estudio/foto-Album-de-PORSCHE-PANAMERA-A-64e3bd567aaf7.webp",
+      "colour_reference": false,
+      "usage": "lighting, shadow and broad reflections ONLY; explicit user prohibition on paint colour"
+    },
+    {
+      "file": "referencias/panamera-cor-estudio/images.jpeg",
+      "colour_reference": false,
+      "usage": "low-resolution advertising layout / broad studio impression only"
+    },
+    {
+      "file": "referencias/panamera-cor-estudio/PANAMERA_2.9_V6_E-HYBRID_4_PLATINUM_EDITION_PDK_01_999x750-e1693092930597.webp",
+      "colour_reference": true,
+      "usage": "qualitative paint under interior lighting only"
+    },
+    {
+      "file": "referencias/panamera-cor-estudio/porsche-panamera-turbo-s-e-hybrid-1642027483545_v2_3x4.jpg",
+      "colour_reference": true,
+      "usage": "qualitative paint and reflection behaviour only"
+    }
+  ],
+  "policy": "No histogram transfer, no colour sampling as physical truth, no geometry/parts transfer. Source Garage 665 photograph is sole identity reference. Same factory paint code unverified."
+}

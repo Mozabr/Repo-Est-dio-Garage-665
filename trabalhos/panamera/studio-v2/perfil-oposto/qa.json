@@ -1,0 +1,135 @@
+{
+  "id": "perfil-oposto",
+  "status": "technical_pilot_not_approved_for_publication",
+  "source_sha256": "960f37c8e48317ffec5029b14b349910d9df3869625aaa5f55d686f17486d501",
+  "studio_sha256": "e6532a6f1b495a585e558ebd21925d5e7180eb48766cba2a975b5de665068d4a",
+  "source_native_size": [
+    1280,
+    960
+  ],
+  "stage_size": [
+    4096,
+    3072
+  ],
+  "master_size": [
+    4096,
+    3072
+  ],
+  "upscaled": true,
+  "super_resolution_generative": false,
+  "transform": [
+    [
+      2.9789090156555176,
+      0.0,
+      147.45599365234375
+    ],
+    [
+      0.0,
+      2.9789090156555176,
+      115.33963775634766
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "plate_quad_source": [
+    [
+      81,
+      619
+    ],
+    [
+      129,
+      628
+    ],
+    [
+      122,
+      662
+    ],
+    [
+      75,
+      653
+    ]
+  ],
+  "plate_quad_stage": [
+    [
+      388.74761962890625,
+      1959.2843017578125
+    ],
+    [
+      531.7352294921875,
+      1986.094482421875
+    ],
+    [
+      510.8829040527344,
+      2087.37744140625
+    ],
+    [
+      370.8741760253906,
+      2060.567138671875
+    ]
+  ],
+  "colour": {
+    "protected_pixels": 326288,
+    "max_protected_rgb_change_8bit": 0.0,
+    "paint_patches": [
+      {
+        "box": [
+          750,
+          556,
+          770,
+          565
+        ],
+        "delta_e_2000": 0.0
+      }
+    ],
+    "meaning": "Measures fidelity to this source JPEG, not physical paint calibration without a chart."
+  },
+  "limitations": [
+    "original urban reflections remain; requires controlled capture or local retouch",
+    "No ColorChecker supplied; physical paint colour cannot be certified.",
+    "Camera/light mismatch with indoor studio remains in archive photographs."
+  ],
+  "wall_sign": {
+    "plate_bbox_source": [
+      1717,
+      579,
+      669,
+      436
+    ],
+    "logo_transform": [
+      [
+        0.8698254227638245,
+        0.0,
+        1806.209228515625
+      ],
+      [
+        0.0,
+        0.8698254227638245,
+        622.5999755859375
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "logo_regenerated": false,
+    "base_native_size": [
+      4096,
+      3072
+    ],
+    "generation_native_size": [
+      1448,
+      1086
+    ],
+    "construction": "generated physical plate; exact original artwork composited at master resolution"
+  },
+  "vehicle_bbox_stage": [
+    329,
+    1385,
+    3767,
+    2627
+  ]
+}

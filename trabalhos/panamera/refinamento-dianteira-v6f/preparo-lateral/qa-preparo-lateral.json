@@ -1,0 +1,49 @@
+{
+  "status": "lateral_crops_ready_not_authorized_before_hood_approval",
+  "source_sha256": "8314f3db38bcb318868167bf084edd7fed4426bd1db8c944c32685541eceba8d",
+  "source_size": [
+    2048,
+    1536
+  ],
+  "crop_source_xyxy": [
+    1088,
+    640,
+    1856,
+    1152
+  ],
+  "api_size": [
+    1536,
+    1024
+  ],
+  "surfaces": [
+    {
+      "id": "M13-paralama-proximo",
+      "stage": 2,
+      "editable_pixels": 206329,
+      "overlap_with_previous_pixels": 0,
+      "edit_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M13-paralama-proximo-editar.png",
+      "api_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M13-paralama-proximo-api-alpha.png"
+    },
+    {
+      "id": "M14-portas-superiores",
+      "stage": 3,
+      "editable_pixels": 117962,
+      "overlap_with_previous_pixels": 5494,
+      "edit_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M14-portas-superiores-editar.png",
+      "api_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M14-portas-superiores-api-alpha.png"
+    },
+    {
+      "id": "M15-portas-inferiores",
+      "stage": 4,
+      "editable_pixels": 105821,
+      "overlap_with_previous_pixels": 5942,
+      "edit_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M15-portas-inferiores-editar.png",
+      "api_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M15-portas-inferiores-api-alpha.png"
+    }
+  ],
+  "invariants": [
+    "one surface per API call",
+    "wheels, glass, handles, badge and panel gaps remain protected",
+    "no lateral API call before hood visual approval"
+  ]
+}

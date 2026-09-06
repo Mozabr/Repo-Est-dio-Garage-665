@@ -1,0 +1,44 @@
+{
+  "id": "GARAGE665-RIG-V6-B",
+  "status": "candidate_frozen_for_studio_h_validation",
+  "prompt_block": "One continuous stretched-fabric overhead diffusion ceiling above and slightly camera-left of the vehicle centerline, approximately azimuth -15 degrees and elevation 75 degrees. It creates a single broad curved continuous reflection with very soft borders and gradual rolloff across roof and hood; it must never split into multiple strips, triangles or rectangles. A large recessed camera-left wall fill is two stops weaker and reads only as a broad lateral gradient. A camera-right fill is three stops weaker. A weak frontal fill is three and a half stops below the key. Neutral floor bounce is four stops below the key. White balance is neutral 5200 K. The windshield may show only a faint soft ghost of the ceiling diffuser while keeping the cabin visible.",
+  "camera_view": "front-three-quarter-driver-side",
+  "color": {
+    "working_space": "sRGB",
+    "white_balance_kelvin": 5200,
+    "tint": "neutral",
+    "wall_floor_vehicle_share_white_balance": true
+  },
+  "lights": [
+    {"id": "CEILING-KEY-01", "type": "single_continuous_stretched_fabric_diffusion_ceiling", "position": "overhead_slightly_camera_left", "azimuth_degrees": -15, "elevation_degrees": 75, "relative_ev": 0.0},
+    {"id": "LEFT-FILL-01", "type": "large_recessed_diffused_wall_bank", "position": "camera_left", "relative_ev": -2.0},
+    {"id": "RIGHT-FILL-01", "type": "large_diffused_wall_bank", "position": "camera_right", "relative_ev": -3.0},
+    {"id": "FRONT-01", "type": "large_weak_diffused_fill", "position": "near_camera_axis", "relative_ev": -3.5},
+    {"id": "BOUNCE-01", "type": "neutral_floor_bounce", "relative_ev": -4.0}
+  ],
+  "reflection_targets": {
+    "roof": "one narrow longitudinal soft gradient; no outdoor content",
+    "hood": "one broad curved highlight with no hard central seam and no clipped white",
+    "fender": "smooth falloff continuing the hood energy at lower intensity",
+    "doors": "restrained horizontal wall-bounce gradient; no mirrored room objects",
+    "glass": "original tint and cabin visibility retained; faint ceiling diffuser ghost only"
+  },
+  "hood_control": {
+    "physical_read": "one convex continuous painted panel",
+    "key_shape": "one broad asymmetric envelope, softest through the center, never a literal ceiling rectangle",
+    "center_behavior": "retain the photographed center ridge through curvature only; no seam, split, gray wedge or isolated bright island",
+    "rolloff": "continuous from windshield-side toward the nose and across both sculpted creases",
+    "target_Lab_L_p95_minus_p05": [45, 65],
+    "maximum_recomposition_Lab_L_delta": 14,
+    "target_bright_connected_regions": [1, 3],
+    "reason": "The photographed hood measures 82.8 Lab-L between p95 and p05 and fragments its blurred brightest decile into 8 regions, which reads as outdoor structure rather than one large studio source."
+  },
+  "material_response": {
+    "paint": "dark_gray_metallic_clearcoat_not_matte_not_mirror",
+    "glass": "original_transmission_retained_reflections_reduced_not_blackened",
+    "chrome": "controlled_neutral_highlights_no_clipping",
+    "logo_sign": "matte_physical_sign_low_specular_response"
+  },
+  "forbidden_reflections": ["sky", "cloud", "tree", "building", "cable", "pole", "person", "other_vehicle", "yellow_pavement_line", "storefront", "street"],
+  "continuity_rule": "All surface edits start from the same authority source and reference Studio H. The ceiling highlight may change width with curvature but not direction, softness, color temperature or energy hierarchy."
+}

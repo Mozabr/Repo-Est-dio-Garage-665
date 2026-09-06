@@ -1,0 +1,11 @@
+{
+  "status": "full_frame_candidate_visual_approval_required",
+  "changed_pixels_outside_hood": 0,
+  "changed_pixels_inside_hood": 100299,
+  "wheel_pixels_changed": 0,
+  "license_plate_cover_pixels_changed": 0,
+  "windshield_pixels_changed": 0,
+  "studio_pixels_changed": 0,
+  "geometry_transform_used_on_full_frame": false,
+  "note": "Every pixel outside M11U is copied from the authority source after the API response."
+}

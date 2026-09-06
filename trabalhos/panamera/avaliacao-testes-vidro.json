@@ -1,0 +1,56 @@
+{
+  "status": "teste03_preferred_pending_human_approval",
+  "measurement_space": "OpenCV 8-bit CIELAB representation after ICC-aware sRGB conversion",
+  "scope": "mask values >127; metrics describe pixel appearance, not physical glass transmission",
+  "original": {
+    "L_mean": 130.5260772705078,
+    "L_p10_p50_p90": [
+      86.0,
+      117.0,
+      188.0
+    ],
+    "a_mean": 123.74756622314453,
+    "b_mean": 112.3904037475586
+  },
+  "trials": {
+    "teste02-escuro": {
+      "L_mean": 86.9246597290039,
+      "L_p10_p50_p90": [
+        59.0,
+        78.0,
+        131.0
+      ],
+      "a_mean": 125.63463592529297,
+      "b_mean": 115.12897491455078,
+      "delta_L_mean": -43.601417541503906,
+      "delta_a_mean": 1.8870697021484375,
+      "delta_b_mean": 2.7385711669921875,
+      "changed_pixels_outside_mask": 0
+    },
+    "teste03-translucido": {
+      "L_mean": 122.4998550415039,
+      "L_p10_p50_p90": [
+        89.0,
+        121.0,
+        158.0
+      ],
+      "a_mean": 125.00810241699219,
+      "b_mean": 110.26278686523438,
+      "delta_L_mean": -8.026222229003906,
+      "delta_a_mean": 1.2605361938476562,
+      "delta_b_mean": -2.1276168823242188,
+      "changed_pixels_outside_mask": 0
+    }
+  },
+  "interpretation": [
+    "Teste02 is materially too dark.",
+    "Teste03 preserves average lightness substantially better and reduces the bright reflection tail.",
+    "Small chroma shift in Teste03; appearance still requires human inspection.",
+    "No trial changes pixels outside the reviewed mask."
+  ],
+  "approval": {
+    "technical_containment": true,
+    "visual": false,
+    "publication": false
+  }
+}

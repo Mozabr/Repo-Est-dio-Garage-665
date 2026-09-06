@@ -1,0 +1,31 @@
+{
+  "status": "passed_with_review_pending",
+  "views": 7,
+  "plate_reviews": [
+    {
+      "view": "traseira-3-4",
+      "black_patch_iou": 0.9420077462577201,
+      "status": "manual_review_required",
+      "reason": "Dark plate support and redaction cannot be separated reliably by threshold; exact match is not certified."
+    },
+    {
+      "view": "perfil-oposto",
+      "black_patch_iou": 0.847269212179797,
+      "status": "manual_review_required",
+      "reason": "Dark plate support and redaction cannot be separated reliably by threshold; exact match is not certified."
+    }
+  ],
+  "checks": [
+    "plate containment",
+    "invalid quad rejection",
+    "premultiplied alpha fringe",
+    "opaque RGB unchanged",
+    "source-resolution matte",
+    "source paint deltaE",
+    "export dimensions and ICC",
+    "story safe area",
+    "wall sign clearance",
+    "same studio hash"
+  ],
+  "visual_approval": false
+}

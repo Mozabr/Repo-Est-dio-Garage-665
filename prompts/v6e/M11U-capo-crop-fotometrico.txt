@@ -1,0 +1,24 @@
+USE CASE
+lighting-weather edit; automotive studio photography; photometric-only hood relighting.
+
+INPUT ROLES
+Image 1 is a tight crop from the authority photograph and is the absolute authority for every pixel-level vehicle element, camera position, perspective, panel geometry, paint color, metallic flake, Porsche crest and shut line.
+Image 2 is Studio H and is reference only for the direction, size, softness and neutral color of the reflected studio lights. Do not copy or reconstruct its room, logo or architecture into Image 1.
+
+CHANGE ONLY
+Inside the transparent mask, replace recognizable outdoor reflections on the painted hood with the physically plausible reflection of Studio H's large overhead diffuser. This is a lighting/material-response correction, not a vehicle generation or redesign.
+
+HIGH-GLOSS MATERIAL TARGET
+The hood must remain polished dark-gray metallic automotive paint under a clear glossy clear-coat. Preserve visible metallic flake, fine photographic grain, crisp panel curvature and controlled specular depth. Replace the outdoor reflections with one broad soft-edged asymmetric overhead highlight and one much weaker lateral fill gradient. The surface must have a clear specular response; it must not become matte, satin, uniformly gray, airbrushed, foggy, plastic, CGI or textureless. Do not eliminate all reflections: exchange outdoor reflections for restrained studio reflections.
+
+GEOMETRY AND IDENTITY LOCK
+Do not move, rotate, rescale, redraw or reinterpret the car or any component. Do not change steering angle, wheels, tires, brakes, headlights, crest, hood outline, creases, panel gaps, sensors, grille, plate cover, windshield, mirror, doors, roof, studio or camera. Do not create a second crest. Do not paint, reconstruct or move the existing crest. Do not invent any badge, line, contour or object.
+
+HOOD LIGHT SHAPE
+Treat the hood as one continuous convex panel. Produce no center seam, diagonal split, wedge, isolated gray patch, bilateral graphic division or literal rectangle from the ceiling. The highlight begins broadly near the windshield side, follows the original curvature and creases, and rolls off continuously before the nose. Preserve dark-to-light tonal separation so the clear-coat reads as glossy, while keeping highlights below clipping.
+
+FORBIDDEN
+No sky, clouds, trees, buildings, cables, poles, people, other vehicles, street, yellow lines or storefronts. No matte paint, satin paint, flat diffuse shading, over-smoothed hood, denoising, artificial sharpening, invented detail, color change or changed vehicle element.
+
+FINAL INVARIANT
+If a requested lighting change would require changing an object or its geometry, leave that object unchanged. The only permitted visual difference is the studio illumination reflected by the existing hood paint inside the supplied mask.

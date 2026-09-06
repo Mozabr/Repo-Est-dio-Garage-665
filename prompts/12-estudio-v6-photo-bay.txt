@@ -1,0 +1,30 @@
+USE CASE
+Professional automotive photo-bay environment; empty studio master for a consistent dealership image series.
+
+ROLE OF INPUTS
+Image 1 is the edit target and the authority for the exact 4:3 camera, frontal room perspective, room proportions, centered vanishing point and cyclorama footprint.
+Image 2 is a reference only for the improved natural integration, exposure range, floor contact and restrained wall texture seen around the vehicle. Do not reproduce its car, logo or altered vehicle geometry.
+Image 3 is a real automotive studio lighting reference only. Do not copy its car, brand, color, camera or background.
+
+PRIMARY REQUEST
+Transform only the empty room in Image 1 into a credible, purpose-built premium automotive photography bay. Keep the room completely empty. Preserve the exact 4:3 viewpoint, wall position, horizon, floor area, centered composition and usable space for a large car.
+
+ARCHITECTURE
+Use a seamless warm-neutral off-white cyclorama with physically smooth wall-to-floor and side-wall curves. Add subtle real plaster/fabric microtexture and slight natural construction variation, never procedural CGI noise. Add a very thin charcoal perimeter shadow gap where appropriate, with straight architecturally plausible lines and no warped corners.
+
+LIGHTING STRUCTURE — GARAGE665-RIG-V6-B
+Install one extremely large continuous rectangular overhead diffusion ceiling, a real stretched translucent fabric light bank suspended on a slim matte-black perimeter frame. It runs front-to-back above the future vehicle position. Only its rear portion and thin support frame are visible near the upper frame; it must not dominate the image. It produces one broad, curved and continuous highlight on a car, never multiple stripes.
+
+Add one large diffused vertical fill bank recessed just outside the camera-left wall opening, approximately two stops below the ceiling key, read mainly through a broad wall gradient rather than as a glowing rectangle. Add a weaker camera-right fill approximately three stops below the key. Add a very weak neutral frontal fill near camera axis for grilles and dark paint. All sources are 5200 K with neutral tint. No spotlight pools, hard shadows, bloom, clipped white or mixed color temperatures.
+
+FLOOR
+Neutral medium-light gray automotive studio floor, matte-to-satin and non-mirror, with restrained real fine texture. It must support a soft broad vehicle shadow and tight tire contact shadows. No high-gloss showroom reflection, no epoxy CGI sheen, no visible turntable ring, no cracks, stains or tire marks.
+
+WALL SIGN SUPPORT
+Keep a centered BLANK rectangular charcoal carrier panel above the future vehicle. It is a real 8 mm thick matte powder-coated metal plate, mounted 18 mm off the wall on four small brushed-metal cylindrical standoffs. Show restrained edge thickness, four correctly aligned fasteners and one short soft contact shadow down-right. The panel face has near-zero specular reflection. Do not generate any logo, word, letter, symbol or artwork; the exact Garage 665 logo will be composited later from the approved asset.
+
+PHOTOGRAPHIC CHARACTER
+Architectural photograph of a real working photo bay, full depth of field, natural tonal rolloff, subtle sensor texture, realistic scale and materials. Premium but functional, not futuristic and not a luxury living room.
+
+AVOID
+No vehicle, people, props, furniture, doors, windows, street, plants, cables, exposed stands, umbrellas, tripods, visible bulbs, small LED strips, repeated ceiling bars, multiple hard highlights, fake depth of field, bloom, lens flare, vignette, dramatic spotlight, warped symmetry, glossy walls, mirror floor, floating plaque, generated text, generated logo or watermark.
