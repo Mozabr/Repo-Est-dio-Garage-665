@@ -1,0 +1,43 @@
+{
+  "rig_id": "GARAGE665-RIG-V6-A",
+  "rig_path": "config/rig-iluminacao-studio-v6.json",
+  "rig_sha256": "e585a8d89ff14925583e365b92ba54b8368332fd9d4438883aec226af5d32e9c",
+  "prompts": {
+    "M10-teto-pintura": {
+      "path": "prompts/v6/M10-teto-pintura.txt",
+      "sha256": "721e51dbbdaa6c3b3c14a558cc2dc0ce14b6b36a2b8a088667e28868574549ca"
+    },
+    "M11-capo-centro": {
+      "path": "prompts/v6/M11-capo-centro.txt",
+      "sha256": "19c04bca37710a169ef842daa72d5b06352d3bfabf67153fb610620c338a480c"
+    },
+    "M12-capo-lateral-distante": {
+      "path": "prompts/v6/M12-capo-lateral-distante.txt",
+      "sha256": "2468351100d39e47f7c016d4efd4e9b4222fe81bdf33d989c7b1013d25b34125"
+    },
+    "M12-capo-lateral-proxima": {
+      "path": "prompts/v6/M12-capo-lateral-proxima.txt",
+      "sha256": "a1be8d5a06e674f91092fac29ad1fb989457aeacd7fab6c4a92c51398d43a369"
+    },
+    "M13-paralama-proximo": {
+      "path": "prompts/v6/M13-paralama-proximo.txt",
+      "sha256": "a4d8c675b29d22d220153cb33d326be1ff73af7be7957d59bacd99c07c981ab2"
+    },
+    "M14-portas-superiores": {
+      "path": "prompts/v6/M14-portas-superiores.txt",
+      "sha256": "e312c51600acd845540be48ac338cdae243f9464ecaf1f0729d1748f8624bdba"
+    },
+    "M15-portas-inferiores": {
+      "path": "prompts/v6/M15-portas-inferiores.txt",
+      "sha256": "a002c1b69ac59b299c91d91e4dbada51fc25441bf4b066efd7047ac624b8e697"
+    },
+    "M16-para-brisa": {
+      "path": "prompts/v6/M16-para-brisa.txt",
+      "sha256": "6ec9d0dc2d2509b3c3a9c53e5c1fe7a5bfcc37b5e1ac141d64fe0e5ee2f558b6"
+    },
+    "M17-vidros-laterais": {
+      "path": "prompts/v6/M17-vidros-laterais.txt",
+      "sha256": "50536ab7c81d7bd6061afe8d35d9f9ee973d4ff5ba25538a242b13107eb114c0"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "studio-v6b-dianteira-3-4-room-preview",
+  "workdir": "trabalhos/panamera/studio-v6b-dianteira-3-4-preview",
+  "studio": "estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png",
+  "studio_base": "estudio-mestre/STUDIO_H-photo-bay-v06-base.png",
+  "wall_logo_finish": "matte_physical",
+  "output_size": [4096, 3072],
+  "stage_size": [4096, 3072],
+  "studio_camera": "fixed wide 4:3 frontal purpose-built photo bay; single continuous overhead diffusion ceiling",
+  "color_policy": "sRGB; room preview only; current vehicle treatment is not approval of rig v6b reflections",
+  "photos": [
+    {
+      "id": "dianteira-3-4",
+      "source": "trabalhos/panamera/refinamento-dianteira-v8-final-source/carro-fonte-tratado.png",
+      "roi": [20, 195, 1200, 825],
+      "vehicle_width_fraction": 0.70,
+      "baseline_fraction": 0.855,
+      "contact_points": [[850, 788], [1141, 591]],
+      "shadow_footprint": [[100, 700], [1090, 533], [1166, 590], [862, 808], [226, 765]],
+      "shadow_strength": 0.48,
+      "plate_quad": [[202, 609], [321, 618], [318, 667], [198, 658]],
+      "paint_patches": [[557, 541, 587, 554]],
+      "reflections_status": "room-only preview; vehicle still uses previously treated v5 surfaces and must be regenerated per-surface against Studio H"
+    }
+  ]
+}

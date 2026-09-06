@@ -1,0 +1,22 @@
+ROLE OF EACH INPUT
+Image 1 is the authority source and the only authority for the exact vehicle, camera, perspective, paint color, body geometry, equipment and fine details.
+Image 2 is the exact target studio and the authority for illumination direction, neutral color temperature and reflected environment.
+Image 3 is identity and material reference only for this same vehicle and paint. Do not copy its camera, background, exposure or outdoor reflections.
+Image 4 is a relative-depth or normal-like geometry guide only. Never reproduce its false colors or use it as appearance.
+
+
+EDIT SCOPE
+Change only the transparent area of the supplied mask: the upper visible door paint; preserve handles, chrome trim, mirror and shut lines.
+Do not alter, regenerate, move, rescale or redraw any other area. Keep the camera and framing pixel-aligned with Image 1.
+
+TARGET
+Remove recognizable outdoor reflections only inside this surface. Reconstruct the same photographed dark-gray metallic Porsche paint or glass under the exact studio lighting of Image 2. Preserve original curvature, panel boundaries, clear-coat depth, metallic flake, microtexture, local exposure, paint hue and real photographic detail.
+
+LOCKED LIGHTING — GARAGE665-RIG-V6-B
+One continuous stretched-fabric overhead diffusion ceiling above and slightly camera-left of the vehicle centerline, approximately azimuth -15 degrees and elevation 75 degrees. It creates a single broad curved continuous reflection with very soft borders and gradual rolloff across roof and hood; it must never split into multiple strips, triangles or rectangles. A large recessed camera-left wall fill is two stops weaker and reads only as a broad lateral gradient. A camera-right fill is three stops weaker. A weak frontal fill is three and a half stops below the key. Neutral floor bounce is four stops below the key. White balance is neutral 5200 K. The windshield may show only a faint soft ghost of the ceiling diffuser while keeping the cabin visible.
+
+FORBIDDEN
+No sky, clouds, trees, buildings, cables, poles, people, other cars, storefronts, street or yellow pavement lines. No clipped white, mirror finish, matte or flat paint, plastic CGI surface, excessive denoise, artificial sharpening, invented detail, invented body line or invented accessory.
+
+INVARIANTS
+Do not change the Porsche model, silhouette, proportions, panel boundaries, headlights, wheels, tires, brakes, badges, lettering, sensors, grille, mirror, glass shape, camera angle, framing, license-plate cover or background. Do not recolor the vehicle. The light direction, softness and energy must match the other surfaces from the same locked rig.

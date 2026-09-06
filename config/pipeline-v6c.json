@@ -1,0 +1,38 @@
+{
+  "schema_version": "6c",
+  "status": "corrected_target_architecture_ready_for_single_hood_test",
+  "view": "dianteira-3-4",
+  "authority_source": "trabalhos/panamera/studio-v2/dianteira-3-4/source-srgb.png",
+  "edit_target": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+  "working": {"width": 2048, "height": 1536, "format": "PNG", "color_profile": "sRGB"},
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "2048x1536",
+    "output_format": "png",
+    "input_fidelity_parameter": "omit",
+    "surfaces_per_call": 1,
+    "candidates_per_surface": 1
+  },
+  "references": {
+    "studio": "estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png",
+    "same_paint": "referencias/panamera-cor-estudio/a02d9525b5574f798ca809e501c1594c_1712087709889.jpg",
+    "normal_guide": "trabalhos/panamera/refinamento-dianteira-v6c/guias-palco/normal-aproximada-palco.png",
+    "lighting_rig": "config/rig-iluminacao-studio-v6b.json",
+    "prompt_manifest": "prompts/v6c/manifest.json"
+  },
+  "edit_mask": "trabalhos/panamera/refinamento-dianteira-v6c/guias-palco/M11U-capo-integral-editar.png",
+  "api_mask": "trabalhos/panamera/refinamento-dianteira-v6c/guias-palco/M11U-capo-integral-api-alpha.png",
+  "hard_rules": {
+    "full_vehicle_generation": false,
+    "generated_rgb_opacity_100_percent": false,
+    "pixels_outside_reviewed_mask_may_change": false,
+    "registration_gate_required_before_recomposition": true,
+    "maximum_registration_displacement_px": 12,
+    "minimum_registration_inlier_fraction": 0.6,
+    "original_high_frequency_reinserted": true,
+    "approval_required_after_each_surface": true,
+    "hood_is_one_continuous_panel": true
+  },
+  "master": {"width": 4096, "height": 3072, "format": "PNG", "color_profile": "sRGB"}
+}

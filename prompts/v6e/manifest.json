@@ -1,0 +1,11 @@
+{
+  "rig_id": "GARAGE665-RIG-V6-B",
+  "rig_path": "config/rig-iluminacao-studio-v6b.json",
+  "rig_sha256": "26a402bbfa744c924e570ad26e500fea8da895966e54c920fa12175e86b633cb",
+  "prompts": {
+    "M11U-capo-crop-fotometrico": {
+      "path": "prompts/v6e/M11U-capo-crop-fotometrico.txt",
+      "sha256": "d92e5b568cbbfc6e6ae171338e05ea6db44c69af95d13efeaf9b28bdf2eac452"
+    }
+  }
+}

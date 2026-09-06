@@ -1,0 +1,47 @@
+{
+  "rig_id": "GARAGE665-RIG-V6-B",
+  "rig_path": "config/rig-iluminacao-studio-v6b.json",
+  "rig_sha256": "26a402bbfa744c924e570ad26e500fea8da895966e54c920fa12175e86b633cb",
+  "prompts": {
+    "M11U-capo-integral": {
+      "path": "prompts/v6c/M11U-capo-integral.txt",
+      "sha256": "2ebff5f1cbda4c352de6de4e114d7fceeab4501190dbfcca638eb60aa82c14d6"
+    },
+    "M10-teto-pintura": {
+      "path": "prompts/v6c/M10-teto-pintura.txt",
+      "sha256": "cbc397b87d96d92be4a234cac999fe38cce5b1be754c44c32b763f09f8be7dbe"
+    },
+    "M11-capo-centro": {
+      "path": "prompts/v6c/M11-capo-centro.txt",
+      "sha256": "9de8e48a2d2da55f98ec2f546bae40c916afeb863d6b1631c1206198ffb6f987"
+    },
+    "M12-capo-lateral-distante": {
+      "path": "prompts/v6c/M12-capo-lateral-distante.txt",
+      "sha256": "83b84c4b37bccaeecbce3e94d830da7171f91d8e18f1a1f518889f7ca50352d7"
+    },
+    "M12-capo-lateral-proxima": {
+      "path": "prompts/v6c/M12-capo-lateral-proxima.txt",
+      "sha256": "9f33af02d57f0ea573d03ee75e4f74a12db064cca2a9c9d1f30d9739a21e3dc9"
+    },
+    "M13-paralama-proximo": {
+      "path": "prompts/v6c/M13-paralama-proximo.txt",
+      "sha256": "c743fddd2ab121f3d1192b245275baf49dc8722592654eb84cd4a822e685b67d"
+    },
+    "M14-portas-superiores": {
+      "path": "prompts/v6c/M14-portas-superiores.txt",
+      "sha256": "0e09dfb641439a3f01fa12eb53a88b28537886dc3b0e6d2fd8c57a65d243ba2d"
+    },
+    "M15-portas-inferiores": {
+      "path": "prompts/v6c/M15-portas-inferiores.txt",
+      "sha256": "306d8ef173df89bc06ae5741aa85c1bb59186a121ccbeac56cfd668eac8cf312"
+    },
+    "M16-para-brisa": {
+      "path": "prompts/v6c/M16-para-brisa.txt",
+      "sha256": "ef0214e683a2d7b9e67b658096f0f403b479fcdec84bbac73de5c559f908142f"
+    },
+    "M17-vidros-laterais": {
+      "path": "prompts/v6c/M17-vidros-laterais.txt",
+      "sha256": "7095fc5b4598320c1a6dd804c8d3e7a1662dc1b1dfbb9fc8c237a34e370e817f"
+    }
+  }
+}

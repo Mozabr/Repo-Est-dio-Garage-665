@@ -1,0 +1,430 @@
+{
+  "version": "masks-dianteira-v1",
+  "source": "trabalhos/panamera/studio-v2/dianteira-3-4/source-srgb.png",
+  "vehicle_alpha": "trabalhos/panamera/studio-v2/dianteira-3-4/alpha-final.png",
+  "out": "trabalhos/panamera/refinamento-dianteira-v1",
+  "coordinate_system": "1280x960 original; polygons manually traced and inset; white editable, black protected",
+  "edge_inset_px": 3,
+  "feather_inside_px": 5,
+  "regions": [
+    {
+      "id": "para-brisa",
+      "polygon": [
+        [
+          453,
+          345
+        ],
+        [
+          489,
+          306
+        ],
+        [
+          535,
+          267
+        ],
+        [
+          575,
+          250
+        ],
+        [
+          654,
+          241
+        ],
+        [
+          822,
+          241
+        ],
+        [
+          903,
+          249
+        ],
+        [
+          896,
+          286
+        ],
+        [
+          883,
+          333
+        ],
+        [
+          873,
+          358
+        ],
+        [
+          699,
+          352
+        ],
+        [
+          532,
+          350
+        ]
+      ],
+      "stage": "first-local-test"
+    },
+    {
+      "id": "capo",
+      "polygon": [
+        [
+          191,
+          452
+        ],
+        [
+          216,
+          418
+        ],
+        [
+          275,
+          391
+        ],
+        [
+          354,
+          378
+        ],
+        [
+          414,
+          373
+        ],
+        [
+          460,
+          382
+        ],
+        [
+          521,
+          385
+        ],
+        [
+          671,
+          394
+        ],
+        [
+          725,
+          401
+        ],
+        [
+          640,
+          449
+        ],
+        [
+          532,
+          504
+        ],
+        [
+          477,
+          544
+        ],
+        [
+          352,
+          563
+        ],
+        [
+          164,
+          549
+        ],
+        [
+          172,
+          517
+        ]
+      ],
+      "stage": "next-after-glass-review"
+    },
+    {
+      "id": "porta-dianteira",
+      "polygon": [
+        [
+          953,
+          414
+        ],
+        [
+          998,
+          397
+        ],
+        [
+          1030,
+          402
+        ],
+        [
+          1039,
+          433
+        ],
+        [
+          1037,
+          531
+        ],
+        [
+          952,
+          624
+        ],
+        [
+          944,
+          551
+        ]
+      ],
+      "stage": "pending"
+    },
+    {
+      "id": "porta-traseira",
+      "polygon": [
+        [
+          1045,
+          401
+        ],
+        [
+          1097,
+          376
+        ],
+        [
+          1120,
+          386
+        ],
+        [
+          1140,
+          425
+        ],
+        [
+          1102,
+          505
+        ],
+        [
+          1050,
+          532
+        ]
+      ],
+      "stage": "pending"
+    }
+  ],
+  "protect_polygons": [
+    {
+      "id": "farol-proximo",
+      "points": [
+        [
+          507,
+          542
+        ],
+        [
+          572,
+          473
+        ],
+        [
+          687,
+          421
+        ],
+        [
+          753,
+          411
+        ],
+        [
+          783,
+          435
+        ],
+        [
+          788,
+          475
+        ],
+        [
+          754,
+          517
+        ],
+        [
+          704,
+          551
+        ],
+        [
+          610,
+          575
+        ],
+        [
+          527,
+          562
+        ]
+      ]
+    },
+    {
+      "id": "farol-distante",
+      "points": [
+        [
+          60,
+          527
+        ],
+        [
+          85,
+          470
+        ],
+        [
+          142,
+          422
+        ],
+        [
+          196,
+          421
+        ],
+        [
+          194,
+          451
+        ],
+        [
+          160,
+          505
+        ],
+        [
+          131,
+          548
+        ],
+        [
+          84,
+          553
+        ]
+      ]
+    },
+    {
+      "id": "friso-portas",
+      "points": [
+        [
+          919,
+          410
+        ],
+        [
+          1127,
+          342
+        ],
+        [
+          1137,
+          359
+        ],
+        [
+          932,
+          430
+        ]
+      ]
+    },
+    {
+      "id": "macaneta-frente",
+      "points": [
+        [
+          1019,
+          378
+        ],
+        [
+          1057,
+          371
+        ],
+        [
+          1069,
+          399
+        ],
+        [
+          1028,
+          414
+        ]
+      ]
+    },
+    {
+      "id": "macaneta-tras",
+      "points": [
+        [
+          1091,
+          349
+        ],
+        [
+          1134,
+          342
+        ],
+        [
+          1140,
+          377
+        ],
+        [
+          1096,
+          386
+        ]
+      ]
+    },
+    {
+      "id": "e-hybrid",
+      "points": [
+        [
+          927,
+          431
+        ],
+        [
+          971,
+          423
+        ],
+        [
+          977,
+          449
+        ],
+        [
+          932,
+          462
+        ]
+      ]
+    }
+  ],
+  "protect_ellipses": [
+    {
+      "id": "porsche",
+      "box": [
+        315,
+        469,
+        353,
+        502
+      ]
+    },
+    {
+      "id": "volante-visivel",
+      "box": [
+        774,
+        325,
+        879,
+        385
+      ]
+    }
+  ],
+  "protect_lines": [
+    {
+      "id": "limpadores-base-vidro",
+      "points": [
+        [
+          445,
+          355
+        ],
+        [
+          651,
+          362
+        ],
+        [
+          878,
+          370
+        ]
+      ],
+      "width": 12
+    },
+    {
+      "id": "vinco-capo",
+      "points": [
+        [
+          458,
+          383
+        ],
+        [
+          433,
+          408
+        ],
+        [
+          411,
+          445
+        ],
+        [
+          378,
+          488
+        ],
+        [
+          358,
+          517
+        ]
+      ],
+      "width": 7
+    }
+  ],
+  "policy": "All pixels not inside an explicit edit zone protected by default, including wheels, lights, roof, plate and silhouette. Blur never leaks outside allowed zone."
+}

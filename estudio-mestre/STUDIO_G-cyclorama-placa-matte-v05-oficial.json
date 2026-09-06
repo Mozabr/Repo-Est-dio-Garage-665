@@ -1,0 +1,37 @@
+{
+  "plate_bbox_source": [
+    1713,
+    569,
+    676,
+    449
+  ],
+  "logo_transform": [
+    [
+      0.8957605957984924,
+      0.0,
+      1798.3955078125
+    ],
+    [
+      0.0,
+      0.8957605957984924,
+      613.9000244140625
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "logo_regenerated": false,
+  "base_native_size": [
+    4096,
+    3072
+  ],
+  "generation_native_size": [
+    1448,
+    1086
+  ],
+  "logo_finish": "matte_physical",
+  "construction": "generated physical plate; exact original artwork composited at master resolution",
+  "mounting": "matte carrier panel with physical wall standoffs; raised emblem with short contact shadow"
+}

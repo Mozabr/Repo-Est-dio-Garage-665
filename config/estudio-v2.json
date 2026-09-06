@@ -1,0 +1,19 @@
+{
+  "id": "GARAGE665_STUDIO_F_V03",
+  "background": "estudio-mestre/STUDIO_F-placa-fisica-v03-oficial.png",
+  "origin": "AI-generated room and blank plate; original artwork composited",
+  "wall": "neutral off-white, subtle plaster",
+  "floor": "matte light grey concrete",
+  "lighting_direction": "broad upper-left key and weaker right fill",
+  "wall_sign": "charcoal panel, four visible metal fasteners, physical thickness and cast shadow",
+  "layout_policy": "same background and baseline, per-view framing; not a calibrated 3D turntable",
+  "presets": {
+    "frontal": {"width_fraction": 0.56, "baseline_fraction": 0.855, "tested": true},
+    "dianteira-3-4": {"width_fraction": 0.70, "baseline_fraction": 0.855, "tested": true},
+    "perfil": {"width_fraction": 0.84, "baseline_fraction": 0.855, "tested": true},
+    "traseira-3-4": {"width_fraction": 0.70, "baseline_fraction": 0.855, "tested": true},
+    "traseira": {"width_fraction": 0.56, "baseline_fraction": 0.855, "tested": false}
+  },
+  "sizing_rule": "Check roof clears wall sign and entire vehicle stays in central 16:9 safe area for each source.",
+  "interiors": "Preserve original photographic interior; use a separate window-view workflow only when approved."
+}

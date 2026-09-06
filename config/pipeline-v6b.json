@@ -1,0 +1,33 @@
+{
+  "schema_version": "6b",
+  "status": "studio_h_candidate_not_approved",
+  "view": "dianteira-3-4",
+  "authority_source": "trabalhos/panamera/studio-v2/dianteira-3-4/source-srgb.png",
+  "working": {"width": 2048, "height": 1536, "format": "PNG", "color_profile": "sRGB"},
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "2048x1536",
+    "output_format": "png",
+    "input_fidelity_parameter": "omit",
+    "surfaces_per_call": 1,
+    "candidates_per_surface": 2
+  },
+  "references": {
+    "studio": "estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png",
+    "same_paint": "referencias/panamera-cor-estudio/a02d9525b5574f798ca809e501c1594c_1712087709889.jpg",
+    "normal_guide": "trabalhos/panamera/refinamento-dianteira-v6/guias/normal-aproximada.png",
+    "lighting_rig": "config/rig-iluminacao-studio-v6b.json",
+    "prompt_manifest": "prompts/v6b/manifest.json"
+  },
+  "hard_rules": {
+    "full_vehicle_generation": false,
+    "generated_rgb_opacity_100_percent": false,
+    "pixels_outside_reviewed_mask_may_change": false,
+    "original_high_frequency_reinserted": true,
+    "outdoor_reflection_edges_reinserted": false,
+    "approval_required_after_each_surface": true,
+    "all_surfaces_start_from_authority_source": true
+  },
+  "master": {"width": 4096, "height": 3072, "format": "PNG", "color_profile": "sRGB"}
+}

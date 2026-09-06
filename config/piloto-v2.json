@@ -1,0 +1,53 @@
+{
+  "version": "studio-v2",
+  "workdir": "trabalhos/panamera/studio-v2",
+  "studio": "estudio-mestre/STUDIO_F-placa-fisica-v03-oficial.png",
+  "studio_base": "estudio-mestre/STUDIO_F-placa-fisica-v03-base.png",
+  "output_size": [4096, 3072],
+  "stage_size": [4096, 3072],
+  "studio_camera": "same room backdrop; per-view framing, not a calibrated 3D turntable",
+  "color_policy": "sRGB; no global neutralization of metallic paint",
+  "photos": [
+    {
+      "id": "frontal",
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05 (1).jpg",
+      "roi": [235, 270, 1080, 835],
+      "vehicle_width_fraction": 0.56,
+      "baseline_fraction": 0.855,
+      "contact_points": [[310, 801], [1013, 801]],
+      "shadow_footprint": [[284, 787], [1036, 787], [1048, 818], [278, 818]],
+      "plate_quad": [[570, 658], [737, 658], [737, 713], [570, 713]],
+      "paint_patches": [[405, 588, 445, 608], [805, 585, 835, 605]],
+      "reflections_status": "original urban reflections remain; requires controlled capture or local retouch"
+    },
+    {
+      "id": "dianteira-3-4",
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06 (1).jpg",
+      "roi": [20, 195, 1200, 825],
+      "vehicle_width_fraction": 0.70,
+      "baseline_fraction": 0.855,
+      "contact_points": [[850, 788], [1141, 591]],
+      "shadow_footprint": [[100, 700], [1090, 533], [1166, 590], [862, 808], [226, 765]],
+      "plate_quad": [[202, 609], [321, 618], [318, 667], [198, 658]],
+      "paint_patches": [[557, 541, 587, 554]],
+      "reflections_status": "original urban reflections remain; requires controlled capture or local retouch"
+    },
+    {
+      "id": "perfil",
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05 (2).jpeg",
+      "roi": [35, 440, 1240, 845],
+      "vehicle_width_fraction": 0.84,
+      "baseline_fraction": 0.855,
+      "contact_points": [[242, 793], [1009, 829]],
+      "shadow_footprint": [[116, 747], [1191, 757], [1168, 812], [239, 795]],
+      "plate_quad": null,
+      "paint_patches": [[364, 567, 403, 583]],
+      "reflections_status": "original urban reflections remain; requires controlled capture or local retouch"
+    }
+    ,
+{"id":"dianteira-3-4-oposta","source":"referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05.jpg","roi":[185,325,1195,875],"vehicle_width_fraction":0.7,"baseline_fraction":0.855,"contact_points":[[410,849],[224,707]],"shadow_footprint":[[221,693],[410,856],[991,829],[1118,764],[500,645]],"plate_quad":[[885,671],[1003,666],[1005,718],[886,721]],"paint_patches":[[686,577,706,590]],"reflections_status":"original urban reflections remain; requires controlled capture or local retouch"},
+{"id":"traseira-3-4","source":"referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06 (2).jpg","roi":[100,270,1200,885],"vehicle_width_fraction":0.7,"baseline_fraction":0.855,"contact_points":[[951,864],[1168,651]],"shadow_footprint":[[157,767],[690,849],[963,873],[1180,653],[1112,580]],"plate_quad":[[302,593],[448,603],[445,663],[298,653]],"paint_patches":[[470,450,490,465]],"reflections_status":"original urban reflections remain; requires controlled capture or local retouch","plate_review_required":true},
+{"id":"traseira-3-4-oposta","source":"referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06.jpg","roi":[60,335,1260,890],"vehicle_width_fraction":0.7,"baseline_fraction":0.855,"contact_points":[[176,692],[646,864]],"shadow_footprint":[[116,644],[990,700],[1180,798],[647,880],[172,706]],"plate_quad":[[1053,623],[1170,609],[1176,662],[1059,676]],"paint_patches":[[704,503,724,515]],"reflections_status":"original urban reflections remain; requires controlled capture or local retouch"},
+{"id":"perfil-oposto","source":"referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07.jpg","roi":[45,410,1230,860],"vehicle_width_fraction":0.84,"baseline_fraction":0.855,"contact_points":[[343,839],[1129,754]],"shadow_footprint":[[128,760],[1155,696],[1182,758],[348,846]],"plate_quad":[[81,619],[129,628],[122,662],[75,653]],"paint_patches":[[750,556,770,565]],"plate_review_required":true,"reflections_status":"original urban reflections remain; requires controlled capture or local retouch"}
+  ]
+}

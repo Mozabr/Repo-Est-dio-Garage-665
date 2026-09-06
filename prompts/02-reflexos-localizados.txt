@@ -1,0 +1,11 @@
+TAREFA
+Editar somente a area transparente da mascara fornecida. Remover apenas reflexos externos identificaveis de ceu, nuvens, predios, arvores, postes, fios, pessoas, sinalizacao e outros veiculos.
+
+RECONSTRUCAO AUTORIZADA
+Substituir esses reflexos por gradientes largos, suaves e fisicamente coerentes com o estudio-mestre. Manter o mesmo volume, curvatura, brilho de verniz e metalizado fino da fotografia original. Preservar a cor-base local e as transicoes de luz que descrevem a forma real da carroceria ou do vidro.
+
+BLOQUEIOS
+Nao alterar geometria, vincos, paineis, folgas, contorno, rodas, pneus, freios, farois, lanternas, grades, sensores, emblemas, letras, frisos, maçanetas, escapamentos, interior visivel ou placa. Nao alisar a superficie. Nao criar pintura fosca, plastica, metal liquido ou CGI. Nao inventar retangulos de softbox. Nao uniformizar todas as superficies.
+
+SAIDA
+Edicao localizada e fotorealista, invisivel como retoque. Fora da mascara, a imagem deve permanecer intacta.

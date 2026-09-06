@@ -1,0 +1,17 @@
+{
+  "version": "STUDIO_H-photo-bay-v06-candidate",
+  "status": "candidate_not_approved",
+  "studio_base": "estudio-mestre/STUDIO_H-photo-bay-v06-base.png",
+  "studio": "estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png",
+  "wall_logo_finish": "matte_physical",
+  "lighting_rig": "GARAGE665-RIG-V6-B",
+  "prompt": "prompts/12-estudio-v6-photo-bay.txt",
+  "rules": {
+    "empty_master": true,
+    "generated_logo": false,
+    "official_logo_composited_after_generation": true,
+    "single_continuous_overhead_diffuser": true,
+    "floor_is_mirror": false,
+    "white_balance_kelvin": 5200
+  }
+}
