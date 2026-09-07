@@ -203,6 +203,13 @@ def main() -> None:
 
     target_lab = source_lab.copy()
     target_lab[:, :, 0] = target_low + target_mid + source_fine * bands["source_fine_retention"]
+    center_key = bands.get("center_key")
+    if center_key and center_key.get("enabled", False):
+        key_cx, key_cy = center_key["center_xy"]
+        key_rx, key_ry = center_key["radius_xy"]
+        key_distance = np.square((xx - key_cx) / key_rx) + np.square((yy - key_cy) / key_ry)
+        key_field = np.exp(-0.5 * key_distance * center_key.get("falloff", 2.0))
+        target_lab[:, :, 0] += key_field * center_key["peak_delta_L"]
     if color.get("mode") == "exact_source_lab_ab":
         # Preserve the measured color-direction channels pixel for pixel. The
         # donor is not allowed to neutralize, recolor or synthesize basecoat.
@@ -333,6 +340,7 @@ def main() -> None:
             "basecoat_direction": "source photograph Lab a/b",
             "fine_texture": "source photograph only",
             "geometry": "source photograph only",
+            "center_key": "deterministic scalar Lab L field" if center_key else "disabled",
         },
         "generated_rgb_used": False,
         "generated_fine_texture_used": False,

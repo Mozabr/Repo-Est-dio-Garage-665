@@ -14,7 +14,7 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Etapa: material da pintura v6f, com foco no capô.
 - Resultado final: ainda não aprovado para publicação.
 - Doador do GPT Image 2: já gerado e arquivado; não repetir a chamada paga.
-- Capô: variantes v08–v23 preservadas. A v23 é a melhor candidata técnica atual, mas aguarda aprovação humana.
+- Capô: variantes v08–v25 preservadas. A v25 é a melhor candidata técnica atual, mas aguarda aprovação humana.
 - Lateral: máscaras M13, M14 e M15 preparadas, mas bloqueadas até a aprovação do capô.
 - Vidros: devem manter transparência real e apenas reduzir reflexos; não escurecer artificialmente.
 - Logo: arte oficial aplicada por composição sobre placa física matte com quatro fixadores; nunca pedir para a IA recriar o logo.
@@ -26,8 +26,8 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
    `trabalhos/panamera/refinamento-dianteira-v6e/preparo/alvo-crop-2048x1024.png`
 2. Candidato local v18:
    `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v18-crop.png`
-3. Candidato local v23:
-   `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v23-quadro-completo.png`
+3. Candidato local v25:
+   `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v25-quadro-completo.png`
 4. Doador bruto já pago:
    `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/doador-especular-bruto-api.png`
 5. Métricas v18 e v20:
@@ -50,16 +50,16 @@ O doador está geometricamente bem alinhado:
 - RGB gerado descartado;
 - textura fina gerada descartada.
 
-A métrica de matiz foi corrigida sem apagar o diagnóstico antigo. O desvio pixel a pixel continua registrado, mas o gate usa agora a direção cromática agregada e ponderada do basecoat, excluindo os highlights neutralizados do verniz. A v23 passa com 1,567° de desvio agregado, microtextura RMS 0,735 e zero alteração fora do capô.
+A métrica de matiz foi corrigida sem apagar o diagnóstico antigo. O desvio pixel a pixel continua registrado, mas o gate usa agora a direção cromática agregada e ponderada do basecoat, excluindo os highlights neutralizados do verniz. A v25 passa com 1,547° de desvio agregado, microtextura RMS 0,734 e zero alteração fora do capô.
 
-Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 manteve a supressão direcional e recuperou textura fotográfica dentro do gate. A lateral continua bloqueada até aprovação visual explícita da v23.
+Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. A lateral continua bloqueada até aprovação visual explícita da v25.
 
 ## Ordem obrigatória de continuação
 
-1. Comparar fonte, v21 e v23 em 100%, principalmente centro do capô, transição junto ao para-brisa, vincos, emblema e encontro com os para-lamas.
-2. Obter aprovação visual humana explícita da v23 ou registrar objetivamente a rejeição.
+1. Comparar fonte, v23 e v25 em 100%, principalmente centro do capô, transição junto ao para-brisa, vincos, emblema e encontro com os para-lamas.
+2. Obter aprovação visual humana explícita da v25 ou registrar objetivamente a rejeição.
 3. Se rejeitada, gerar novas variantes apenas por recomposição local com o doador existente.
-4. Se aprovada, congelar o perfil v23 para a direção material das demais superfícies.
+4. Se aprovada, congelar o perfil v25 para a direção material das demais superfícies.
 5. Reintegrar o capô aprovado no quadro 2048 × 1536, comprovando zero mudança fora da máscara.
 6. Tratar a lateral na ordem M13, M14 e M15, sempre partindo da mesma fonte de autoridade.
 7. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas, vãos e vidros por comparação com a fonte.

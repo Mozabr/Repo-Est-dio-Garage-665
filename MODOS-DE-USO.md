@@ -67,10 +67,10 @@ Nunca grave a chave em arquivos do projeto. Antes de executar, confira o script:
 
 ## Modo 6 — recomposição com um doador existente
 
-Este é o modo atual do capô v6f. Ele não faz nova chamada à API. A candidata v23 pode ser reproduzida com:
+Este é o modo atual do capô v6f. Ele não faz nova chamada à API. A candidata v25, com key frontal suave no centro do capô, pode ser reproduzida com:
 
 ```bash
-./scripts/executar_recomposicao_capo_v6f_v23.sh
+./scripts/executar_recomposicao_capo_v6f_v25.sh
 ```
 
 O script usa o doador já pago, transfere somente luminância alinhada, preserva geometria/cor/textura da fonte, executa os gates e só cria o quadro completo quando a validação técnica passa. A passagem técnica não substitui a aprovação visual humana.
