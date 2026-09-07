@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT="${0:A:h:h}"
 cd "$ROOT"
-OUT="trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v06"
+OUT="trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11"
 PYTHON="$ROOT/.venv-mask/bin/python"
 mkdir -p "$OUT"
 

@@ -146,8 +146,7 @@
         "opacity": 0.78,
         "interior_transition_px": 12.0,
         "key_fields": [
-          {"center_xy": [735, 400], "radius_xy": [700, 125], "falloff": 1.45, "delta_L": 35.0},
-          {"center_xy": [750, 365], "radius_xy": [650, 62], "falloff": 1.75, "delta_L": 12.0}
+          {"center_xy": [735, 390], "radius_xy": [690, 105], "falloff": 1.55, "delta_L": 12.0}
         ]
       },
       "fields": [

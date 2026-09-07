@@ -1,15 +1,15 @@
 # Estado de retomada — Garage 665
 Atualizado em 06/09/2026. Piloto técnico, NÃO aprovado para publicação.
 
-## Etapa atual — capô v25 aprovado; lateral v06 aguardando aprovação
+## Etapa atual — capô v25 aprovado; lateral v11 aguardando aprovação
 
 O usuário aprovou visualmente o capô v25. A lateral foi retomada em uma máscara contínua M13+M14+M15. As tentativas v01–v04 foram rejeitadas por aparência uniforme, escurecimento e leitura do contorno. Um novo doador fotométrico foi gerado e arquivado apenas como diagnóstico; sua geometria, RGB e textura são proibidos no resultado.
 
-A candidata v06 usa seleção fotográfica da reflexão quente/externa na metade inferior da lateral, suaviza sua estrutura de baixa frequência e neutraliza a contaminação amarela. Todo o restante permanece copiado da base v25. Resultado: 34.802 pixels alterados dentro da seleção, zero fora, amplitude Lab L 62, zero clipping quase branco, microtextura RMS 1,978, nenhuma transformação geométrica e nenhum RGB ou textura gerados utilizados. Arquivo: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v06/candidato-quadro-completo.png`. Estado: candidata técnica, não aprovada para publicação.
+A v06 estabeleceu a neutralização seletiva da reflexão quente/externa na metade inferior da lateral. Como a inspeção indicou aparência ainda fosca, as v07–v11 acrescentaram um passe determinístico de clear-coat somente em Lab L, retendo a microtextura fotográfica e modulando duas keys elípticas largas no ombro da carroceria. A candidata v11 altera 93.473 pixels dentro da superfície contínua e zero fora, apresenta amplitude Lab L 75, zero clipping quase branco, microtextura RMS 2,054, nenhuma transformação geométrica, nenhum elemento protegido alterado e nenhum RGB ou textura gerados. Arquivo: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-quadro-completo.png`. Estado: candidata técnica, não aprovada para publicação.
 
 ### Atualização de retomada — candidata v25
 
-O doador novo já foi gerado e não deve ser cobrado novamente. A calibração local avançou até v25. A métrica de cor separa o diagnóstico pixel a pixel do gate robusto de direção cromática agregada do basecoat. A v25 acrescenta somente uma key frontal suave no centro do capô, com pico de 14 Lab L, e passou tecnicamente: desvio agregado de matiz 1,547°, microtextura RMS 0,734, amplitude luminosa 110, 86,60% de inliers, erro P95 1,707 px, deslocamento máximo 0,281 px e zero mudança fora do capô. Não há clipping quase branco. A tentativa de pico 16 foi barrada por amplitude 111. A v25 aguarda aprovação visual humana; M13 permanece bloqueada até essa decisão.
+O doador novo já foi gerado e não deve ser cobrado novamente. A calibração local avançou até v25. A métrica de cor separa o diagnóstico pixel a pixel do gate robusto de direção cromática agregada do basecoat. A v25 acrescenta somente uma key frontal suave no centro do capô, com pico de 14 Lab L, e passou tecnicamente: desvio agregado de matiz 1,547°, microtextura RMS 0,734, amplitude luminosa 110, 86,60% de inliers, erro P95 1,707 px, deslocamento máximo 0,281 px e zero mudança fora do capô. Não há clipping quase branco. A tentativa de pico 16 foi barrada por amplitude 111. A v25 foi aprovada visualmente pelo usuário e permanece congelada como base da lateral.
 
 O v6f separa geometria, cromia, microtextura e iluminação. A IA fornece somente
 luminância alinhada; o RGB e a textura gerados são descartados. Lab a/b agora é
