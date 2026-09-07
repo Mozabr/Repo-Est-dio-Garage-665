@@ -1,0 +1,10 @@
+{
+  "status": "full_frame_candidate_visual_approval_required",
+  "surface": "M13M14M15-lateral-continua",
+  "base": "trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v25-quadro-completo.png",
+  "changed_pixels_outside_surface": 0,
+  "changed_pixels_inside_surface": 96998,
+  "geometry_transform_used_on_full_frame": false,
+  "protected_elements_changed": 0,
+  "note": "Every pixel outside the reviewed lateral surface is copied from the approved v25 capot frame."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "profile_id": "GARAGE665-LATERAL-STUDIO-H-V6F",
+  "surface": "M13M14M15-lateral-continua",
+  "source_sha256": "387cc0e23867f7c46418a75be3b7657c02c3e27ded0e8c1d2397bca7e2b5c49f",
+  "mask_sha256": "cb5d8cff1f4fc0bbc021b03f344d66dc2ad87b6ee4b917b1da05e8351ebc663e",
+  "method": "deterministic_scalar_lab_l_studio_rig:source_tone_compress",
+  "hue_reference": "same-car dark-basecoat anchor",
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "changed_pixels_outside_mask": 0,
+  "metrics": {
+    "L_p95_minus_p05": 113.0,
+    "near_white_percent_L240": 0.0,
+    "chroma_ratio_to_source": 0.4905218780040741,
+    "aggregate_hue_delta_degrees": 5.055673349128208,
+    "fine_frequency_rms": 1.860254168510437
+  },
+  "checks": {
+    "L_p95_minus_p05": true,
+    "near_white_percent_L240": true,
+    "chroma_ratio_to_source": true,
+    "aggregate_hue_delta_degrees": true,
+    "fine_frequency_rms": true,
+    "changed_pixels_outside_mask": true,
+    "generated_rgb_used": true,
+    "generated_texture_used": true
+  }
+}

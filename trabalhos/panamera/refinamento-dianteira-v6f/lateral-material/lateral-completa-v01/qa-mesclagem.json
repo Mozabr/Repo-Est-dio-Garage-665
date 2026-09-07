@@ -1,0 +1,18 @@
+{
+  "status": "combined_lateral_candidate_visual_approval_required",
+  "base": "trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v25-quadro-completo.png",
+  "surfaces": [
+    {
+      "id": "M14-portas-superiores",
+      "editable_pixels": 117962
+    },
+    {
+      "id": "M15-portas-inferiores",
+      "editable_pixels": 105821
+    }
+  ],
+  "preserved_source_surface": "M13-paralama-proximo",
+  "changed_pixels_outside_lateral_union": 0,
+  "geometry_transform_used": false,
+  "overlap_pixels_normalized": 0
+}

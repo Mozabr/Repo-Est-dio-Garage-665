@@ -1,0 +1,29 @@
+{
+  "status": "technical_targets_failed",
+  "profile_id": "GARAGE665-LATERAL-STUDIO-H-V6F",
+  "surface": "M14M15-portas-continuas",
+  "source_sha256": "387cc0e23867f7c46418a75be3b7657c02c3e27ded0e8c1d2397bca7e2b5c49f",
+  "mask_sha256": "dba7f419d74300e14f3fc85cfb542485b28818e4b9cd642adf6e1fc11ac710ab",
+  "method": "deterministic_scalar_lab_l_studio_rig",
+  "hue_reference": "same-car dark-basecoat anchor",
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "changed_pixels_outside_mask": 0,
+  "metrics": {
+    "L_p95_minus_p05": 104.0,
+    "near_white_percent_L240": 0.0,
+    "chroma_ratio_to_source": 0.803155243396759,
+    "aggregate_hue_delta_degrees": 8.052077338012802,
+    "fine_frequency_rms": 1.6541756391525269
+  },
+  "checks": {
+    "L_p95_minus_p05": true,
+    "near_white_percent_L240": true,
+    "chroma_ratio_to_source": true,
+    "aggregate_hue_delta_degrees": false,
+    "fine_frequency_rms": true,
+    "changed_pixels_outside_mask": true,
+    "generated_rgb_used": true,
+    "generated_texture_used": true
+  }
+}
