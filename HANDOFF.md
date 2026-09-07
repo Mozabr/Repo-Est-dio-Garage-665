@@ -8,15 +8,15 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe candidato v6f aprovado para publicação. A v23 é a melhor candidata técnica atual e aguarda aprovação visual humana. O gate de cor passou a medir a direção cromática agregada e ponderada do basecoat, mantendo o antigo desvio pixel a pixel como diagnóstico. A v23 obteve 1,567° no novo gate, microtextura RMS 0,735 e zero alteração fora do capô. A v22 foi preservada como reprovação por microtextura insuficiente.
+Ainda não existe candidato v6f aprovado para publicação. A v25 é a melhor candidata técnica atual e aguarda aprovação visual humana. Ela acrescenta uma key frontal elíptica apenas em Lab L, concentrada no centro do capô, sem substituir RGB, cromia, geometria ou microtextura da fotografia. Obteve 1,547° no gate agregado de matiz, microtextura RMS 0,734, intervalo luminoso exatamente no limite seguro de 110 e zero alteração fora do capô. A tentativa mais forte de 16 Lab L foi rejeitada pelo gate antes da reintegração; a candidata usa pico de 14 Lab L.
 
 ## Próximo passo exato
 
-1. Abrir lado a lado a fonte, v21 e v23 em 100%:
+1. Abrir lado a lado a fonte, v23 e v25 em 100%:
    - `trabalhos/panamera/refinamento-dianteira-v6e/preparo/alvo-crop-2048x1024.png`
-   - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v21-crop.png`
    - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v23-quadro-completo.png`
-2. Registrar aprovação ou rejeição visual explícita da v23.
+   - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v25-quadro-completo.png`
+2. Registrar aprovação ou rejeição visual explícita da v25.
 3. Não chamar a API outra vez para o capô.
 4. Somente depois da aprovação visual do capô, avançar na ordem M13, M14 e M15 da lateral.
 5. Somente após capô e lateral aprovados, produzir um master 4096 × 3072 e derivar os outros formatos.
