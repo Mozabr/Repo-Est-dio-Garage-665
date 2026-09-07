@@ -8,17 +8,17 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe candidato v6f aprovado. As variantes v08 a v20 são diagnósticos locais. A v20 passa em todos os controles registrados, exceto o controle atual de diferença de matiz por pixel (6,326° contra limite de 3°). Esse indicador precisa ser revisto porque o perfil suaviza a cromia antes de compará-la pixel a pixel. Não enfraquecer o controle sem validar visualmente v18 e v20 em tamanho integral.
+Ainda não existe candidato v6f aprovado para publicação. A v23 é a melhor candidata técnica atual e aguarda aprovação visual humana. O gate de cor passou a medir a direção cromática agregada e ponderada do basecoat, mantendo o antigo desvio pixel a pixel como diagnóstico. A v23 obteve 1,567° no novo gate, microtextura RMS 0,735 e zero alteração fora do capô. A v22 foi preservada como reprovação por microtextura insuficiente.
 
 ## Próximo passo exato
 
-1. Abrir lado a lado a fonte, v18 e v20 em 100%:
+1. Abrir lado a lado a fonte, v21 e v23 em 100%:
    - `trabalhos/panamera/refinamento-dianteira-v6e/preparo/alvo-crop-2048x1024.png`
-   - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v18-crop.png`
-   - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v20-crop.png`
-2. Corrigir a métrica de matiz para comparar a direção cromática agregada/robusta do basecoat, sem penalizar deslocamentos espaciais criados pelo filtro de cromia.
-3. Rodar novamente apenas a recomposição local com o doador bruto existente. Não chamar a API outra vez.
-4. Depois de aprovação técnica e visual do capô, reintegrar ao quadro completo e avançar na ordem M13, M14 e M15 da lateral.
+   - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v21-crop.png`
+   - `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v23-quadro-completo.png`
+2. Registrar aprovação ou rejeição visual explícita da v23.
+3. Não chamar a API outra vez para o capô.
+4. Somente depois da aprovação visual do capô, avançar na ordem M13, M14 e M15 da lateral.
 5. Somente após capô e lateral aprovados, produzir um master 4096 × 3072 e derivar os outros formatos.
 
 ## Não repetir a chamada paga
@@ -86,4 +86,3 @@ bash scripts/executar_studio_v2.sh
 ```
 
 Ele serve para validar ambiente e composição, não para substituir a aprovação do v6f. Antes de qualquer nova chamada paga, leia o relatório `qa-api.json` e confirme se o doador necessário já está arquivado.
-

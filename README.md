@@ -1,6 +1,6 @@
 # Projeto de Tratativa de Imagens — Garage 665
 
-> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md) e depois leia [HANDOFF.md](HANDOFF.md). Há também um [prompt pronto para retomar](PROMPT-PARA-RETOMAR.md). Esses arquivos registram o ponto exato do v6f, o doador pago que não deve ser regenerado, as pendências e a instalação reproduzível.
+> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md) e depois leia [HANDOFF.md](HANDOFF.md). Consulte [MODOS-DE-USO.md](MODOS-DE-USO.md) para operar neste Mac, em outro computador ou em outro chat. Há também um [prompt pronto para retomar](PROMPT-PARA-RETOMAR.md). Esses arquivos registram o ponto exato do v6f, o doador pago que não deve ser regenerado, as pendências e a instalação reproduzível.
 
 ## Fluxo ativo — estúdio v2 (06/09/2026)
 

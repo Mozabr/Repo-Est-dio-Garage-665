@@ -3,6 +3,10 @@ Atualizado em 06/09/2026. Piloto técnico, NÃO aprovado para publicação.
 
 ## Etapa atual — v6f pronto para novo doador de verniz
 
+### Atualização de retomada — candidata v23
+
+O doador novo já foi gerado e não deve ser cobrado novamente. A calibração local avançou até v23. A métrica de cor agora separa o diagnóstico pixel a pixel do gate robusto de direção cromática agregada do basecoat. A v23 passou tecnicamente: desvio agregado de matiz 1,567°, microtextura RMS 0,735, 86,60% de inliers, erro P95 1,707 px, deslocamento máximo 0,281 px e zero mudança fora do capô. A v22 foi reprovada por microtextura 0,567 abaixo do mínimo 0,65. A v23 aguarda aprovação visual humana; M13 permanece bloqueada até essa decisão.
+
 O v6f separa geometria, cromia, microtextura e iluminação. A IA fornece somente
 luminância alinhada; o RGB e a textura gerados são descartados. Lab a/b agora é
 copiado da fonte, e a microtextura vem exclusivamente da fotografia. O pré-voo
