@@ -8,23 +8,24 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente pelo usuário e é a base congelada da etapa atual. A lateral v11 passou tecnicamente e aguarda aprovação visual: conserva a neutralização seletiva da reflexão quente da v06 e recupera o verniz por contraste de luminância e duas keys elípticas suaves. São 93.473 pixels alterados dentro da superfície contínua, zero alteração fora dela, zero transformação geométrica e nenhum RGB ou textura gerados.
+Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente pelo usuário e é a base congelada da etapa atual. A lateral v11 passou nos gates automáticos, mas foi reprovada visualmente pelo usuário porque a pintura continuou fosca. Está autorizada uma nova chamada paga isolada para M13; M14 e M15 continuam bloqueadas até a aprovação humana de M13.
 
 ## Próximo passo exato
 
-1. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-quadro-completo.png`.
-2. Registrar aprovação ou rejeição visual explícita da lateral v11, comparando o brilho do verniz com a fotografia original e a v06.
-3. Não chamar novamente a API para capô nem para o doador lateral já arquivado.
-4. Se a lateral for aprovada, avançar para teto e vidros; manter a transparência dos vidros e reduzir somente reflexos externos.
-5. Somente após carroceria e vidros aprovados, produzir o master 4096 × 3072 e derivar os demais formatos.
+1. Disponibilizar `OPENAI_API_KEY` no mesmo Terminal da execução.
+2. Executar uma única vez `./scripts/executar_teste_m13_api_v6f.sh`.
+3. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/candidato-quadro-completo.png`.
+4. Registrar aprovação ou rejeição visual explícita de M13; não liberar M14 antes disso.
+5. Não chamar novamente a API para o capô nem sobrescrever qualquer doador existente.
+6. Somente após M13, M14, M15, teto e vidros aprovados, produzir o master 4096 × 3072 e derivar os demais formatos.
 
 ## Não repetir a chamada paga
 
-O arquivo abaixo já existe e é o doador pago válido:
+O arquivo abaixo já existe e é o doador pago válido do capô:
 
 `trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/doador-especular-bruto-api.png`
 
-O script `scripts/executar_teste_capo_v6f.sh` bloqueia uma segunda execução quando encontra esse arquivo. Para os ajustes atuais use somente `scripts/transferir_material_v6f.py`, por meio de uma cópia versionada do perfil, preservando os diagnósticos existentes.
+O script `scripts/executar_teste_capo_v6f.sh` bloqueia uma segunda execução quando encontra esse arquivo. O novo script M13 possui uma trava independente: depois de criar `M13-paralama-proximo-api-v02/doador-bruto-api-rejeitado-como-imagem.png`, ele também bloqueia qualquer repetição paga.
 
 ## Regras que não podem mudar
 

@@ -1,0 +1,21 @@
+USE CASE
+Lighting-only edit for a real automotive studio photograph. Produce one registered photometric donor for the masked near-side front fender (M13) of the exact Porsche Panamera in Image 1.
+
+INPUT ROLES
+Image 1 is the absolute authority for the vehicle, camera, perspective, fender geometry, factory dark blue-gray metallic basecoat, metallic flake, clear-coat condition, wheel arch, headlight edge, bumper junction, panel gaps, E-Hybrid badge, photographic texture and every physical detail.
+Image 2 is Studio H. It defines only the direction, scale, softness and neutral color of the studio illumination. Do not copy the room, wall, ceiling, floor, logo or any object from Image 2 into Image 1.
+
+CHANGE ONLY
+Change only the illumination reflected by the already-existing painted pixels inside the supplied M13 mask. Replace identifiable outdoor reflections with a physically plausible reflection from a large professional softbox. This output is a luminance donor; it is not permission to repaint, reconstruct, beautify or redraw the vehicle.
+
+POLISHED FACTORY PAINT TARGET
+The finish must remain glossy factory metallic paint with a clearly visible polished clear coat, matching the gloss character of the original photograph. Create one broad, smooth, bright-but-not-white studio reflection that follows the fender curvature from the hood shoulder toward the upper wheel arch. Keep a darker separation region beside it so the clear coat reads as deep and reflective. Retain natural tonal roll-off, metallic depth and local contrast around the real body contour. Highlights must be soft-edged and photographic, never flat, chalky, matte, satin, wrapped, plastic, airbrushed, uniformly gray or CGI.
+
+IDENTITY LOCK
+Do not alter, move, rotate, resize, sharpen, blur or redesign the wheel, tire, brake caliper, wheel arch, headlight, bumper, hood, mirror, badge, lettering, panel boundary, gap, fastener, trim, glass, camera position or perspective. Do not invent a crease or erase an existing crease. Preserve all unmasked pixels exactly.
+
+FORBIDDEN REFLECTION CONTENT
+No sky, clouds, trees, buildings, windows, cables, poles, people, vehicles, street markings, yellow lines, storefronts or readable environmental shapes. No narrow LED streak, hard white stripe, clipped hotspot, random light bars or literal copy of the studio architecture.
+
+FINAL INVARIANT
+The result must still be unmistakably the same photographed Panamera. Only a low-frequency neutral studio-light reflection on the masked M13 paint may change; all geometry, base color and fine photographic texture remain registered to Image 1.

@@ -1,0 +1,36 @@
+{
+  "schema_version": "6f-lateral-m13-api-1",
+  "status": "ready_for_paid_m13_donor_after_preflight",
+  "view": "dianteira-3-4",
+  "surface": "M13-paralama-proximo",
+  "authority_source": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/alvo-lateral-1536x1024.png",
+  "edit_target": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/alvo-lateral-1536x1024.png",
+  "working": {"width": 1536, "height": 1024, "format": "PNG", "color_profile": "sRGB"},
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "1536x1024",
+    "output_format": "png",
+    "input_fidelity_parameter": "omit",
+    "surfaces_per_call": 1,
+    "candidates_per_surface": 1
+  },
+  "references": {
+    "studio": "estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png",
+    "lighting_rig": "config/rig-iluminacao-studio-v6b.json",
+    "prompt_manifest": "prompts/v6f/manifest.json",
+    "prompt": "prompts/v6f/M13-paralama-doador-especular-v02.txt"
+  },
+  "edit_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M13-paralama-proximo-editar.png",
+  "api_mask": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/M13-paralama-proximo-api-alpha.png",
+  "hard_rules": {
+    "full_vehicle_generation": false,
+    "generated_rgb_opacity_100_percent": false,
+    "pixels_outside_reviewed_mask_may_change": false,
+    "original_high_frequency_reinserted": true,
+    "vehicle_elements_must_be_pixel_copied": true,
+    "approval_required_after_each_surface": true,
+    "donor_rgb_may_be_used": false,
+    "donor_fine_texture_may_be_used": false
+  }
+}

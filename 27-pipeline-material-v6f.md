@@ -1,6 +1,6 @@
 # Pipeline de material v6f — pintura fiel e verniz de estúdio
 
-Status: implementação pronta; capô aguarda um novo doador fotométrico e aprovação visual. Nada desta etapa está aprovado para publicação.
+Status: capô v25 aprovado visualmente e congelado; lateral v11 reprovada por aparência fosca; nova chamada isolada M13 preparada. Nada desta etapa está aprovado para publicação.
 
 ## Objetivo
 
@@ -62,13 +62,15 @@ A aprovação técnica não substitui a aprovação visual. O capô ainda deve a
 
 ### Etapa 2 — lateral
 
-A lateral já foi preparada em um crop comum 1536 × 1024, mas permanece bloqueada até a aprovação do capô. A sequência fixa será:
+A lateral já foi preparada em um crop comum 1536 × 1024. Como o capô v25 foi aprovado, a sequência fixa está liberada, uma superfície por vez:
 
 1. M13 — para-lama próximo;
 2. M14 — portas superiores;
 3. M15 — portas inferiores.
 
 Cada superfície terá uma chamada isolada e será recomposta a partir da mesma autoridade, nunca a partir do resultado gerado anterior. Os overlaps de feather serão normalizados na mesclagem, sem somar duas correções. Rodas, freios, vidros, maçanetas, badge e vãos de painéis permanecem protegidos.
+
+O primeiro comando pago é `./scripts/executar_teste_m13_api_v6f.sh`. Ele usa o snapshot fixo `gpt-image-2-2026-04-21`, qualidade alta e máscara M13, grava uma trava contra cobrança duplicada e transfere somente a baixa frequência de Lab L do doador contido. M14 permanece bloqueada até aprovação visual explícita de M13.
 
 O mesmo perfil aprovado no capô controlará a cor e o verniz da lateral. A forma da luz muda conforme a normal da superfície: faixa longa superior, transição de volume no centro e bounce neutro discreto embaixo. Não se copiará o mesmo desenho do highlight do capô para as portas.
 

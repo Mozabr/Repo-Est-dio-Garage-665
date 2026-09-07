@@ -75,15 +75,25 @@ Este é o modo atual do capô v6f. Ele não faz nova chamada à API. A candidata
 
 O script usa o doador já pago, transfere somente luminância alinhada, preserva geometria/cor/textura da fonte, executa os gates e só cria o quadro completo quando a validação técnica passa. A passagem técnica não substitui a aprovação visual humana.
 
-## Modo 7 — reproduzir a candidata lateral v11
+## Modo 7 — diagnóstico local v11 reprovado
 
-Este comando não chama a API. Ele reconstrói a seleção contínua M13+M14+M15, neutraliza a reflexão externa quente, recupera a resposta do verniz somente em Lab L e reintegra o resultado sobre o quadro v25 aprovado:
+Este comando não chama a API. Ele reproduz apenas o diagnóstico v11, reprovado visualmente por aparência fosca:
 
 ```bash
 ./scripts/executar_lateral_continua_v6f.sh
 ```
 
-Avalie apenas `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-quadro-completo.png`. O doador arquivado com `rejeitado-diagnostico` nunca é entrega e não deve ser aplicado diretamente.
+O resultado v11 nunca é entrega. Para avançar, use o modo pago M13 abaixo.
+
+## Modo 8 — executar uma única chamada paga M13
+
+Com `OPENAI_API_KEY` disponível no mesmo Terminal:
+
+```bash
+./scripts/executar_teste_m13_api_v6f.sh
+```
+
+O comando realiza o pré-voo, cria uma trava assim que o bruto existe, transfere somente Lab L e gera `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/candidato-quadro-completo.png`. Não execute novamente se a pasta já contiver `doador-bruto-api-rejeitado-como-imagem.png`.
 
 ## Fluxo de versionamento
 

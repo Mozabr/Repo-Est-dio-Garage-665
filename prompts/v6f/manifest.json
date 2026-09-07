@@ -10,6 +10,10 @@
     "M13-M15-lateral-doador-especular": {
       "path": "prompts/v6f/M13-M15-lateral-doador-especular.txt",
       "sha256": "d928cb8dc219b71f07a554353925e871e8b50fabe271a0bb2380c4d7694049a1"
+    },
+    "M13-paralama-doador-especular-v02": {
+      "path": "prompts/v6f/M13-paralama-doador-especular-v02.txt",
+      "sha256": "5cd087edbd1d2e2e309b379f23ce242bb6a206e944f2b5371948334f08f4dacf"
     }
   }
 }

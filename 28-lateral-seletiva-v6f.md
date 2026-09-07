@@ -1,43 +1,37 @@
-# Lateral seletiva v6f — candidata v11
+# Lateral seletiva v6f — v11 reprovada; teste pago M13 v02
 
 ## Decisão
 
-A lateral não pode ser substituída integralmente: isso cria aparência de recorte, tinta fosca e halos nas proteções. A v06 preservou a fotografia e tratou somente a reflexão quente do ambiente externo. A candidata v11 mantém essa base e recupera a leitura brilhante do verniz por luminância, sem alterar a identidade cromática ou a geometria.
+A lateral não pode ser substituída integralmente: isso cria aparência de recorte, tinta fosca e halos nas proteções. A v11 preservou a geometria e passou nos gates automáticos, mas foi reprovada visualmente pelo usuário porque a pintura continuou fosca. O próximo teste volta ao fluxo GPT Image 2 previsto no v6f: uma superfície por chamada, começando por M13, e aproveitamento exclusivo da luminância do doador.
 
-## Processo
+## Registro da v11 reprovada
 
-1. Une as três máscaras revisadas em uma superfície contínua.
-2. Detecta dentro dessa superfície apenas pixels claros com componente Lab b quente e posição compatível com a reflexão de rua.
-3. Suaviza a luminância dessa seleção em baixa frequência.
-4. Neutraliza a cromia contaminante usando a âncora de basecoat do próprio carro.
-5. Reinsere exclusivamente a microtextura da fotografia.
-6. Calcula o detalhe luminoso já existente entre duas escalas de desfoque e o reforça somente em Lab L.
-7. Aplica duas keys elípticas largas e com bordas suaves no ombro da carroceria, simulando um softbox grande sem desenhar uma faixa rígida.
-8. Copia todos os pixels externos diretamente do quadro v25 aprovado.
+O arquivo `M13M14M15-lateral-continua-v11/candidato-quadro-completo.png` permanece versionado somente para diagnóstico e comparação. Ele não deve ser publicado nem usado como fonte acumulativa para a nova tentativa.
 
-Um doador fotométrico foi gerado para estudar a forma de luz, mas alterou detalhes e foi rejeitado como imagem. Ele está arquivado como `doador-fotometrico-rejeitado-diagnostico.png`; nenhum RGB, textura ou geometria dele integra a v11.
+## Processo M13 API v02
 
-## Resultado técnico
+1. Usa `alvo-lateral-1536x1024.png` como autoridade e a máscara alfa revisada de M13.
+2. Executa o snapshot `gpt-image-2-2026-04-21`, qualidade alta, com Studio H apenas como referência luminosa.
+3. Gera uma única candidata e cria imediatamente o arquivo bruto que trava nova cobrança.
+4. Reaplica a resposta da API somente dentro da máscara, copiando todos os demais pixels da autoridade.
+5. Descarta o RGB e a textura fina gerados; transfere somente a baixa frequência de Lab L.
+6. Recoloca a direção de cor e a microtextura da fotografia da Garage 665.
+7. Executa gates de amplitude, cromia, matiz, microtextura, clipping e contenção.
+8. Reintegra M13 sobre o quadro v25 aprovado, sem tocar em roda, farol, badge, vãos ou fundo.
 
-- status: `technical_pass_visual_approval_required`;
-- pixels alterados dentro da superfície: 93.473;
-- pixels alterados fora da seleção: 0;
-- amplitude P95–P05 em Lab L: 75;
-- clipping quase branco: 0%;
-- RMS de microtextura: 2,054;
-- transformação geométrica: nenhuma;
-- elementos protegidos alterados: 0;
-- RGB/textura gerados usados: não.
+## Pré-voo
+
+O pré-voo local passou em 17/17 verificações com uma chave simulada apenas para testar o pacote. Nenhuma chamada foi realizada nesse teste e nenhum crédito foi consumido. A execução real exige `OPENAI_API_KEY` disponível no mesmo Terminal.
 
 ## Arquivos
 
-- candidato: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-quadro-completo.png`;
-- crop de inspeção: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-crop.png`;
-- QA: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/qa-material.json`;
-- configuração: `config/rig-material-lateral-v6f.json`;
-- configuração congelada: `config/rig-material-lateral-v6f-v11.json`;
-- execução local: `scripts/executar_lateral_continua_v6f.sh`.
+- pipeline da chamada: `config/pipeline-v6f-lateral-m13.json`;
+- perfil de transferência: `config/rig-material-lateral-v6f-api-m13.json`;
+- prompt: `prompts/v6f/M13-paralama-doador-especular-v02.txt`;
+- pré-voo: `scripts/validar_pacote_lateral_v6f.py`;
+- execução paga única: `scripts/executar_teste_m13_api_v6f.sh`;
+- candidato esperado: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/candidato-quadro-completo.png`.
 
 ## Próximo gate
 
-A v11 não é entrega aprovada. Ela precisa de inspeção humana em 100%, principalmente no brilho do ombro, continuidade entre paralama e portas e preservação dos vãos. Após aprovação explícita, congelar a lateral e iniciar teto/vidros. Se rejeitada, alterar somente os parâmetros de luminância do clear-coat, nunca gerar o carro inteiro.
+Executar uma única chamada M13 e submeter o quadro completo à inspeção humana em 100%. Se M13 for aprovada, congelar a superfície e somente então preparar M14. Se for reprovada, registrar a causa objetiva e nunca repetir silenciosamente a chamada paga.
