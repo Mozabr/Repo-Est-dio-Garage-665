@@ -28,6 +28,14 @@ def rms(values: np.ndarray) -> float:
     return float(np.sqrt(np.mean(np.square(values.astype(np.float32)))))
 
 
+def weighted_circular_mean(angle: np.ndarray, weight: np.ndarray) -> float:
+    """Return a robust mean hue direction in radians."""
+    vector = np.sum(weight * np.exp(1j * angle))
+    if abs(vector) < 1e-6:
+        raise ValueError("Insufficient chromatic direction for aggregate hue metric")
+    return float(np.angle(vector))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=ROOT / "config/perfil-material-v6f.json")
@@ -187,7 +195,10 @@ def main() -> None:
     source_mid *= 1.0 - coherence * bands["directional_edge_suppression"]
     source_mid = np.clip(source_mid, -bands["maximum_source_mid_delta_L"], bands["maximum_source_mid_delta_L"])
     target_mid += source_mid * bands["source_mid_retention"]
-    source_fine *= 1.0 - coherence * bands["directional_edge_suppression"]
+    texture_isotropy = np.clip(
+        1.0 - coherence * bands["directional_edge_suppression"], 0.0, 1.0
+    )
+    source_fine *= texture_isotropy
     source_fine = np.clip(source_fine, -bands["maximum_source_fine_delta_L"], bands["maximum_source_fine_delta_L"])
 
     target_lab = source_lab.copy()
@@ -249,15 +260,31 @@ def main() -> None:
     # errors become large and misleading angle changes.
     hue_valid = core & (source_chroma >= 5.0)
     values = result_L[core]
+    basecoat_valid = (
+        core
+        & (source_chroma >= 5.0)
+        & (result_L < color.get("neutralization_L_start", 256.0))
+    )
+    basecoat_weights = np.clip(source_chroma[basecoat_valid], 5.0, 30.0)
+    source_basecoat_hue = weighted_circular_mean(source_hue[basecoat_valid], basecoat_weights)
+    result_basecoat_hue = weighted_circular_mean(result_hue[basecoat_valid], basecoat_weights)
+    basecoat_hue_delta = float(
+        np.degrees(abs(np.angle(np.exp(1j * (result_basecoat_hue - source_basecoat_hue)))))
+    )
+    source_fine_metric = source_lab[:, :, 0] - cv2.GaussianBlur(
+        source_lab[:, :, 0], (0, 0), bands["fine_sigma"]
+    )
     metrics = {
         "hood_chroma_mean": float(result_chroma[core].mean()),
         "hood_mid_frequency_rms": rms(result_mid[core]),
         "hood_fine_frequency_rms": rms(result_fine[core]),
+        "source_hood_fine_frequency_rms": rms(source_fine_metric[core]),
         "hood_L_p95_minus_p05": float(np.percentile(values, 95) - np.percentile(values, 5)),
         "hood_low_frequency_std": float(np.std(result_low[core])),
         "hood_near_white_percent_L240": float((values >= 240).mean() * 100),
         "hood_chroma_ratio_to_source": float(result_chroma[core].mean() / max(source_chroma[core].mean(), 1e-4)),
         "hood_hue_mean_absolute_delta_degrees": float(np.degrees(np.abs(hue_delta[hue_valid])).mean()),
+        "hood_basecoat_aggregate_hue_delta_degrees": basecoat_hue_delta,
     }
     targets = cfg["acceptance_targets"]
     checks = {
@@ -266,9 +293,15 @@ def main() -> None:
         if isinstance(targets.get(key), list)
     }
     checks["hood_near_white_percent_L240"] = metrics["hood_near_white_percent_L240"] <= targets["hood_near_white_percent_L240_max"]
-    checks["hood_hue_mean_absolute_delta_degrees"] = (
-        metrics["hood_hue_mean_absolute_delta_degrees"] <= targets["hood_hue_mean_absolute_delta_degrees_max"]
-    )
+    if "hood_hue_mean_absolute_delta_degrees_max" in targets:
+        checks["hood_hue_mean_absolute_delta_degrees"] = (
+            metrics["hood_hue_mean_absolute_delta_degrees"] <= targets["hood_hue_mean_absolute_delta_degrees_max"]
+        )
+    if "hood_basecoat_aggregate_hue_delta_degrees_max" in targets:
+        checks["hood_basecoat_aggregate_hue_delta_degrees"] = (
+            metrics["hood_basecoat_aggregate_hue_delta_degrees"]
+            <= targets["hood_basecoat_aggregate_hue_delta_degrees_max"]
+        )
     checks.update({
         "changed_pixels_outside_mask": True,
         "generated_rgb_used": targets["generated_rgb_used"] is False,

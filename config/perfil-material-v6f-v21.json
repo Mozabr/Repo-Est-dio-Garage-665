@@ -1,0 +1,80 @@
+{
+  "schema_version": "6f-v21",
+  "id": "GARAGE665-PAINT-DARK-GRAY-METALLIC-V6F-V21",
+  "status": "candidate_profile_for_visual_validation",
+  "principle": "AI supplies aligned illumination only; source photograph supplies geometry, basecoat direction and bounded non-directional fine texture",
+  "hood": {
+    "source": "trabalhos/panamera/refinamento-dianteira-v6e/preparo/alvo-crop-2048x1024.png",
+    "donor": "trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/doador-especular-bruto-api.png",
+    "mask": "trabalhos/panamera/refinamento-dianteira-v6e/preparo/mascara-editar-2048x1024.png",
+    "full_frame_source": "trabalhos/panamera/refinamento-dianteira-v6c/alvo-estudio-h/dianteira-3-4/alvo-edicao-2048x1536.png",
+    "crop_source_xyxy": [285, 626, 1309, 1138]
+  },
+  "registration": {
+    "minimum_matches": 80,
+    "minimum_inlier_fraction": 0.70,
+    "maximum_transform_displacement_px": 14.0,
+    "maximum_inlier_reprojection_p95_px": 2.5
+  },
+  "frequency_separation": {
+    "transfer_mode": "tone_mapped_donor_luminance_only",
+    "donor_denoise_sigma": 1.6,
+    "specular_inner_sigma": 3.0,
+    "specular_outer_sigma": 18.0,
+    "specular_contrast_gain": 1.0,
+    "source_mid_retention": 0.0,
+    "maximum_source_mid_delta_L": 8.0,
+    "fine_sigma": 1.2,
+    "source_texture_mode": "bilateral_residual",
+    "source_texture_bilateral_diameter": 9,
+    "source_texture_bilateral_sigma_color": 10.0,
+    "source_texture_bilateral_sigma_space": 4.0,
+    "target_low_L_p05": 95.0,
+    "target_low_L_p95": 195.0,
+    "maximum_mid_delta_L": 12.0,
+    "source_fine_retention": 1.8,
+    "maximum_source_fine_delta_L": 2.0,
+    "directional_edge_suppression": 1.0,
+    "structure_tensor_sigma": 8.0
+  },
+  "color_lock": {
+    "mode": "neutral_specular_over_source_basecoat",
+    "shadow_chroma_retention": 0.96,
+    "highlight_chroma_retention": 0.30,
+    "neutralization_L_start": 125.0,
+    "neutralization_L_end": 195.0,
+    "source_chroma_low_sigma": 18.0,
+    "chroma_retention": 1.0,
+    "maximum_ab_shift_from_source": 1.0,
+    "source_fine_chroma_retention": 1.0,
+    "maximum_fine_ab": 3.5
+  },
+  "acceptance_targets": {
+    "hood_chroma_mean": [9.0, 13.5],
+    "hood_chroma_ratio_to_source": [0.70, 1.05],
+    "hood_basecoat_aggregate_hue_delta_degrees_max": 3.0,
+    "hood_mid_frequency_rms": [3.5, 7.0],
+    "hood_low_frequency_std": [22.0, 32.0],
+    "hood_fine_frequency_rms": [0.65, 2.0],
+    "hood_L_p95_minus_p05": [80.0, 110.0],
+    "hood_near_white_percent_L240_max": 0.25,
+    "changed_pixels_outside_mask": 0,
+    "generated_rgb_used": false,
+    "generated_fine_texture_used": false
+  },
+  "emblem_lock": {
+    "mode": "warm_chroma_convex_hull",
+    "crop_center_xy": [762, 556],
+    "preserve_radius_xy": [32, 22],
+    "lab_a_min": 130,
+    "lab_b_min": 145,
+    "dilate_px": 2,
+    "feather_px": 1
+  },
+  "lateral_plan": {
+    "surfaces": ["M13-paralama-proximo", "M14-portas-superiores", "M15-portas-inferiores"],
+    "shared_material_profile": true,
+    "light_source": "camera-left wall bank",
+    "rule": "generate and transfer one scalar illumination donor per surface; preserve panel gaps, handles, e-hybrid badge and source microtexture"
+  }
+}
