@@ -1,0 +1,37 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "profile_id": "GARAGE665-M13-GPT-IMAGE-2-LUMINANCE-V6F",
+  "surface": "M13-paralama-proximo",
+  "source_sha256": "387cc0e23867f7c46418a75be3b7657c02c3e27ded0e8c1d2397bca7e2b5c49f",
+  "mask_sha256": "3a2b654fe9fa8e3158e1a29ae186464dda82a7d50afc5848335cd5e0e3f5d74f",
+  "method": "deterministic_scalar_lab_l_studio_rig:donor_low_tonemap",
+  "hue_reference": "same-surface source aggregate",
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "photometric_donor_sha256": "01faa0a47dd2b522de2d40d11d3afb337ee2771b18efbfeaddea9b2db21451ce",
+  "material_sources": {
+    "illumination": "contained donor Lab L low frequency only",
+    "basecoat_direction": "source photograph Lab a/b",
+    "fine_texture": "source photograph only",
+    "geometry": "source photograph only"
+  },
+  "selection_mode": "full_reviewed_surface",
+  "changed_pixels_outside_mask": 0,
+  "metrics": {
+    "L_p95_minus_p05": 125.0,
+    "near_white_percent_L240": 0.0,
+    "chroma_ratio_to_source": 0.9324048161506653,
+    "aggregate_hue_delta_degrees": 6.846117171157221,
+    "fine_frequency_rms": 2.1334853172302246
+  },
+  "checks": {
+    "L_p95_minus_p05": true,
+    "near_white_percent_L240": true,
+    "chroma_ratio_to_source": true,
+    "aggregate_hue_delta_degrees": true,
+    "fine_frequency_rms": true,
+    "changed_pixels_outside_mask": true,
+    "generated_rgb_used": true,
+    "generated_texture_used": true
+  }
+}

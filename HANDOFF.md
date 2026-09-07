@@ -8,13 +8,13 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente pelo usuário e é a base congelada da etapa atual. A lateral v11 passou nos gates automáticos, mas foi reprovada visualmente pelo usuário porque a pintura continuou fosca. Está autorizada uma nova chamada paga isolada para M13; M14 e M15 continuam bloqueadas até a aprovação humana de M13.
+Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente e é a base congelada. O doador pago M13 já foi gerado e não deve ser cobrado novamente. A composição v02 foi reprovada por excesso de alteração luminosa; a v03 reutiliza o mesmo doador somente como baixa frequência de Lab L e aguarda aprovação humana. M14 e M15 continuam bloqueadas.
 
 ## Próximo passo exato
 
 1. Disponibilizar `OPENAI_API_KEY` no mesmo Terminal da execução.
 2. Executar uma única vez `./scripts/executar_teste_m13_api_v6f.sh`.
-3. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/candidato-quadro-completo.png`.
+3. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v03/candidato-quadro-completo.png`.
 4. Registrar aprovação ou rejeição visual explícita de M13; não liberar M14 antes disso.
 5. Não chamar novamente a API para o capô nem sobrescrever qualquer doador existente.
 6. Somente após M13, M14, M15, teto e vidros aprovados, produzir o master 4096 × 3072 e derivar os demais formatos.

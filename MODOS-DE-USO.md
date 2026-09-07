@@ -93,7 +93,7 @@ Com `OPENAI_API_KEY` disponível no mesmo Terminal:
 ./scripts/executar_teste_m13_api_v6f.sh
 ```
 
-O comando realiza o pré-voo, cria uma trava assim que o bruto existe, transfere somente Lab L e gera `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/candidato-quadro-completo.png`. Não execute novamente se a pasta já contiver `doador-bruto-api-rejeitado-como-imagem.png`.
+Esse comando já foi executado: não o execute novamente. O bruto em `M13-paralama-proximo-api-v02/doador-bruto-api-rejeitado-como-imagem.png` é a trava de cobrança. A candidata atual, recalibrada localmente sem nova chamada, está em `M13-paralama-proximo-api-v03/candidato-quadro-completo.png`.
 
 ## Fluxo de versionamento
 

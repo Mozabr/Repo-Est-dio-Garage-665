@@ -1,4 +1,4 @@
-# Lateral seletiva v6f — v11 reprovada; teste pago M13 v02
+# Lateral seletiva v6f — doador M13 gerado; composição v03 em validação
 
 ## Decisão
 
@@ -32,6 +32,6 @@ O pré-voo local passou em 17/17 verificações com uma chave simulada apenas pa
 - execução paga única: `scripts/executar_teste_m13_api_v6f.sh`;
 - candidato esperado: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/candidato-quadro-completo.png`.
 
-## Próximo gate
+## Resultado e próximo gate
 
-Executar uma única chamada M13 e submeter o quadro completo à inspeção humana em 100%. Se M13 for aprovada, congelar a superfície e somente então preparar M14. Se for reprovada, registrar a causa objetiva e nunca repetir silenciosamente a chamada paga.
+O doador pago M13 já foi gerado e está travado contra repetição. A composição v02 foi reprovada visualmente porque a transferência integral produziu mancha clara e contorno perceptível. A v03 reutiliza esse mesmo doador em mistura híbrida moderada com a fotografia e adiciona gates de diferença absoluta: média máxima 18 Lab L e P95 máximo 50. Ela passou com média 15,68, P95 41 e zero alteração externa. O próximo gate é exclusivamente a inspeção humana em 100% de `M13-paralama-proximo-api-v03/candidato-quadro-completo.png`. M14 continua bloqueada.
