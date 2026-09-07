@@ -90,6 +90,7 @@ def main() -> None:
         surface["maximum_source_residual_L"],
     )
     target_mode = surface.get("target_mode", "source_smooth")
+    donor_path = None
     if target_mode in {"donor_low_tonemap", "hybrid_donor_source"}:
         donor_path = ROOT / surface["donor"]
         donor = np.asarray(
@@ -284,6 +285,13 @@ def main() -> None:
         "hue_reference": hue_reference_name,
         "generated_rgb_used": False,
         "generated_texture_used": False,
+        "photometric_donor_sha256": sha(donor_path) if donor_path else None,
+        "material_sources": {
+            "illumination": "contained donor Lab L low frequency only" if donor_path else "source photograph plus deterministic Lab L fields",
+            "basecoat_direction": "source photograph Lab a/b",
+            "fine_texture": "source photograph only",
+            "geometry": "source photograph only"
+        },
         "selection_mode": surface.get("selection_mode", "full_reviewed_surface"),
         "changed_pixels_outside_mask": int((changed & outside).sum()),
         "metrics": metrics,

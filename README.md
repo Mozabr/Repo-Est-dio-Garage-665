@@ -1,6 +1,6 @@
 # Projeto de Tratativa de Imagens — Garage 665
 
-> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md) e depois leia [HANDOFF.md](HANDOFF.md). Consulte [MODOS-DE-USO.md](MODOS-DE-USO.md) para operar neste Mac, em outro computador ou em outro chat. Há também um [prompt pronto para retomar](PROMPT-PARA-RETOMAR.md). O capô v25 está aprovado; a lateral com recuperação seletiva de verniz v11, documentada em [28-lateral-seletiva-v6f.md](28-lateral-seletiva-v6f.md), aguarda aprovação visual.
+> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md) e depois leia [HANDOFF.md](HANDOFF.md). Consulte [MODOS-DE-USO.md](MODOS-DE-USO.md) para operar neste Mac, em outro computador ou em outro chat. Há também um [prompt pronto para retomar](PROMPT-PARA-RETOMAR.md). O capô v25 está aprovado; a lateral v11 foi reprovada por aparência fosca e o próximo passo é a chamada paga isolada de M13, documentada em [28-lateral-seletiva-v6f.md](28-lateral-seletiva-v6f.md).
 
 ## Fluxo ativo — estúdio v2 (06/09/2026)
 

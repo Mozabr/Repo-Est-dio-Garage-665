@@ -11,11 +11,11 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Veículo: Porsche Panamera E-Hybrid cinza metálico.
 - Vista em desenvolvimento: dianteira 3/4.
 - Estúdio ativo: Studio H.
-- Etapa: material da pintura v6f; capô aprovado e lateral em validação.
+- Etapa: material da pintura v6f; capô aprovado e nova tentativa paga M13 preparada.
 - Resultado final: ainda não aprovado para publicação.
-- Doador do GPT Image 2: já gerado e arquivado; não repetir a chamada paga.
+- Doador do capô: já gerado e arquivado; não repetir. Um novo doador M13 está autorizado porque a v11 foi reprovada.
 - Capô: v25 aprovada visualmente pelo usuário e congelada como base do quadro.
-- Lateral: v11 é a candidata técnica atual; recupera a leitura brilhante do verniz sem mudar o RGB-base nem a geometria e aguarda aprovação visual humana.
+- Lateral: v11 foi reprovada visualmente por continuar fosca; M13 API v02 é o próximo teste autorizado.
 - Vidros: devem manter transparência real e apenas reduzir reflexos; não escurecer artificialmente.
 - Logo: arte oficial aplicada por composição sobre placa física matte com quatro fixadores; nunca pedir para a IA recriar o logo.
 - Tampa-placa: aplicação por perspectiva limitada ao quadrilátero medido na fotografia.
@@ -52,17 +52,18 @@ O doador está geometricamente bem alinhado:
 
 A métrica de matiz foi corrigida sem apagar o diagnóstico antigo. O desvio pixel a pixel continua registrado, mas o gate usa agora a direção cromática agregada e ponderada do basecoat, excluindo os highlights neutralizados do verniz. A v25 passa com 1,547° de desvio agregado, microtextura RMS 0,734 e zero alteração fora do capô.
 
-Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. O usuário aprovou o capô v25. Na lateral, v01–v04 foram rejeitadas por uniformização e contorno de máscara. A v06 neutralizou somente a reflexão externa quente da metade inferior. As v07–v11 preservam essa correção e acrescentam um passe determinístico de clear-coat em Lab L; a v11 é a candidata atual, com key superior ampla e suave derivada da luminância fotográfica.
+Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. O usuário aprovou o capô v25. Na lateral, v01–v04 foram rejeitadas por uniformização e contorno de máscara. A v06 neutralizou somente a reflexão externa quente da metade inferior. As v07–v11 tentaram recuperar o clear-coat localmente, mas a v11 foi reprovada por aparência ainda fosca. O fluxo retorna à arquitetura paga por superfície: M13, depois M14 e M15, com aprovação entre chamadas.
 
 ## Ordem obrigatória de continuação
 
-1. Abrir a candidata lateral v11 em 100% e comparar com o quadro v25 aprovado e a lateral v06.
-2. Obter aprovação visual humana explícita da v11 ou registrar objetivamente a rejeição.
-3. Se aprovada, congelar a lateral e avançar para teto/vidros, reduzindo reflexos sem escurecer a transparência.
-4. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
-5. Criar um único master 4096 × 3072.
-6. Derivar Feed, Story horizontal e Webmotors desse mesmo master.
-7. Só marcar como entrega depois de aprovação humana explícita.
+1. Executar uma única vez `./scripts/executar_teste_m13_api_v6f.sh` com `OPENAI_API_KEY` disponível no mesmo Terminal.
+2. Abrir o candidato M13 API v02 em 100% e comparar com o quadro v25 e a fotografia original.
+3. Obter aprovação visual humana explícita de M13 antes de liberar M14.
+4. Depois de M13, M14 e M15 aprovadas, avançar para teto/vidros, reduzindo reflexos sem escurecer a transparência.
+5. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
+6. Criar um único master 4096 × 3072.
+7. Derivar Feed, Story horizontal e Webmotors desse mesmo master.
+8. Só marcar como entrega depois de aprovação humana explícita.
 
 ## O que não fazer
 

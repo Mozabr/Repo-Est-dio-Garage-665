@@ -1,11 +1,11 @@
 # Estado de retomada — Garage 665
 Atualizado em 06/09/2026. Piloto técnico, NÃO aprovado para publicação.
 
-## Etapa atual — capô v25 aprovado; lateral v11 aguardando aprovação
+## Etapa atual — capô v25 aprovado; lateral v11 reprovada; M13 API v02 preparada
 
 O usuário aprovou visualmente o capô v25. A lateral foi retomada em uma máscara contínua M13+M14+M15. As tentativas v01–v04 foram rejeitadas por aparência uniforme, escurecimento e leitura do contorno. Um novo doador fotométrico foi gerado e arquivado apenas como diagnóstico; sua geometria, RGB e textura são proibidos no resultado.
 
-A v06 estabeleceu a neutralização seletiva da reflexão quente/externa na metade inferior da lateral. Como a inspeção indicou aparência ainda fosca, as v07–v11 acrescentaram um passe determinístico de clear-coat somente em Lab L, retendo a microtextura fotográfica e modulando duas keys elípticas largas no ombro da carroceria. A candidata v11 altera 93.473 pixels dentro da superfície contínua e zero fora, apresenta amplitude Lab L 75, zero clipping quase branco, microtextura RMS 2,054, nenhuma transformação geométrica, nenhum elemento protegido alterado e nenhum RGB ou textura gerados. Arquivo: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-quadro-completo.png`. Estado: candidata técnica, não aprovada para publicação.
+A v06 estabeleceu a neutralização seletiva da reflexão quente/externa na metade inferior da lateral. As v07–v11 acrescentaram um passe determinístico de clear-coat somente em Lab L. A v11 passou nos gates automáticos, mas foi reprovada visualmente pelo usuário em 06/09/2026 porque a pintura continuou fosca; ela permanece apenas como diagnóstico, nunca como entrega. O fluxo retorna à arquitetura v6f descrita no repositório: uma chamada isolada por superfície, começando por M13, com o GPT Image 2 fornecendo somente um doador de luminância. O pacote `pipeline-v6f-lateral-m13.json`, o prompt M13 v02, o pré-voo 17/17 e a trava de cobrança foram preparados. A chamada real ainda depende de `OPENAI_API_KEY` no ambiente do mesmo Terminal.
 
 ### Atualização de retomada — candidata v25
 

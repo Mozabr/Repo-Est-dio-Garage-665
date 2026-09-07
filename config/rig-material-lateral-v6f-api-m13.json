@@ -1,0 +1,51 @@
+{
+  "schema_version": "6f-lateral-api-m13-1",
+  "id": "GARAGE665-M13-GPT-IMAGE-2-LUMINANCE-V6F",
+  "source_crop": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/alvo-lateral-1536x1024.png",
+  "full_frame_base": "trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v25-quadro-completo.png",
+  "crop_source_xyxy": [1088, 640, 1856, 1152],
+  "mask_root": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral",
+  "output_root": "trabalhos/panamera/refinamento-dianteira-v6f/lateral-material",
+  "color_lock": {
+    "neutralization_L_start": 125.0,
+    "neutralization_L_end": 198.0,
+    "shadow_chroma_retention": 0.98,
+    "highlight_chroma_retention": 0.42,
+    "source_chroma_low_sigma": 14.0
+  },
+  "texture": {
+    "bilateral_diameter": 9,
+    "bilateral_sigma_color": 10.0,
+    "bilateral_sigma_space": 4.0,
+    "fine_gain": 1.8,
+    "maximum_fine_delta_L": 1.8
+  },
+  "surfaces": {
+    "M13-paralama-proximo": {
+      "mask": "M13-paralama-proximo-editar.png",
+      "donor": "trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v02/doador-contido-diagnostico.png",
+      "chroma_mode": "scaled_source_vector",
+      "target_mode": "donor_low_tonemap",
+      "donor_low_sigma": 26.0,
+      "target_low_L_p05": 28.0,
+      "target_low_L_p95": 154.0,
+      "source_low_sigma": 20.0,
+      "source_residual_retention": 0.45,
+      "maximum_source_residual_L": 7.0,
+      "interior_transition_px": 42.0,
+      "final_opacity": 0.92,
+      "fields": [
+        {"kind": "ellipse", "center_xy": [430, 350], "radius_xy": [380, 235], "falloff": 1.55, "delta_L": 6.0},
+        {"kind": "ellipse", "center_xy": [500, 670], "radius_xy": [205, 245], "falloff": 1.55, "delta_L": -8.0},
+        {"kind": "ellipse", "center_xy": [510, 570], "radius_xy": [400, 135], "falloff": 1.8, "delta_L": -2.0}
+      ],
+      "acceptance": {
+        "L_p95_minus_p05": [45.0, 145.0],
+        "near_white_percent_L240_max": 0.10,
+        "chroma_ratio_to_source": [0.65, 1.08],
+        "aggregate_hue_delta_degrees_max": 10.0,
+        "fine_frequency_rms": [0.55, 2.8]
+      }
+    }
+  }
+}
