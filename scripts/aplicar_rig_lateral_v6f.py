@@ -257,12 +257,15 @@ def main() -> None:
         hue_delta = float(np.degrees(abs(np.angle(np.exp(1j * (result_hue_mean - hue_reference))))))
     fine = result_L - cv2.GaussianBlur(result_L, (0, 0), 1.2)
     values = result_L[core]
+    absolute_delta_L = np.abs(result_L - source_L)
     metrics = {
         "L_p95_minus_p05": float(np.percentile(values, 95) - np.percentile(values, 5)),
         "near_white_percent_L240": float((values >= 240).mean() * 100),
         "chroma_ratio_to_source": float(result_chroma[core].mean() / max(source_chroma[core].mean(), 1e-4)),
         "aggregate_hue_delta_degrees": hue_delta,
         "fine_frequency_rms": rms(fine[core]),
+        "mean_absolute_delta_L": float(absolute_delta_L[core].mean()),
+        "p95_absolute_delta_L": float(np.percentile(absolute_delta_L[core], 95)),
     }
     acceptance = surface["acceptance"]
     checks = {
@@ -271,6 +274,8 @@ def main() -> None:
         "chroma_ratio_to_source": acceptance["chroma_ratio_to_source"][0] <= metrics["chroma_ratio_to_source"] <= acceptance["chroma_ratio_to_source"][1],
         "aggregate_hue_delta_degrees": metrics["aggregate_hue_delta_degrees"] <= acceptance["aggregate_hue_delta_degrees_max"],
         "fine_frequency_rms": acceptance["fine_frequency_rms"][0] <= metrics["fine_frequency_rms"] <= acceptance["fine_frequency_rms"][1],
+        "mean_absolute_delta_L": metrics["mean_absolute_delta_L"] <= acceptance.get("mean_absolute_delta_L_max", float("inf")),
+        "p95_absolute_delta_L": metrics["p95_absolute_delta_L"] <= acceptance.get("p95_absolute_delta_L_max", float("inf")),
         "changed_pixels_outside_mask": int((changed & outside).sum()) == 0,
         "generated_rgb_used": True,
         "generated_texture_used": True,

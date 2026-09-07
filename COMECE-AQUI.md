@@ -11,11 +11,11 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Veículo: Porsche Panamera E-Hybrid cinza metálico.
 - Vista em desenvolvimento: dianteira 3/4.
 - Estúdio ativo: Studio H.
-- Etapa: material da pintura v6f; capô aprovado e nova tentativa paga M13 preparada.
+- Etapa: material da pintura v6f; capô aprovado e M13 v03 aguardando validação visual.
 - Resultado final: ainda não aprovado para publicação.
-- Doador do capô: já gerado e arquivado; não repetir. Um novo doador M13 está autorizado porque a v11 foi reprovada.
+- Doadores do capô e de M13: já gerados e arquivados; não repetir nenhuma chamada paga.
 - Capô: v25 aprovada visualmente pelo usuário e congelada como base do quadro.
-- Lateral: v11 foi reprovada visualmente por continuar fosca; M13 API v02 é o próximo teste autorizado.
+- Lateral: v11 foi reprovada por continuar fosca; a composição M13 v02 foi reprovada por uma mancha clara e a v03 aguarda validação visual.
 - Vidros: devem manter transparência real e apenas reduzir reflexos; não escurecer artificialmente.
 - Logo: arte oficial aplicada por composição sobre placa física matte com quatro fixadores; nunca pedir para a IA recriar o logo.
 - Tampa-placa: aplicação por perspectiva limitada ao quadrilátero medido na fotografia.
@@ -57,7 +57,7 @@ Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígio
 ## Ordem obrigatória de continuação
 
 1. Executar uma única vez `./scripts/executar_teste_m13_api_v6f.sh` com `OPENAI_API_KEY` disponível no mesmo Terminal.
-2. Abrir o candidato M13 API v02 em 100% e comparar com o quadro v25 e a fotografia original.
+2. Abrir `M13-paralama-proximo-api-v03/candidato-quadro-completo.png` em 100% e comparar com o quadro v25 e a fotografia original.
 3. Obter aprovação visual humana explícita de M13 antes de liberar M14.
 4. Depois de M13, M14 e M15 aprovadas, avançar para teto/vidros, reduzindo reflexos sem escurecer a transparência.
 5. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
