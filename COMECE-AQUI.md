@@ -15,7 +15,7 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Resultado final: ainda não aprovado para publicação.
 - Doador do GPT Image 2: já gerado e arquivado; não repetir a chamada paga.
 - Capô: v25 aprovada visualmente pelo usuário e congelada como base do quadro.
-- Lateral: v06 é a melhor candidata técnica; aguarda aprovação visual humana.
+- Lateral: v11 é a candidata técnica atual; recupera a leitura brilhante do verniz sem mudar o RGB-base nem a geometria e aguarda aprovação visual humana.
 - Vidros: devem manter transparência real e apenas reduzir reflexos; não escurecer artificialmente.
 - Logo: arte oficial aplicada por composição sobre placa física matte com quatro fixadores; nunca pedir para a IA recriar o logo.
 - Tampa-placa: aplicação por perspectiva limitada ao quadrilátero medido na fotografia.
@@ -52,12 +52,12 @@ O doador está geometricamente bem alinhado:
 
 A métrica de matiz foi corrigida sem apagar o diagnóstico antigo. O desvio pixel a pixel continua registrado, mas o gate usa agora a direção cromática agregada e ponderada do basecoat, excluindo os highlights neutralizados do verniz. A v25 passa com 1,547° de desvio agregado, microtextura RMS 0,734 e zero alteração fora do capô.
 
-Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. O usuário aprovou o capô v25. Na lateral, v01–v04 foram rejeitadas por uniformização e contorno de máscara. A v06 neutraliza somente a reflexão externa quente da metade inferior e preserva todos os demais pixels.
+Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. O usuário aprovou o capô v25. Na lateral, v01–v04 foram rejeitadas por uniformização e contorno de máscara. A v06 neutralizou somente a reflexão externa quente da metade inferior. As v07–v11 preservam essa correção e acrescentam um passe determinístico de clear-coat em Lab L; a v11 é a candidata atual, com key superior ampla e suave derivada da luminância fotográfica.
 
 ## Ordem obrigatória de continuação
 
-1. Abrir a candidata lateral v06 em 100% e comparar com o quadro v25 aprovado.
-2. Obter aprovação visual humana explícita da v06 ou registrar objetivamente a rejeição.
+1. Abrir a candidata lateral v11 em 100% e comparar com o quadro v25 aprovado e a lateral v06.
+2. Obter aprovação visual humana explícita da v11 ou registrar objetivamente a rejeição.
 3. Se aprovada, congelar a lateral e avançar para teto/vidros, reduzindo reflexos sem escurecer a transparência.
 4. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
 5. Criar um único master 4096 × 3072.

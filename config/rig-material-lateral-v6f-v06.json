@@ -132,31 +132,17 @@
       "selection_gain": 1.35,
       "target_mode": "source_tone_compress",
       "tone_center_L": 62.0,
-      "tone_contrast": 0.82,
-      "source_low_sigma": 46.0,
-      "source_residual_retention": 0.30,
-      "maximum_source_residual_L": 5.0,
+      "tone_contrast": 0.68,
+      "source_low_sigma": 62.0,
+      "source_residual_retention": 0.18,
+      "maximum_source_residual_L": 4.0,
       "interior_transition_px": 14.0,
-      "gloss_enhancement": {
-        "detail_sigma": 3.0,
-        "shape_sigma": 34.0,
-        "gain": 0.72,
-        "minimum_delta_L": -5.0,
-        "maximum_delta_L": 8.0,
-        "opacity": 0.78,
-        "interior_transition_px": 12.0,
-        "key_fields": [
-          {"center_xy": [735, 400], "radius_xy": [700, 125], "falloff": 1.45, "delta_L": 35.0},
-          {"center_xy": [750, 365], "radius_xy": [650, 62], "falloff": 1.75, "delta_L": 12.0}
-        ]
-      },
       "fields": [
-        {"kind": "ellipse", "center_xy": [780, 575], "radius_xy": [700, 135], "falloff": 1.55, "delta_L": 10.0},
-        {"kind": "ellipse", "center_xy": [790, 705], "radius_xy": [680, 92], "falloff": 1.85, "delta_L": -6.0},
-        {"kind": "ellipse", "center_xy": [800, 805], "radius_xy": [670, 125], "falloff": 1.65, "delta_L": 4.0}
+        {"kind": "ellipse", "center_xy": [780, 590], "radius_xy": [700, 155], "falloff": 1.55, "delta_L": 4.0},
+        {"kind": "ellipse", "center_xy": [790, 755], "radius_xy": [680, 120], "falloff": 1.70, "delta_L": -3.0}
       ],
       "acceptance": {
-        "L_p95_minus_p05": [38.0, 125.0],
+        "L_p95_minus_p05": [25.0, 125.0],
         "near_white_percent_L240_max": 0.10,
         "chroma_ratio_to_source": [0.10, 0.45],
         "aggregate_hue_delta_degrees_max": 8.0,

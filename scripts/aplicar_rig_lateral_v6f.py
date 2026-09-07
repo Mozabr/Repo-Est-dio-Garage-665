@@ -48,6 +48,7 @@ def main() -> None:
     mask_path = ROOT / cfg["mask_root"] / surface["mask"]
     source = np.asarray(Image.open(source_path).convert("RGB"), dtype=np.uint8)
     strength = np.asarray(Image.open(mask_path).convert("L"), dtype=np.float32) / 255.0
+    panel_strength = strength.copy()
     source_lab = cv2.cvtColor(source, cv2.COLOR_RGB2LAB).astype(np.float32)
     if surface.get("selection_mode") == "warm_bright_reflection":
         # Select only the warm, bright outdoor reflection on the lower side.
@@ -193,7 +194,37 @@ def main() -> None:
     relit = cv2.cvtColor(np.clip(target_lab, 0, 255).astype(np.uint8), cv2.COLOR_LAB2RGB).astype(np.float32)
     alpha = (strength * surface.get("final_opacity", 1.0))[:, :, None]
     result = np.round(source * (1 - alpha) + relit * alpha).clip(0, 255).astype(np.uint8)
-    outside = strength == 0
+    effective_strength = strength.copy()
+
+    gloss = surface.get("gloss_enhancement")
+    if gloss:
+        # Reinforce only luminous structure already present in the photographic
+        # result. No synthetic stripe or generated texture is introduced.
+        current_lab = cv2.cvtColor(result, cv2.COLOR_RGB2LAB).astype(np.float32)
+        current_L = current_lab[:, :, 0]
+        detail_scale = cv2.GaussianBlur(current_L, (0, 0), gloss["detail_sigma"])
+        shape_scale = cv2.GaussianBlur(current_L, (0, 0), gloss["shape_sigma"])
+        gloss_delta = np.clip(
+            (detail_scale - shape_scale) * gloss["gain"],
+            gloss["minimum_delta_L"],
+            gloss["maximum_delta_L"],
+        )
+        for field in gloss.get("key_fields", []):
+            cx, cy = field["center_xy"]
+            rx, ry = field["radius_xy"]
+            field_distance = np.square((xx - cx) / rx) + np.square((yy - cy) / ry)
+            field_envelope = np.exp(-0.5 * field_distance * field["falloff"])
+            gloss_delta += field_envelope * field["delta_L"]
+        panel_core = (panel_strength >= 0.5).astype(np.uint8)
+        panel_distance = cv2.distanceTransform(panel_core, cv2.DIST_L2, 5)
+        panel_interior = np.clip(panel_distance / gloss["interior_transition_px"], 0.0, 1.0)
+        panel_interior = panel_interior * panel_interior * (3.0 - 2.0 * panel_interior)
+        gloss_alpha = panel_strength * panel_interior * gloss["opacity"]
+        current_lab[:, :, 0] = np.clip(current_L + gloss_delta * gloss_alpha, 0, 255)
+        result = cv2.cvtColor(current_lab.astype(np.uint8), cv2.COLOR_LAB2RGB)
+        effective_strength = np.maximum(effective_strength, gloss_alpha)
+
+    outside = panel_strength == 0
     result[outside] = source[outside]
     changed = np.any(result != source, axis=2)
     if np.any(changed & outside):
@@ -262,7 +293,7 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     profile = ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB")).tobytes()
     Image.fromarray(result).save(args.output, format="PNG", icc_profile=profile)
-    Image.fromarray(np.round(strength * 255).astype(np.uint8)).save(args.effective_mask, format="PNG", icc_profile=profile)
+    Image.fromarray(np.round(effective_strength * 255).astype(np.uint8)).save(args.effective_mask, format="PNG", icc_profile=profile)
     map_rgb = np.clip(target_L, 0, 255).astype(np.uint8)
     Image.fromarray(map_rgb).save(args.light_map, format="PNG", icc_profile=profile)
     args.report.parent.mkdir(parents=True, exist_ok=True)

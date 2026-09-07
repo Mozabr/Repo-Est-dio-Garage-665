@@ -8,12 +8,12 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente pelo usuário e é a base congelada da etapa atual. A lateral v06 passou tecnicamente e aguarda aprovação visual: trata somente a reflexão externa quente, conserva 34.802 pixels internos alterados, zero alteração fora da seleção, zero transformação geométrica e não utiliza RGB nem textura gerados.
+Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente pelo usuário e é a base congelada da etapa atual. A lateral v11 passou tecnicamente e aguarda aprovação visual: conserva a neutralização seletiva da reflexão quente da v06 e recupera o verniz por contraste de luminância e duas keys elípticas suaves. São 93.473 pixels alterados dentro da superfície contínua, zero alteração fora dela, zero transformação geométrica e nenhum RGB ou textura gerados.
 
 ## Próximo passo exato
 
-1. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v06/candidato-quadro-completo.png`.
-2. Registrar aprovação ou rejeição visual explícita da lateral v06.
+1. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v11/candidato-quadro-completo.png`.
+2. Registrar aprovação ou rejeição visual explícita da lateral v11, comparando o brilho do verniz com a fotografia original e a v06.
 3. Não chamar novamente a API para capô nem para o doador lateral já arquivado.
 4. Se a lateral for aprovada, avançar para teto e vidros; manter a transparência dos vidros e reduzir somente reflexos externos.
 5. Somente após carroceria e vidros aprovados, produzir o master 4096 × 3072 e derivar os demais formatos.

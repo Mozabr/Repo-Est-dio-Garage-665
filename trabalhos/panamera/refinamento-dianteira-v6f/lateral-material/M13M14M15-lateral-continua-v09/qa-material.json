@@ -1,0 +1,30 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "profile_id": "GARAGE665-LATERAL-STUDIO-H-V6F",
+  "surface": "M13M14M15-lateral-continua",
+  "source_sha256": "387cc0e23867f7c46418a75be3b7657c02c3e27ded0e8c1d2397bca7e2b5c49f",
+  "mask_sha256": "47f888c09bdae4818c7b8ccabe4f71c027f5fa9f7b30b2fee2be327f268f0a92",
+  "method": "deterministic_scalar_lab_l_studio_rig:source_tone_compress",
+  "hue_reference": "not_applicable:selected_warm_reflection_neutralization",
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "selection_mode": "warm_bright_reflection",
+  "changed_pixels_outside_mask": 0,
+  "metrics": {
+    "L_p95_minus_p05": 71.0,
+    "near_white_percent_L240": 0.0,
+    "chroma_ratio_to_source": 0.15826497972011566,
+    "aggregate_hue_delta_degrees": 0.0,
+    "fine_frequency_rms": 2.0525827407836914
+  },
+  "checks": {
+    "L_p95_minus_p05": true,
+    "near_white_percent_L240": true,
+    "chroma_ratio_to_source": true,
+    "aggregate_hue_delta_degrees": true,
+    "fine_frequency_rms": true,
+    "changed_pixels_outside_mask": true,
+    "generated_rgb_used": true,
+    "generated_texture_used": true
+  }
+}
