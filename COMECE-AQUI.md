@@ -11,11 +11,11 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Veículo: Porsche Panamera E-Hybrid cinza metálico.
 - Vista em desenvolvimento: dianteira 3/4.
 - Estúdio ativo: Studio H.
-- Etapa: material da pintura v6f, com foco no capô.
+- Etapa: material da pintura v6f; capô aprovado e lateral em validação.
 - Resultado final: ainda não aprovado para publicação.
 - Doador do GPT Image 2: já gerado e arquivado; não repetir a chamada paga.
-- Capô: variantes v08–v25 preservadas. A v25 é a melhor candidata técnica atual, mas aguarda aprovação humana.
-- Lateral: máscaras M13, M14 e M15 preparadas, mas bloqueadas até a aprovação do capô.
+- Capô: v25 aprovada visualmente pelo usuário e congelada como base do quadro.
+- Lateral: v06 é a melhor candidata técnica; aguarda aprovação visual humana.
 - Vidros: devem manter transparência real e apenas reduzir reflexos; não escurecer artificialmente.
 - Logo: arte oficial aplicada por composição sobre placa física matte com quatro fixadores; nunca pedir para a IA recriar o logo.
 - Tampa-placa: aplicação por perspectiva limitada ao quadrilátero medido na fotografia.
@@ -52,20 +52,17 @@ O doador está geometricamente bem alinhado:
 
 A métrica de matiz foi corrigida sem apagar o diagnóstico antigo. O desvio pixel a pixel continua registrado, mas o gate usa agora a direção cromática agregada e ponderada do basecoat, excluindo os highlights neutralizados do verniz. A v25 passa com 1,547° de desvio agregado, microtextura RMS 0,734 e zero alteração fora do capô.
 
-Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. A lateral continua bloqueada até aprovação visual explícita da v25.
+Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígios direcionais; v22 reduziu esses vestígios e foi reprovada por microtextura insuficiente; v23 recuperou textura fotográfica; v24 introduziu uma key frontal discreta; v25 concentrou e elevou essa key ao limite técnico seguro, sem clipping nem alteração cromática material. O usuário aprovou o capô v25. Na lateral, v01–v04 foram rejeitadas por uniformização e contorno de máscara. A v06 neutraliza somente a reflexão externa quente da metade inferior e preserva todos os demais pixels.
 
 ## Ordem obrigatória de continuação
 
-1. Comparar fonte, v23 e v25 em 100%, principalmente centro do capô, transição junto ao para-brisa, vincos, emblema e encontro com os para-lamas.
-2. Obter aprovação visual humana explícita da v25 ou registrar objetivamente a rejeição.
-3. Se rejeitada, gerar novas variantes apenas por recomposição local com o doador existente.
-4. Se aprovada, congelar o perfil v25 para a direção material das demais superfícies.
-5. Reintegrar o capô aprovado no quadro 2048 × 1536, comprovando zero mudança fora da máscara.
-6. Tratar a lateral na ordem M13, M14 e M15, sempre partindo da mesma fonte de autoridade.
-7. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas, vãos e vidros por comparação com a fonte.
-8. Criar um único master 4096 × 3072.
-9. Derivar Feed, Story horizontal e Webmotors desse mesmo master.
-10. Só marcar como entrega depois de aprovação humana explícita.
+1. Abrir a candidata lateral v06 em 100% e comparar com o quadro v25 aprovado.
+2. Obter aprovação visual humana explícita da v06 ou registrar objetivamente a rejeição.
+3. Se aprovada, congelar a lateral e avançar para teto/vidros, reduzindo reflexos sem escurecer a transparência.
+4. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
+5. Criar um único master 4096 × 3072.
+6. Derivar Feed, Story horizontal e Webmotors desse mesmo master.
+7. Só marcar como entrega depois de aprovação humana explícita.
 
 ## O que não fazer
 

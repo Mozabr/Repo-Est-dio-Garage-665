@@ -1,0 +1,153 @@
+{
+  "schema_version": "6f-lateral-1",
+  "id": "GARAGE665-LATERAL-STUDIO-H-V6F",
+  "source_crop": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral/alvo-lateral-1536x1024.png",
+  "full_frame_base": "trabalhos/panamera/refinamento-dianteira-v6f/teste-capo-doador/capo-material-v6f-v25-quadro-completo.png",
+  "crop_source_xyxy": [1088, 640, 1856, 1152],
+  "mask_root": "trabalhos/panamera/refinamento-dianteira-v6f/preparo-lateral",
+  "output_root": "trabalhos/panamera/refinamento-dianteira-v6f/lateral-material",
+  "color_lock": {
+    "neutralization_L_start": 125.0,
+    "neutralization_L_end": 198.0,
+    "shadow_chroma_retention": 0.98,
+    "highlight_chroma_retention": 0.42,
+    "source_chroma_low_sigma": 14.0
+  },
+  "texture": {
+    "bilateral_diameter": 9,
+    "bilateral_sigma_color": 10.0,
+    "bilateral_sigma_space": 4.0,
+    "fine_gain": 1.8,
+    "maximum_fine_delta_L": 1.8
+  },
+  "surfaces": {
+    "M13-paralama-proximo": {
+      "mask": "M13-paralama-proximo-editar.png",
+      "chroma_mode": "scaled_source_vector",
+      "source_low_sigma": 18.0,
+      "source_residual_retention": 0.32,
+      "maximum_source_residual_L": 6.0,
+      "interior_transition_px": 42.0,
+      "fields": [
+        {"kind": "ellipse", "center_xy": [430, 350], "radius_xy": [380, 235], "falloff": 1.55, "delta_L": 10.0},
+        {"kind": "ellipse", "center_xy": [500, 670], "radius_xy": [205, 245], "falloff": 1.55, "delta_L": -24.0},
+        {"kind": "ellipse", "center_xy": [510, 570], "radius_xy": [400, 135], "falloff": 1.8, "delta_L": -5.0}
+      ],
+      "acceptance": {
+        "L_p95_minus_p05": [35.0, 130.0],
+        "near_white_percent_L240_max": 0.10,
+        "chroma_ratio_to_source": [0.72, 1.08],
+        "aggregate_hue_delta_degrees_max": 10.0,
+        "fine_frequency_rms": [0.55, 2.5]
+      }
+    },
+    "M14-portas-superiores": {
+      "mask": "M14-portas-superiores-editar.png",
+      "chroma_mode": "fixed_basecoat_direction",
+      "fixed_hue_degrees": -104.0522,
+      "fixed_chroma": 4.0,
+      "target_mode": "source_smooth",
+      "source_low_sigma": 20.0,
+      "source_residual_retention": 0.28,
+      "maximum_source_residual_L": 5.0,
+      "interior_transition_px": 34.0,
+      "fields": [
+        {"kind": "ellipse", "center_xy": [905, 360], "radius_xy": [520, 145], "falloff": 1.55, "delta_L": 20.0},
+        {"kind": "ellipse", "center_xy": [900, 565], "radius_xy": [530, 115], "falloff": 1.8, "delta_L": -7.0}
+      ],
+      "acceptance": {
+        "L_p95_minus_p05": [30.0, 150.0],
+        "near_white_percent_L240_max": 0.10,
+        "chroma_ratio_to_source": [0.70, 1.15],
+        "aggregate_hue_delta_degrees_max": 8.0,
+        "fine_frequency_rms": [0.50, 2.5]
+      }
+    },
+    "M15-portas-inferiores": {
+      "mask": "M15-portas-inferiores-editar.png",
+      "chroma_mode": "fixed_basecoat_direction",
+      "fixed_hue_degrees": -104.0522,
+      "fixed_chroma": 5.5,
+      "target_mode": "absolute_fields",
+      "base_L": 48.0,
+      "source_low_sigma": 22.0,
+      "source_residual_retention": 0.30,
+      "maximum_source_residual_L": 5.0,
+      "interior_transition_px": 38.0,
+      "fields": [
+        {"kind": "ellipse", "center_xy": [910, 735], "radius_xy": [560, 235], "falloff": 1.45, "delta_L": 48.0},
+        {"kind": "ellipse", "center_xy": [900, 545], "radius_xy": [540, 100], "falloff": 1.9, "delta_L": -10.0},
+        {"kind": "ellipse", "center_xy": [925, 875], "radius_xy": [500, 115], "falloff": 1.8, "delta_L": 8.0}
+      ],
+      "acceptance": {
+        "L_p95_minus_p05": [35.0, 125.0],
+        "near_white_percent_L240_max": 0.10,
+        "chroma_ratio_to_source": [0.40, 0.90],
+        "aggregate_hue_delta_degrees_max": 6.0,
+        "fine_frequency_rms": [0.50, 2.5]
+      }
+    },
+    "M14M15-portas-continuas": {
+      "mask": "M14M15-portas-continuas-editar.png",
+      "donor": "trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-v01/doador-integrado-rejeitado-diagnostico.png",
+      "chroma_mode": "fixed_basecoat_direction",
+      "fixed_hue_degrees": -104.0522,
+      "fixed_chroma": 5.0,
+      "target_mode": "donor_low_tonemap",
+      "donor_low_sigma": 32.0,
+      "target_low_L_p05": 28.0,
+      "target_low_L_p95": 112.0,
+      "source_low_sigma": 22.0,
+      "source_residual_retention": 0.34,
+      "maximum_source_residual_L": 6.0,
+      "interior_transition_px": 34.0,
+      "fields": [
+        {"kind": "ellipse", "center_xy": [900, 470], "radius_xy": [525, 88], "falloff": 1.65, "delta_L": 30.0},
+        {"kind": "ellipse", "center_xy": [905, 595], "radius_xy": [555, 100], "falloff": 1.85, "delta_L": -12.0},
+        {"kind": "ellipse", "center_xy": [920, 805], "radius_xy": [540, 150], "falloff": 1.7, "delta_L": 8.0}
+      ],
+      "acceptance": {
+        "L_p95_minus_p05": [35.0, 125.0],
+        "near_white_percent_L240_max": 0.10,
+        "chroma_ratio_to_source": [0.45, 1.00],
+        "aggregate_hue_delta_degrees_max": 8.0,
+        "fine_frequency_rms": [0.50, 2.5]
+      }
+    },
+    "M13M14M15-lateral-continua": {
+      "mask": "M13M14M15-lateral-continua-editar.png",
+      "donor": "trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v02/doador-fotometrico-rejeitado-diagnostico.png",
+      "chroma_mode": "fixed_basecoat_direction",
+      "fixed_hue_degrees": -104.0522,
+      "fixed_chroma": 3.2,
+      "final_opacity": 0.88,
+      "selection_mode": "warm_bright_reflection",
+      "selection_b_start": 4.0,
+      "selection_b_end": 14.0,
+      "selection_L_start": 62.0,
+      "selection_L_end": 125.0,
+      "selection_y_start": 330.0,
+      "selection_y_end": 470.0,
+      "selection_sigma": 16.0,
+      "selection_gain": 1.35,
+      "target_mode": "source_tone_compress",
+      "tone_center_L": 62.0,
+      "tone_contrast": 0.68,
+      "source_low_sigma": 62.0,
+      "source_residual_retention": 0.18,
+      "maximum_source_residual_L": 4.0,
+      "interior_transition_px": 14.0,
+      "fields": [
+        {"kind": "ellipse", "center_xy": [780, 590], "radius_xy": [700, 155], "falloff": 1.55, "delta_L": 4.0},
+        {"kind": "ellipse", "center_xy": [790, 755], "radius_xy": [680, 120], "falloff": 1.70, "delta_L": -3.0}
+      ],
+      "acceptance": {
+        "L_p95_minus_p05": [25.0, 125.0],
+        "near_white_percent_L240_max": 0.10,
+        "chroma_ratio_to_source": [0.10, 0.45],
+        "aggregate_hue_delta_degrees_max": 8.0,
+        "fine_frequency_rms": [0.50, 2.5]
+      }
+    }
+  }
+}

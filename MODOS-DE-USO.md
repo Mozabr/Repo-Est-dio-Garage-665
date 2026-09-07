@@ -75,6 +75,16 @@ Este é o modo atual do capô v6f. Ele não faz nova chamada à API. A candidata
 
 O script usa o doador já pago, transfere somente luminância alinhada, preserva geometria/cor/textura da fonte, executa os gates e só cria o quadro completo quando a validação técnica passa. A passagem técnica não substitui a aprovação visual humana.
 
+## Modo 7 — reproduzir a candidata lateral v06
+
+Este comando não chama a API. Ele reconstrói a seleção contínua M13+M14+M15, identifica somente a reflexão externa quente, neutraliza sua cromia e reintegra o resultado sobre o quadro v25 aprovado:
+
+```bash
+./scripts/executar_lateral_continua_v6f.sh
+```
+
+Avalie apenas `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v06/candidato-quadro-completo.png`. O doador arquivado com `rejeitado-diagnostico` nunca é entrega e não deve ser aplicado diretamente.
+
 ## Fluxo de versionamento
 
 Depois de uma alteração aprovada:

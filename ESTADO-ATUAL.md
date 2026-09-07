@@ -1,7 +1,11 @@
 # Estado de retomada — Garage 665
 Atualizado em 06/09/2026. Piloto técnico, NÃO aprovado para publicação.
 
-## Etapa atual — v6f pronto para novo doador de verniz
+## Etapa atual — capô v25 aprovado; lateral v06 aguardando aprovação
+
+O usuário aprovou visualmente o capô v25. A lateral foi retomada em uma máscara contínua M13+M14+M15. As tentativas v01–v04 foram rejeitadas por aparência uniforme, escurecimento e leitura do contorno. Um novo doador fotométrico foi gerado e arquivado apenas como diagnóstico; sua geometria, RGB e textura são proibidos no resultado.
+
+A candidata v06 usa seleção fotográfica da reflexão quente/externa na metade inferior da lateral, suaviza sua estrutura de baixa frequência e neutraliza a contaminação amarela. Todo o restante permanece copiado da base v25. Resultado: 34.802 pixels alterados dentro da seleção, zero fora, amplitude Lab L 62, zero clipping quase branco, microtextura RMS 1,978, nenhuma transformação geométrica e nenhum RGB ou textura gerados utilizados. Arquivo: `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13M14M15-lateral-continua-v06/candidato-quadro-completo.png`. Estado: candidata técnica, não aprovada para publicação.
 
 ### Atualização de retomada — candidata v25
 
