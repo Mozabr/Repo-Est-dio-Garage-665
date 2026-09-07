@@ -1,6 +1,6 @@
 # Projeto de Tratativa de Imagens — Garage 665
 
-> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md) e depois leia [HANDOFF.md](HANDOFF.md). Consulte [MODOS-DE-USO.md](MODOS-DE-USO.md) para operar neste Mac, em outro computador ou em outro chat. Há também um [prompt pronto para retomar](PROMPT-PARA-RETOMAR.md). O capô v25 está aprovado. O doador pago M13 já foi gerado; a composição v02 foi reprovada e a v03, recalibrada localmente, aguarda validação visual. Não repetir a chamada paga.
+> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md) e a [auditoria de convergência v7](29-auditoria-convergencia-v7.md). O capô v25 está aprovado. A geração bruta M11 v6 é somente a referência visual mais próxima do ideal; a fotografia original continua sendo a autoridade do veículo. Não repetir chamadas pagas já arquivadas.
 
 ## Fluxo ativo — estúdio v2 (06/09/2026)
 

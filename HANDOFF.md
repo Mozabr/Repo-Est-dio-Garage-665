@@ -8,14 +8,14 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado visualmente e é a base congelada. O doador pago M13 já foi gerado e não deve ser cobrado novamente. A composição v02 foi reprovada por excesso de alteração luminosa; a v03 reutiliza o mesmo doador somente como baixa frequência de Lab L e aguarda aprovação humana. M14 e M15 continuam bloqueadas.
+Ainda não existe imagem aprovada para publicação. O capô v25 foi aprovado e está congelado. A auditoria v7 recuperou a geração bruta M11 v6 como a melhor referência visual de integração, nunca como autoridade do veículo. M13 v02 e v03 são diagnósticos; nenhuma nova chamada paga deve ser repetida. A próxima etapa é uma prévia conjunta da lateral com gates independentes.
 
 ## Próximo passo exato
 
 1. Disponibilizar `OPENAI_API_KEY` no mesmo Terminal da execução.
-2. Executar uma única vez `./scripts/executar_teste_m13_api_v6f.sh`.
-3. Abrir em 100% `trabalhos/panamera/refinamento-dianteira-v6f/lateral-material/M13-paralama-proximo-api-v03/candidato-quadro-completo.png`.
-4. Registrar aprovação ou rejeição visual explícita de M13; não liberar M14 antes disso.
+2. Ler `29-auditoria-convergencia-v7.md`.
+3. Comparar a referência visual v6, o capô v25 e a autoridade original usando `trabalhos/panamera/auditoria-convergencia-v7/comparacao-tres-referencias.png`.
+4. Produzir a lateral conjunta v7 sem usar RGB, textura ou geometria da resposta bruta.
 5. Não chamar novamente a API para o capô nem sobrescrever qualquer doador existente.
 6. Somente após M13, M14, M15, teto e vidros aprovados, produzir o master 4096 × 3072 e derivar os demais formatos.
 

@@ -1,11 +1,15 @@
 # Estado de retomada — Garage 665
-Atualizado em 06/09/2026. Piloto técnico, NÃO aprovado para publicação.
+Atualizado em 07/09/2026. Piloto técnico, NÃO aprovado para publicação.
 
-## Etapa atual — capô v25 aprovado; M13 v03 aguarda validação visual
+## Etapa atual — auditoria v7 concluída; referência visual v6 recuperada
 
 O usuário aprovou visualmente o capô v25. A lateral foi retomada em uma máscara contínua M13+M14+M15. As tentativas v01–v04 foram rejeitadas por aparência uniforme, escurecimento e leitura do contorno. Um novo doador fotométrico foi gerado e arquivado apenas como diagnóstico; sua geometria, RGB e textura são proibidos no resultado.
 
-A v06 estabeleceu a neutralização seletiva da reflexão quente/externa na metade inferior da lateral. As v07–v11 acrescentaram um passe determinístico de clear-coat somente em Lab L. A v11 foi reprovada por continuar fosca. A chamada M13 real passou pelo pré-voo 17/17 e gerou o doador pago. A composição v02 passou nos gates antigos, mas foi reprovada visualmente: diferença média de 36,57 Lab L e P95 de 104 criaram uma mancha clara. A v03 reutiliza o mesmo doador sem nova chamada, em mistura híbrida com a fonte; passou com diferença média 15,68, P95 41, desvio de matiz 4,87°, cromia relativa 94,67%, microtextura RMS 2,46 e zero mudança fora da máscara. Aguarda aprovação visual.
+A v06 estabeleceu a neutralização seletiva da reflexão quente/externa na metade inferior da lateral. As v07–v11 acrescentaram um passe determinístico de clear-coat somente em Lab L. A v11 foi reprovada por continuar fosca. A chamada M13 real passou pelo pré-voo 17/17 e gerou o doador pago. A composição v02 foi reprovada por mancha clara. A v03 passou tecnicamente, mas foi retirada da posição de melhor versão em 07/09/2026 porque o resultado conjunto não se aproximou do ideal lembrado pelo usuário. Ela permanece apenas como diagnóstico e não libera M14 isoladamente.
+
+A auditoria histórica identificou `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png` como a referência visual mais próxima do ideal. Ela não é autoridade de identidade, pois é uma resposta bruta que reinterpretou pixels externos. A direção v7 usa três fontes com papéis diferentes: fotografia original para identidade, capô v25 para pintura aprovada e v6 bruta apenas para integração fotométrica. Processo completo em `29-auditoria-convergencia-v7.md`.
+
+A primeira prévia conjunta v7 da lateral foi criada sem nova chamada paga. Ela preserva 89,19% da cromia da fonte, contra aproximadamente 16% na v11, e registra zero mudança fora da máscara. Continua como diagnóstico porque teto, para-brisa e vidros laterais ainda não foram tratados.
 
 ### Atualização de retomada — candidata v25
 
