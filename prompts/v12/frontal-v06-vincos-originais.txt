@@ -1,0 +1,50 @@
+# Frontal V06 — recuperação dos vincos originais do capô
+
+Modo: edição com a ferramenta integrada de imagem, seguida por registro,
+contenção determinística e mistura conservadora dentro da máscara do capô.
+
+## Entradas
+
+1. `frontal-candidata-v05-original-authority.png`: autoridade absoluta do
+   enquadramento, estúdio, posição do carro e de todos os pixels externos ao
+   capô;
+2. `WhatsApp Image 2025-11-24 at 09.57.05 (1).jpg`: autoridade geométrica dos
+   vincos, ombros e volume físico do capô real.
+
+## Prompt usado
+
+> EDIT IMAGE 1 ONLY. Image 1 is the exact approved studio target and must
+> remain pixel-faithful outside the hood. Image 2 is the true original
+> photograph of this exact Porsche Panamera and is the sole geometric reference
+> for the hood. Correct ONLY the painted hood panel of Image 1. Restore the real
+> factory hood geometry visible in Image 2: the shallow paired longitudinal
+> creases/ridges that begin near the upper hood below the windshield, run
+> naturally toward the front, and define a gently raised central volume with
+> curved outer shoulders. These are subtle formed-sheet-metal contours, not
+> painted stripes, not seams, not grooves, and not a different panel. Keep the
+> exact hood perimeter, shut lines, Porsche crest position/size/design, front
+> fascia, headlights, windshield, mirrors, wheels, tires, grille, plate cover,
+> body proportions, camera angle, crop, studio room, wall plaque, floor,
+> shadows, color and metallic graphite paint of Image 1. Do not redesign or
+> simplify any vehicle detail. Lighting: realistic professional automotive
+> studio photography, glossy clearcoat with controlled broad softbox
+> reflections that follow the physical curvature of the hood. Preserve fine
+> metallic flake and natural microcontrast. The hood must look glossy—not matte
+> or wrapped—but not mirror-like. Make the creases readable through gradual
+> light and shadow transitions. ABSOLUTE PROHIBITIONS: no central vertical
+> split, no hard rectangular highlights, no three-panel appearance, no straight
+> painted bands, no synthetic texture, no waxy smoothing, no loss of factory
+> details, no changed emblem, no altered hood outline, no changes outside the
+> hood.
+
+## Contenção e acabamento
+
+O doador foi registrado contra a V05 com 1.807 correspondências, 89,82% de
+inliers e deslocamento máximo de 0,117 px. Após o registro, somente a máscara
+contida do capô foi aceita e todos os pixels externos vieram da V05. Para evitar
+reflexos geométricos fortes, a contribuição do doador foi reduzida a 28% dentro
+da máscara feathered; 72% do material visual da V05 foi preservado.
+
+Saída candidata:
+`trabalhos/panamera/previews-validacao-v12/externas/frontal-candidata-v06-vincos-originais.png`.
+

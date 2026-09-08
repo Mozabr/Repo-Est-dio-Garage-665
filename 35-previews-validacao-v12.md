@@ -113,3 +113,23 @@ de inliers e deslocamento máximo de 0,074 px. A contenção registra zero mudan
 fora do capô. A folha externa foi atualizada para mostrar a V05 no segundo
 quadro. Ela ainda é candidata de validação; somente a aprovação visual libera a
 master paga e as demais vistas.
+
+## Frontal V06 — vincos originais recuperados
+
+A V05 preservava o capô como uma única chapa, mas suavizava demais os dois
+vincos longitudinais existentes na fotografia frontal real. A V06 usa a foto
+original como autoridade exclusiva desse relevo e mantém a V05 como autoridade
+de estúdio e de todos os demais elementos.
+
+- candidata: `externas/frontal-candidata-v06-vincos-originais.png`;
+- comparação: `frontal-v06-vincos/comparacao-original-v05-v06.jpg`;
+- QA de registro: `frontal-v06-vincos/qa-registro-v06.json`;
+- prompt: `prompts/v12/frontal-v06-vincos-originais.txt`.
+
+O registro obteve 1.807 correspondências, 89,82% de inliers e deslocamento
+máximo de 0,117 px. A resposta integral da IA foi descartada. Dentro da máscara
+feathered do capô foi aplicada apenas 28% da contribuição do doador, suficiente
+para recuperar os vincos sem criar divisão central ou reflexos retangulares;
+fora da máscara, a imagem permanece idêntica à V05. A folha externa identificada
+agora exibe a V06 no segundo quadro. Ela é a candidata atual para validação
+visual e substitui a V05.
