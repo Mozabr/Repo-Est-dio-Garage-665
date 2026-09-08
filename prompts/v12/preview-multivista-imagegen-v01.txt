@@ -1,0 +1,37 @@
+# Prompt externo — built-in image generation
+
+Use case: compositing / identity-preserve automotive product photography.
+Asset type: 4:3 approval preview for a luxury car dealership.
+Image 1 is the only authority for the exact Porsche Panamera: preserve its exact
+camera angle, viewpoint, silhouette, wheel orientation, proportions, ride
+height, paint identity, wheels, lime-green brake calipers, lights, glass,
+badges, trim, panel gaps, exhausts, spoiler, plate-cover dimensions and every
+vehicle detail. Do not borrow vehicle pose or perspective from Image 2.
+Image 2 is authority only for the exact Garage 665 Studio G: continuous plain
+off-white ceiling without a visible luminous panel, off-white cyclorama wall,
+light-gray floor, physical matte wall sign with four standoffs, 5200 K neutral
+color, large soft upper/front-left key, right fill two stops lower, grounded
+tire shadow and moderate photographic contrast.
+Place the exact car from Image 1 physically inside the exact studio from Image
+2. Replace literal outdoor reflections with broad softbox reflections while
+keeping the original dark graphite metallic base, fine flake and polished
+clear-coat. Never matte, satin, wrapped, uniform or CGI. Keep the exact source
+viewpoint. No halo, pasted look, changed wheels, lights, badges, plate or glass.
+
+# Prompt interno — built-in image generation
+
+Use case: precise-object-edit / identity-preserve interior automotive
+photography. Image 1 is absolute documentary authority for camera, crop, focal
+length, dashboard, steering wheel, gauges, numbers, warning icons, screens,
+buttons, console, seats, stitching, leather, trim, mirrors and pillars. Image 2
+is authority only for the exterior Studio G and its 5200 K soft light. Make the
+interior look captured while the car is parked in that studio. Through windows,
+show only physically plausible distant off-white studio surfaces with natural
+depth of field. In tight steering-wheel views, do not show the sign, full room,
+corners, ceiling or cyclorama line. Preserve every interior value and detail.
+No street, sky, logo inside the cabin, opaque windows or render-like materials.
+
+# Variação por arquivo
+
+Cada execução recebeu uma última linha que congelou o ângulo específico da
+fotografia original. Não foi usado um único pedido para criar ângulos novos.

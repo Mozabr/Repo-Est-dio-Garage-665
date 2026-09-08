@@ -2,6 +2,17 @@
 Atualizado em 08/09/2026. A dianteira 3/4 `teste 05` está aprovada; as previews
 v10 das demais vistas foram reprovadas como resultado visual.
 
+## Conjunto atual para validação — previews v12
+
+Após a falha geométrica do perfil API v11, foi criado um conjunto novo de
+validação com a ferramenta integrada de imagem: seis externas, três internas e
+a master `teste 05`, todas organizadas em
+`trabalhos/panamera/previews-validacao-v12`. As folhas de decisão são
+`01-folha-externas.jpg` e `02-folha-interiores.jpg`. Perfil e traseiras mostram
+a direção mais consistente; a frontal ainda tem uma divisão tonal artificial no
+capô. Nenhuma candidata v12 é master ou entrega publicável. Ler
+`35-previews-validacao-v12.md` antes de finalizar.
+
 ## Etapa ativa — série v11 com lock integral da master `teste 05`
 
 O usuário reprovou as previews v10 porque elas só compartilhavam o fundo: a
