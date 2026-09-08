@@ -1,9 +1,10 @@
 # Estado de retomada — Garage 665
-Atualizado em 08/09/2026. A dianteira 3/4 `teste 05` está aprovada. A frontal
-V06 recupera os dois vincos longitudinais do capô usando diretamente a
-fotografia frontal original como autoridade geométrica e substitui a V05. A
-interna motorista V02 foi reiluminada com luz difusa de estúdio e foi aprovada
-pelo usuário. A frontal V06 aguarda validação visual.
+Atualizado em 08/09/2026. A dianteira 3/4 `teste 05` está aprovada. O usuário
+selecionou uma frontal final por anexo; ela foi congelada como
+`frontal-aprovada-anexo.png` e substitui V05/V06 como autoridade visual dessa
+vista. A interna motorista V02 permanece aprovada. A etapa ativa é a exportação
+padronizada das sete externas e três internas para envio ao Alexandre, descrita
+em `37-entrega-serie-final-alexandre.md`.
 
 ## Validação imediata — folhas identificadas V02
 
