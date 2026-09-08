@@ -2,7 +2,38 @@
 
 Este documento explica como continuar o projeto sem depender do chat ou da máquina original.
 
-## Série v10 — mesmo estúdio em externas e internas
+## Série v11 — reprodução integral do padrão `teste 05`
+
+As previews v10 não são resultado visual aprovado. O fluxo ativo usa essas
+composições somente como alvo técnico e pede ao GPT Image 2 para reproduzir a
+assinatura luminosa completa da master `teste 05`, mantendo a foto original como
+autoridade do carro.
+
+Primeiro teste, obrigatoriamente isolado:
+
+```bash
+./scripts/executar_externa_serie_v11_api.sh perfil
+```
+
+O script gera uma folha com alvo, master e candidata em:
+
+`trabalhos/panamera/serie-v11/perfil/api-v01/comparacao-master-alvo-candidata.jpg`
+
+Não execute outra vista antes da aprovação. Depois, substitua `perfil` por um
+dos IDs de `config/serie-v11-vistas.json`, sempre um de cada vez. A dianteira
+3/4 `teste 05` não é regenerada.
+
+Somente após aprovar as externas, calibre a foto interna mais crítica, próxima
+ao volante:
+
+```bash
+./scripts/executar_interior_serie_v11_api.sh painel-instrumentos
+```
+
+O comando não aceita lote. A área generativa fica restrita ao exterior visto
+pelos vidros; volante, instrumentos, textos e materiais permanecem travados.
+
+## Histórico — série v10
 
 Prévia local sem cobrança:
 
@@ -57,7 +88,7 @@ Depois, leia nesta ordem:
 1. `COMECE-AQUI.md`;
 2. `HANDOFF.md`;
 3. `ESTADO-ATUAL.md`;
-4. o documento da versão ativa, atualmente `27-pipeline-material-v6f.md`.
+4. o documento da versão ativa, atualmente `34-padrao-mestre-teste-05-v11.md`.
 
 Os pesos dos modelos e ambientes virtuais não estão no GitHub; o instalador os reconstrói nas versões registradas. As imagens, máscaras, relatórios, prompts e doador pago necessários à retomada estão versionados.
 

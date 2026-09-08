@@ -6,9 +6,20 @@ Este arquivo permite continuar o projeto sem acesso ao chat original. Leia tamb�
 
 Criar uma série padronizada de fotografias da Garage 665 com aparência de estúdio profissional, preservando a identidade documental de cada carro. O veículo não pode ser redesenhado, reinterpretado, envelopado ou transformado em um modelo apenas parecido.
 
-## Estado atual — v10 canônico
+## Estado atual — v11 com master `teste 05` travada
 
-- Ler primeiro `33-estudio-canonico-v10.md`.
+- Ler primeiro `34-padrao-mestre-teste-05-v11.md`.
+- As previews v10 foram reprovadas como fotos tratadas; servem somente de alvo
+  técnico já posicionado no Studio G.
+- `teste 05` é autoridade integral de ambiente e iluminação, não apenas fundo.
+- A fotografia original de cada vista é a autoridade de identidade e detalhes.
+- A calibração começa apenas pelo perfil em 1600 × 1200. Não executar em lote.
+- Comando: `./scripts/executar_externa_serie_v11_api.sh perfil`.
+- A dianteira 3/4 aprovada não será regenerada.
+
+## Histórico — v10 canônico
+
+- Ler `33-estudio-canonico-v10.md` apenas como histórico de composição.
 - A master `teste 05`, copiada para `referencias/autoridades`, é a autoridade do
   estúdio. Studio H é histórico e seu painel luminoso visível não deve voltar.
 - A lateral v9 aprovada orienta apenas verniz e luz do carro.

@@ -1,4 +1,9 @@
-# Estúdio canônico v10 — consistência externa e interna
+# Estúdio canônico v10 — histórico de composição (superado pela v11)
+
+> Estado em 08/09/2026: as previews desta versão foram reprovadas como resultado
+> visual porque preservavam a iluminação e os reflexos urbanos do carro. Use-as
+> somente como alvos técnicos de composição. O fluxo ativo está em
+> `34-padrao-mestre-teste-05-v11.md`.
 
 ## Decisão visual congelada
 

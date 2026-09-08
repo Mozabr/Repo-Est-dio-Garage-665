@@ -1,0 +1,34 @@
+CASO: edição fotográfica automotiva de precisão com trava de identidade e master visual fixa.
+
+HIERARQUIA OBRIGATÓRIA DAS IMAGENS
+Image 1 é o alvo técnico. Preserve exatamente câmera, perspectiva, enquadramento, posição, escala, pose, direção das rodas, distância do solo, sombra de contato, piso, parede, teto e placa da parede.
+Image 2 é a master visual absoluta "teste 05". Copie dela a mesma sala, balanço de branco, contraste, exposição, direção e suavidade da luz, densidade das sombras e resposta óptica do verniz.
+Image 3 é a fotografia original e autoridade absoluta para identidade: modelo, carroceria, cor base, rodas, pneus, pinças, emblemas, vidros, frisos, faróis, lanternas, grades, sensores, maçanetas, retrovisores, vãos e assimetrias reais.
+
+TAREFA ÚNICA
+Altere somente a iluminação e os reflexos ambientais sobre o veículo mascarado da Image 1 para que ele pareça ter sido fotografado fisicamente no mesmo instante e no mesmo estúdio da Image 2. Não redesenhe, mova, complete, idealize ou substitua nenhum componente.
+
+ASSINATURA FIXA DO ESTÚDIO DA IMAGE 2
+- Studio G: teto plano off-white contínuo, sem painel luminoso retangular visível.
+- Parede off-white levemente texturizada, cyclorama contínuo e piso cinza claro.
+- Placa física matte Garage 665 com quatro afastadores e sombra curta; não recriar nem alterar.
+- Luz neutra de aproximadamente 5200 K.
+- Key grande e macia, alta e frontal-esquerda, fora do quadro.
+- Fill direito aproximadamente dois stops abaixo, fill frontal três stops abaixo e bounce neutro discreto do piso.
+- Sombras abertas, contato natural dos pneus e contraste fotográfico moderado.
+
+PINTURA E REFLEXOS
+Preserve o mesmo cinza grafite metálico escuro da Image 3. A pintura possui clear-coat polido real, profundidade, flake metálico fino e microtextura fotográfica. Ela não é matte, satin, envelopada, cinza uniforme, cromada nem CGI.
+No capô, teto e laterais, use highlights de softbox largos, suaves e contínuos, com centro luminoso controlado e transições longas como na Image 2. Mantenha áreas escuras suficientes para revelar a curvatura da carroceria.
+Remova leituras literais do ambiente externo original: céu azul, nuvens, árvores, prédios, postes, fios, pessoas, outros carros e faixas amarelas. Não elimine todo reflexo: substitua-os por reflexos abstratos e fisicamente plausíveis do estúdio.
+
+TRAVAS DE IDENTIDADE
+Rodas devem permanecer retas e idênticas à Image 3, com o mesmo desenho, diâmetro e orientação dos raios. Preserve pinças verde-limão, brasões Porsche, badge E-Hybrid, acabamentos inferiores, sensores, faróis/lanternas e todas as linhas de painel.
+Vidros continuam translúcidos e com a mesma tonalidade original, apenas com reflexos externos mais suaves. Não tornar pretos ou opacos.
+Não alterar placa/tampa-placa, logo, texto ou parede. Não adicionar elementos.
+
+INTEGRAÇÃO FOTOGRÁFICA
+O veículo deve compartilhar a mesma exposição, direção de luz, temperatura, grão fino, nitidez e sombra de contato da sala. Evite halo, borda de recorte, contorno luminoso, desfoque seletivo artificial, excesso de redução de ruído e aparência de colagem.
+
+SAÍDA
+Fotografia comercial realista da mesma Panamera da Image 3 dentro do estúdio exato da Image 2. O resultado é apenas candidato para validação; nenhuma diferença de geometria ou detalhes é aceitável.

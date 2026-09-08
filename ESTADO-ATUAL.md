@@ -1,7 +1,23 @@
 # Estado de retomada — Garage 665
-Atualizado em 08/09/2026. A dianteira 3/4 v07 foi aprovada; as demais vistas continuam em preview.
+Atualizado em 08/09/2026. A dianteira 3/4 `teste 05` está aprovada; as previews
+v10 das demais vistas foram reprovadas como resultado visual.
 
-## Etapa ativa — estúdio canônico v10
+## Etapa ativa — série v11 com lock integral da master `teste 05`
+
+O usuário reprovou as previews v10 porque elas só compartilhavam o fundo: a
+Panamera ainda mantinha iluminação e reflexos urbanos. A v11 substitui esse
+fluxo. `teste 05` agora controla sala, teto, parede, piso, placa, temperatura,
+contraste, sombra e resposta do verniz; a fotografia original de cada vista
+continua controlando geometria, cor base e todos os detalhes do carro.
+
+O primeiro e único teste pago autorizado é o perfil em 1600 × 1200:
+`./scripts/executar_externa_serie_v11_api.sh perfil`. A API usa o snapshot
+`gpt-image-2-2026-04-21`, qualidade high, uma máscara conservadora e trava local
+de zero alteração fora do veículo. O resultado é candidato e deve ser conferido
+em `comparacao-master-alvo-candidata.jpg`; não executar outras vistas nem criar
+4K antes da aprovação. Ler `34-padrao-mestre-teste-05-v11.md`.
+
+## Histórico substituído — estúdio canônico v10
 
 A master `teste 05` substitui o Studio H como autoridade da arquitetura: teto
 off-white contínuo, sem painel luminoso retangular visível. O perfil API v9 foi
