@@ -1,0 +1,34 @@
+{
+  "version": "panamera-v8-previews-01",
+  "status": "PREVIEW_ONLY_NOT_APPROVED_AS_MASTER",
+  "workdir": "trabalhos/panamera/previews-serie-v8",
+  "studio_base": "estudio-mestre/STUDIO_H-photo-bay-v06-base.png",
+  "studio_preview": "trabalhos/panamera/previews-serie-v8/studio-h-preview-oficial.png",
+  "external_config_source": "config/piloto-v2.json",
+  "external_alpha_root": "trabalhos/panamera/studio-v2",
+  "excluded_external_views": ["dianteira-3-4"],
+  "stage_size": [2048, 1536],
+  "preview_size": [1600, 1200],
+  "wall_logo_finish": "matte_physical",
+  "interiors": [
+    {
+      "id": "interior-amplo",
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06 (3).jpeg"
+    },
+    {
+      "id": "painel-instrumentos",
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07 (1).jpeg"
+    },
+    {
+      "id": "interior-motorista",
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07 (2).jpeg"
+    }
+  ],
+  "preview_policy": [
+    "Nenhuma previa e uma master aprovada.",
+    "As seis externas validam selecao, enquadramento, escala, contato e tampa-placa no Studio H.",
+    "As externas ainda conservam os reflexos urbanos; o tratamento v07 sera adaptado por angulo somente depois da aprovacao.",
+    "As tres internas preservam integralmente a fotografia; nesta etapa ha apenas conversao sRGB e redimensionamento Lanczos.",
+    "Nao ha geracao por IA nem upscale generativo nesta etapa de previews."
+  ]
+}

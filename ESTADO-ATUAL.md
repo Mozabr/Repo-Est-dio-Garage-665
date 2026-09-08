@@ -1,5 +1,18 @@
 # Estado de retomada — Garage 665
-Atualizado em 07/09/2026. Piloto técnico, NÃO aprovado para publicação.
+Atualizado em 07/09/2026. A dianteira 3/4 v07 foi aprovada; as demais vistas continuam em preview.
+
+## Marco aprovado — master dianteira 3/4 e previews da série
+
+O usuário aprovou visualmente a candidata v07. A master sRGB 4096 × 3072 e seus
+três formatos foram gerados em `entregas/panamera-v8-aprovada/dianteira-3-4` pelo
+comando `./scripts/finalizar_master_panamera_v8.sh`. É uma ampliação Lanczos da
+fonte 2048 × 1536, não detalhe 4K nativo, e nenhuma chamada paga foi repetida.
+
+Também foram geradas prévias das seis externas restantes e das três internas em
+`trabalhos/panamera/previews-serie-v8`. As externas ainda têm reflexos urbanos e
+validam somente composição antes do tratamento por ângulo; as internas estão
+fotograficamente preservadas. Ler `31-master-v8-e-previews-serie.md` antes de
+criar outra master.
 
 ## Etapa atual — harmonização integral v8 sobre o M11 v6
 
