@@ -8,6 +8,9 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 
 ## Estado atual — v11 com master `teste 05` travada
 
+- O conjunto visual mais recente está documentado em
+  `35-previews-validacao-v12.md` e aguarda validação humana.
+
 - Ler primeiro `34-padrao-mestre-teste-05-v11.md`.
 - As previews v10 foram reprovadas como fotos tratadas; servem somente de alvo
   técnico já posicionado no Studio G.

@@ -1,0 +1,21 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "vista": "perfil",
+  "size": [
+    1600,
+    1200
+  ],
+  "changed_pixels_outside_vehicle_mask": 0,
+  "mean_abs_luminance_change_inside_mask": 59.089534759521484,
+  "microtexture_rms_before": 21.442523956298828,
+  "microtexture_rms_after": 21.028989791870117,
+  "microtexture_ratio": 0.980714296261414,
+  "near_white_percent_inside_mask": 0.07893206646129483,
+  "automatic_guarantee": "only containment and dimensions",
+  "human_gate": [
+    "same vehicle geometry and wheel orientation",
+    "same paint identity; glossy metallic, not matte",
+    "same Studio G lighting signature as teste 05",
+    "no outdoor reflections, halo or cutout appearance"
+  ]
+}
