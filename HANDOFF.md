@@ -4,19 +4,28 @@ Atualizado em 07/09/2026. Este documento é o ponto de entrada para continuar o 
 
 ## Situação real
 
-O projeto está em piloto técnico e nenhuma imagem está aprovada para publicação. O foco atual é a vista `dianteira-3-4` da Panamera. O Studio H, a geometria do veículo, as máscaras, o doador bruto já pago e todas as tentativas locais v6f estão preservados no repositório.
+A vista `dianteira-3-4` da Panamera foi aprovada visualmente na harmonização v07
+e exportada em `entregas/panamera-v8-aprovada/dianteira-3-4`. As seis externas
+restantes e as três internas estão em preview e ainda não foram aprovadas como
+masters. O Studio H, a geometria do veículo, as máscaras, os doadores brutos já
+pagos e todas as tentativas locais v6f/v8 estão preservados no repositório.
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe imagem aprovada para publicação. Por decisão explícita do usuário, o M11 v6 passou a ser a autoridade visual e geométrica do quadro v8. A candidata atual é `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`; os doadores integrais já estão arquivados e não devem ser gerados novamente.
+Por decisão explícita do usuário, o M11 v6 passou a ser a autoridade visual e
+geométrica do quadro v8. A candidata
+`trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`
+foi aprovada; os doadores integrais já estão arquivados e não devem ser gerados
+novamente. Processo e saídas em `31-master-v8-e-previews-serie.md`.
 
 ## Próximo passo exato
 
-1. Ler `30-harmonizacao-integral-v8.md`.
-2. Avaliar visualmente a candidata v07 contra o M11 v6 e a comparação v03/v07.
-3. Não repetir a geração integral: o doador já existe.
-4. Se a v03 for aprovada, produzir o master 4096 × 3072 e derivar os demais formatos.
-5. Se houver reprovação localizada, criar uma máscara contínua apenas para a região e preservar todo o restante pixel a pixel.
+1. Ler `30-harmonizacao-integral-v8.md` e `31-master-v8-e-previews-serie.md`.
+2. Não refazer a v07 nem a master dianteira 3/4: ambas já estão concluídas.
+3. Abrir `trabalhos/panamera/previews-serie-v8/01-previews-externas.jpg` e `02-previews-interiores.jpg`.
+4. Obter aprovação humana dos ângulos e seleções antes de criar novas masters.
+5. Adaptar o tratamento v07 separadamente a cada externa aprovada, preservando todo elemento fora da máscara.
+6. Nas internas, manter o interior original e decidir separadamente qualquer tratamento do ambiente visível pelos vidros.
 
 ## Não repetir a chamada paga
 

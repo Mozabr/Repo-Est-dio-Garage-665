@@ -1,0 +1,52 @@
+{
+  "status": "approved_view_exported",
+  "view": "dianteira-3-4",
+  "source": "trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png",
+  "source_sha256": "a381fecdf57ef4cefb87cd3079831c592f362ff9e947b2a914f5acc1d0941e04",
+  "source_size": [
+    2048,
+    1536
+  ],
+  "master_upscaled": true,
+  "native_4k_claim": false,
+  "generative_upscale": false,
+  "resampling": "Lanczos",
+  "outputs": {
+    "master": {
+      "path": "entregas/panamera-v8-aprovada/dianteira-3-4/master-4096x3072.png",
+      "size": [
+        4096,
+        3072
+      ],
+      "icc_profile_present": true,
+      "sha256": "4dbd5921b0f832a690ee72bf7c148393cb993e37c398157826dc044554dc8d7a"
+    },
+    "feed": {
+      "path": "entregas/panamera-v8-aprovada/dianteira-3-4/formatos/feed-4096x3072.jpg",
+      "size": [
+        4096,
+        3072
+      ],
+      "icc_profile_present": true,
+      "sha256": "e5753f01bfab9a30c0245cce1423f89ce28dfd825ac7bd1a0e9930c3e9d1b98f"
+    },
+    "story_horizontal": {
+      "path": "entregas/panamera-v8-aprovada/dianteira-3-4/formatos/story-horizontal-3840x2160.jpg",
+      "size": [
+        3840,
+        2160
+      ],
+      "icc_profile_present": true,
+      "sha256": "af997d6a4f2119b4bcfdd87dd49a8641556fc928064798edc89b9ff1a83a13bd"
+    },
+    "webmotors": {
+      "path": "entregas/panamera-v8-aprovada/dianteira-3-4/formatos/webmotors-1920x1440.jpg",
+      "size": [
+        1920,
+        1440
+      ],
+      "icc_profile_present": true,
+      "sha256": "5ebcf438c78f265ea686f7338ec437298d3bbd82ae103225460f0c1e671bc022"
+    }
+  }
+}

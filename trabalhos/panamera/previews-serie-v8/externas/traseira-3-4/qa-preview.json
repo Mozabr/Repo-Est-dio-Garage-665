@@ -1,0 +1,52 @@
+{
+  "id": "traseira-3-4",
+  "type": "external_preview",
+  "status": "PREVIEW_ONLY_NOT_APPROVED_AS_MASTER",
+  "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06 (2).jpg",
+  "source_sha256": "78600f959cd093cde7d1eb2f7e63f85ec90c91e576e36e91e6bdcff5175ffa59",
+  "alpha": "trabalhos/panamera/studio-v2/traseira-3-4/alpha-final.png",
+  "alpha_sha256": "d0cfe3a4dd5dc2135e2e5b5f5765fde59d33a4eabac1b150d99311df82ec11d2",
+  "preview_size": [
+    1600,
+    1200
+  ],
+  "transform": [
+    [
+      1.3448405265808105,
+      0.0,
+      154.56060791015625
+    ],
+    [
+      0.0,
+      1.3448405265808105,
+      148.64810180664062
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "plate_quad_source": [
+    [
+      302,
+      593
+    ],
+    [
+      448,
+      603
+    ],
+    [
+      445,
+      663
+    ],
+    [
+      298,
+      653
+    ]
+  ],
+  "limitations": [
+    "Reflexos urbanos ainda presentes; o tratamento v07 sera adaptado somente apos aprovacao desta vista.",
+    "Preview para validar selecao, enquadramento, escala, contato e tampa-placa; nao e master."
+  ]
+}

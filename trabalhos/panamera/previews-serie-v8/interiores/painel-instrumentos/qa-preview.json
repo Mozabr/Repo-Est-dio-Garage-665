@@ -1,0 +1,16 @@
+{
+  "id": "painel-instrumentos",
+  "type": "interior_preview",
+  "status": "PREVIEW_ONLY_NOT_APPROVED_AS_MASTER",
+  "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07 (1).jpeg",
+  "source_sha256": "85604a986c3129fb8e810a514bdc3283637718dd5951fc7f99efeb48c7206d27",
+  "source_native_size": [
+    1280,
+    960
+  ],
+  "preview_size": [
+    1600,
+    1200
+  ],
+  "processing": "Conversao sRGB e redimensionamento Lanczos; nenhum elemento ou cor alterado."
+}

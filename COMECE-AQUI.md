@@ -12,7 +12,8 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Vista em desenvolvimento: dianteira 3/4.
 - Estúdio ativo: Studio H.
 - Etapa: harmonização integral v8 sobre o M11 v6.
-- Resultado final: ainda não aprovado para publicação.
+- Resultado da dianteira 3/4: v07 aprovada e master exportada.
+- Demais vistas: seis externas e três internas em preview, aguardando validação humana.
 - Doadores do capô e de M13: já gerados e arquivados; não repetir nenhuma chamada paga.
 - Base atual: `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png`, escolhida explicitamente pelo usuário como autoridade do quadro.
 - Candidata atual: `refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`.
@@ -59,12 +60,12 @@ Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígio
 
 1. Não repetir nenhuma chamada paga já arquivada.
 2. Ler `30-harmonizacao-integral-v8.md`; ele substitui a autoridade tripla da v7.
-3. Abrir e avaliar visualmente a candidata v07; v01/v02 têm emenda, v03 ainda é fosca e v06 excedeu o gate de quase-brancos.
-4. Se a v07 for aprovada, avançar ao master. Se houver reprovação localizada, redesenhar apenas a máscara física contínua daquela área.
-5. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
-6. Criar um único master 4096 × 3072.
-7. Derivar Feed, Story horizontal e Webmotors desse mesmo master.
-8. Só marcar como entrega depois de aprovação humana explícita.
+3. Não refazer a v07: ela foi aprovada e exportada em `entregas/panamera-v8-aprovada/dianteira-3-4`.
+4. Ler `31-master-v8-e-previews-serie.md` e abrir as duas folhas de contato.
+5. Obter aprovação humana das seis externas e três internas antes de novas masters.
+6. Nas externas aprovadas, adaptar o tratamento v07 por ângulo e validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos.
+7. Criar um único master 4096 × 3072 por vista aprovada e derivar os três formatos dele.
+8. Só marcar cada vista como entrega depois de aprovação humana explícita.
 
 ## O que não fazer
 
