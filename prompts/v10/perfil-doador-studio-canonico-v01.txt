@@ -1,0 +1,14 @@
+Use case: precise-object-edit / automotive relighting donor
+
+Image 1 é o alvo e autoridade absoluta de composição: mantenha exatamente a câmera, o perfil lateral, crop, escala, rodas retas, sombra, piso, parede, placa e o TETO CONTÍNUO SEM PAINEL LUMINOSO RETANGULAR VISÍVEL.
+Image 2 é a master visual do estúdio canônico Garage 665 e autoridade para arquitetura, temperatura, contraste e direção da luz.
+Image 3 é referência somente do acabamento aprovado da lateral: verniz polido, profundidade e reflexos largos. Ignore completamente o teto e o fundo da Image 3.
+Image 4 é a fotografia original e autoridade da identidade do veículo, cor base, rodas, pinças, badge, vidros, proporções, vãos e detalhes.
+
+Edite somente a iluminação e os reflexos ambientais sobre o carro mascarado da Image 1. Remova leituras literais de rua, céu, árvores, prédios, postes, pessoas, outros carros e faixas amarelas. Construa reflexos largos e macios coerentes com fontes de luz fora do enquadramento: key ampla acima/frente/esquerda, fill direito dois stops abaixo, bounce neutro discreto, 5200 K.
+
+A tinta deve continuar cinza grafite metálica escura original, com clear-coat polido real, flake fino e microtextura fotográfica; nunca matte, satin, envelopada, cinza uniforme ou CGI. Preserve integralmente teto do carro, rodas e sua orientação, pneus, pinças verde-limão, brasões, badge E-Hybrid, maçanetas, retrovisores, vidros translúcidos, colunas, vãos, faróis/lanternas e acabamento inferior.
+
+Não mova nem redesenhe o carro. Não altere nenhum pixel do estúdio, teto, placa, logo, piso ou sombra. Não adicione painel de luz ao teto. Não crie halo, borda de recorte, highlight duro, cromado espelhado, vidro preto, texto ou marca-d'água.
+
+O resultado deve parecer a mesma Panamera fotografada fisicamente no mesmo estúdio da Image 2. Esta resposta será usada como doadora de luz; geometria, RGB e textura gerados não serão transferidos diretamente ao master.

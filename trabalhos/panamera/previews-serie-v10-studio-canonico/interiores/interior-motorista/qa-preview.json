@@ -1,0 +1,16 @@
+{
+  "id": "interior-motorista",
+  "type": "interior_preview",
+  "status": "PREVIEW_ONLY_NOT_APPROVED_AS_MASTER",
+  "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07 (2).jpeg",
+  "source_sha256": "f90a21ad4576c7c708601b52f8621e8426aeb0523e21a5b42400d699f8d128ca",
+  "source_native_size": [
+    1280,
+    960
+  ],
+  "preview_size": [
+    1600,
+    1200
+  ],
+  "processing": "Conversao sRGB e redimensionamento Lanczos; nenhum elemento ou cor alterado."
+}

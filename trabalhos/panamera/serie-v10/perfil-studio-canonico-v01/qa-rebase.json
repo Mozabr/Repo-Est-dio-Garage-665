@@ -1,0 +1,11 @@
+{
+  "status": "visual_approval_required",
+  "car_source": "trabalhos/panamera/serie-v9/perfil/doador-api-v01/doador-contido-diagnostico.png",
+  "canonical_background": "trabalhos/panamera/previews-serie-v10-studio-canonico/externas/perfil/preview.png",
+  "car_source_sha256": "a5decc3919fa68a46015a0092bc136ea8c7ef2345a080a4d03f20e2ee05e47f7",
+  "background_sha256": "f99b727aefcad7c090fd65b7cb34dcd9391e4789c07cc91f109c9a92b96c1cc1",
+  "changed_pixels_outside_vehicle_alpha": 0,
+  "ceiling_policy": "continuous plain ceiling; no visible rectangular luminous panel",
+  "car_regenerated_in_this_step": false,
+  "logo_regenerated_in_this_step": false
+}

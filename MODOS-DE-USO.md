@@ -2,6 +2,30 @@
 
 Este documento explica como continuar o projeto sem depender do chat ou da máquina original.
 
+## Série v10 — mesmo estúdio em externas e internas
+
+Prévia local sem cobrança:
+
+```bash
+./scripts/gerar_previews_panamera_v10.sh
+```
+
+Novo perfil com teto canônico via GPT Image 2 high:
+
+```bash
+./scripts/executar_perfil_serie_v10_api.sh
+```
+
+Três internas, somente após revisar as máscaras em
+`trabalhos/panamera/serie-v10/interiores-api/preparo`:
+
+```bash
+./scripts/executar_interiores_serie_v10_api.sh
+```
+
+O último comando faz no máximo três chamadas, uma por interior ausente, e pula
+resultados já existentes para impedir cobrança duplicada.
+
 ## Modo 1 — continuar neste Mac
 
 1. Abra a pasta do projeto.

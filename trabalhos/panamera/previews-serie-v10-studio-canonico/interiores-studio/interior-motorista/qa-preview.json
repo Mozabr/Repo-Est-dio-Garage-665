@@ -1,0 +1,10 @@
+{
+  "id": "interior-motorista",
+  "status": "preview_visual_approval_required",
+  "source_sha256": "f90a21ad4576c7c708601b52f8621e8426aeb0523e21a5b42400d699f8d128ca",
+  "studio_sha256": "de26285927e639950128180d0598feb398823628a5e46cc68ca9ede756cf442e",
+  "changed_pixels_outside_mask": 0,
+  "interior_geometry_regenerated": false,
+  "logo_inserted": false,
+  "method": "blurred canonical off-white wall composited only through reviewed glass/exterior mask; 5% neutral low-frequency luminance retained"
+}

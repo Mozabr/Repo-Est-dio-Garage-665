@@ -1,0 +1,16 @@
+{
+  "version": "serie-v10-interiores-api",
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "1600x1200",
+    "output_format": "png"
+  },
+  "policy": {
+    "editable_region": "only exterior visible through reviewed glass mask",
+    "outside_mask_hard_locked": true,
+    "source_interior_is_absolute_authority": true,
+    "canonical_studio": "Studio G / teste 05",
+    "visible_ceiling": "continuous plain ceiling; no luminous rectangle"
+  }
+}

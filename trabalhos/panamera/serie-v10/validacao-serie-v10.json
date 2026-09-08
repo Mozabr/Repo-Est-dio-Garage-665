@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-08",
+  "canonical_studio": "Studio G / teste 05",
+  "ceiling_rule": "continuous off-white ceiling; no visible rectangular luminous panel",
+  "approved_master": "dianteira-3-4 v07",
+  "external_previews": {
+    "composition_and_ceiling": "pass",
+    "source_identity": "pass",
+    "urban_reflections_removed": "fail",
+    "publishable": false,
+    "next_view": "perfil via scripts/executar_perfil_serie_v10_api.sh"
+  },
+  "interiors": {
+    "interior-amplo": {
+      "interior_pixels_outside_mask": "locked",
+      "studio_direction": "pass_candidate",
+      "publishable": false
+    },
+    "painel-instrumentos": {
+      "interior_pixels_outside_mask": "locked",
+      "full_room_or_wall_logo_visible": false,
+      "studio_background": "distant neutral wall with optical defocus",
+      "status": "improved_priority_candidate",
+      "publishable": false
+    },
+    "interior-motorista": {
+      "interior_pixels_outside_mask": "locked",
+      "studio_direction": "partial",
+      "residual_original_scenery": true,
+      "status": "mask_refinement_required",
+      "publishable": false
+    }
+  },
+  "rejected": [
+    "direct AI interiors as masters because controls and geometry were regenerated",
+    "serie-v10 profile rebase v01 because cutout halos were visible",
+    "Studio H ceiling for the multiview series"
+  ]
+}

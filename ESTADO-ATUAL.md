@@ -1,5 +1,19 @@
 # Estado de retomada — Garage 665
-Atualizado em 07/09/2026. A dianteira 3/4 v07 foi aprovada; as demais vistas continuam em preview.
+Atualizado em 08/09/2026. A dianteira 3/4 v07 foi aprovada; as demais vistas continuam em preview.
+
+## Etapa ativa — estúdio canônico v10
+
+A master `teste 05` substitui o Studio H como autoridade da arquitetura: teto
+off-white contínuo, sem painel luminoso retangular visível. O perfil API v9 foi
+aprovado como direção de acabamento lateral, mas seu teto não será propagado.
+As seis externas foram recompostas no Studio G canônico e ainda aguardam
+tratamento local dos reflexos urbanos.
+
+As três internas agora usam uma máscara exclusiva do exterior visto pelos
+vidros. A geração direta que recriou volante/painel foi classificada apenas como
+referência visual. A prévia corrigida do painel mantém a fotografia do volante,
+instrumentos e textos fora da máscara e mostra somente parede neutra desfocada.
+Estado, comandos e gates estão em `33-estudio-canonico-v10.md`.
 
 ## Marco aprovado — master dianteira 3/4 e previews da série
 
