@@ -20,12 +20,13 @@ novamente. Processo e saídas em `31-master-v8-e-previews-serie.md`.
 
 ## Próximo passo exato
 
-1. Ler `30-harmonizacao-integral-v8.md` e `31-master-v8-e-previews-serie.md`.
+1. Ler `30-harmonizacao-integral-v8.md`, `31-master-v8-e-previews-serie.md` e `32-serie-v9-padrao-multivista.md`.
 2. Não refazer a v07 nem a master dianteira 3/4: ambas já estão concluídas.
 3. Abrir `trabalhos/panamera/previews-serie-v8/01-previews-externas.jpg` e `02-previews-interiores.jpg`.
-4. Obter aprovação humana dos ângulos e seleções antes de criar novas masters.
-5. Adaptar o tratamento v07 separadamente a cada externa aprovada, preservando todo elemento fora da máscara.
-6. Nas internas, manter o interior original e decidir separadamente qualquer tratamento do ambiente visível pelos vidros.
+4. Executar/avaliar primeiro o perfil v9; o comando oficial de API é `./scripts/executar_perfil_serie_v9_api.sh` e possui trava de cobrança.
+5. Obter aprovação humana do perfil antes de processar os demais ângulos ou criar novas masters.
+6. Adaptar o tratamento v07 separadamente a cada externa aprovada, preservando todo elemento fora da máscara.
+7. Nas internas, manter o interior original e tratar separadamente o ambiente visível pelos vidros.
 
 ## Não repetir a chamada paga
 

@@ -1,0 +1,48 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "authority_sha256": "533d0f64c05479143e2db8dce915afd389fd45376e81aacdc9ea1269fe25669f",
+  "donor_sha256": "fffa6bba36a8e1178e66cfe6e47a22b072d2f666a1f576e80c96d20be021d7c5",
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "source_geometry_used": true,
+  "source_chroma_used": true,
+  "registration": {
+    "matches": 1240,
+    "inlier_fraction": 0.7169354838709677,
+    "maximum_displacement_px": 25.879837036132812,
+    "homography": [
+      [
+        0.9901540578250968,
+        0.019309108338312328,
+        2.082097964344183
+      ],
+      [
+        -0.001223760008150932,
+        1.012194567742775,
+        1.0422479914412837
+      ],
+      [
+        -4.353706713225146e-06,
+        1.625621586955952e-05,
+        1.0
+      ]
+    ],
+    "passed": true
+  },
+  "metrics": {
+    "changed_pixels_outside_mask": 0,
+    "editable_pixels": 387640,
+    "mean_absolute_delta_L": 3.747647285461426,
+    "p95_absolute_delta_L": 10.0,
+    "new_near_white_percent_L240": 0.03869569703848932,
+    "chroma_ratio": 0.8714683651924133
+  },
+  "checks": {
+    "registration": true,
+    "changed_pixels_outside_mask": true,
+    "mean_absolute_delta_L": true,
+    "p95_absolute_delta_L": true,
+    "new_near_white": true,
+    "chroma_ratio": true
+  }
+}

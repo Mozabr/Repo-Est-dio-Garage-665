@@ -1,0 +1,16 @@
+Use case: lighting-weather
+Asset type: preview de fotografia automotiva premium para uma série de concessionária
+
+Image 1: alvo de edição; fixa enquadramento, Studio H, placa da parede, piso, posição do carro e câmera.
+Image 2: master aprovada; autoridade somente para assinatura luminosa do estúdio e resposta do verniz metálico polido.
+Image 3: fotografia original; autoridade de identidade para a Panamera real, cor, rodas, pneus, pinças, badges, vidros, proporções, vãos e geometria lateral.
+
+Alterar somente iluminação e reflexos ambientais sobre o carro da Image 1 para que esta fotografia de perfil pareça capturada fisicamente no mesmo Studio H da Image 2. Preservar o Studio H e a placa física Garage 665 da Image 1 sem regenerar, mover, redimensionar, clarear ou reescrever o logo.
+
+Luz: uma key ampla e difusa acima/frente/esquerda, fill direito aproximadamente dois stops abaixo, bounce neutro discreto no piso e balanço de branco neutro de 5200 K. Reflexos largos, suaves e fisicamente coerentes com o teto difusor visível. Remover reflexos literais de rua, árvores, prédios, céu, fiação, pessoas e faixas amarelas da pintura e dos vidros.
+
+Material: tinta original cinza grafite metálica escura, com profundidade real de verniz polido, faixa longa controlada no ombro e teto, separação escura suave nas portas e bounce inferior neutro. Preservar flake metálico e microtextura fotográfica. Vidros naturalmente translúcidos, nunca pretos.
+
+Manter exatamente o mesmo perfil, crop, escala, baseline e sombra de contato da Image 1. Rodas perfeitamente retas como fotografadas. Preservar contornos, desenho e orientação das rodas, pneus, pinças verde-limão, brasões Porsche, badge E-Hybrid, maçanetas, retrovisores, vidros, colunas, vãos, lanternas e acabamentos. Não alterar áreas de placa.
+
+Evitar: pintura matte, satin ou envelopada; preenchimento cinza uniforme; plástico/CGI; cromado espelhado; barras duras de luz; highlights duplicados; reflexos urbanos; vidro artificialmente escuro; raios de roda alterados; rodas esterçadas; altura alterada; halo de recorte; render sintético; alteração de texto; marca-d'água.

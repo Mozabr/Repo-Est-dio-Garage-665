@@ -1,0 +1,16 @@
+{
+  "version": "serie-v9-perfil-api",
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "1600x1200",
+    "output_format": "png"
+  },
+  "policy": {
+    "purpose": "lighting donor only",
+    "generated_rgb_used_in_candidate": false,
+    "generated_texture_used_in_candidate": false,
+    "source_geometry_locked": true,
+    "source_chroma_is_authority": true
+  }
+}

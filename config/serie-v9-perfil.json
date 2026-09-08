@@ -1,0 +1,55 @@
+{
+  "schema_version": "9.0",
+  "id": "GARAGE665-SERIE-V9-PERFIL-LIGHT-DONOR",
+  "authority": "trabalhos/panamera/previews-serie-v8/externas/perfil/preview.png",
+  "vehicle_alpha": "trabalhos/panamera/previews-serie-v8/externas/perfil/alpha-veiculo-preview.png",
+  "lighting_donor": "trabalhos/panamera/serie-v9/perfil/doador-visual-v01/geracao-bruta-candidata.png",
+  "workdir": "trabalhos/panamera/serie-v9/perfil/candidato-v01",
+  "registration": {
+    "minimum_matches": 500,
+    "minimum_inlier_fraction": 0.62,
+    "maximum_displacement_px": 30.0
+  },
+  "paint_mask": {
+    "erode_px": 7,
+    "feather_px": 12,
+    "protect_windows_polygon": [[498, 622], [721, 571], [1168, 584], [1278, 719], [1178, 751], [650, 754]],
+    "protect_wheels": [[351, 898, 126], [1214, 914, 126]],
+    "protect_badges": [[488, 716, 24]],
+    "protect_front_light_polygon": [[125, 747], [306, 710], [337, 787], [246, 841], [119, 865]],
+    "protect_rear_light_polygon": [[1302, 742], [1489, 751], [1490, 858], [1375, 865]],
+    "protect_lower_trim_polygon": [[96, 936], [1503, 924], [1510, 1016], [105, 1016]],
+    "protect_high_chroma_threshold": null
+  },
+  "transfer": {
+    "low_sigma": 34.0,
+    "low_gain": 0.72,
+    "maximum_low_delta_L": 16.0,
+    "mid_sigma_inner": 7.0,
+    "mid_sigma_outer": 34.0,
+    "mid_gain": 0.60,
+    "maximum_mid_delta_L": 7.0,
+    "source_clearcoat_sigma": 32.0,
+    "source_clearcoat_gain": 0.42,
+    "maximum_source_clearcoat_L": 6.0,
+    "reflection_chroma_polygons": [
+      [[432, 760], [1175, 760], [1160, 944], [430, 944]],
+      [[470, 612], [690, 565], [1258, 579], [1320, 648], [1160, 676], [540, 666]]
+    ],
+    "basecoat_reference_polygon": [[505, 690], [1125, 690], [1125, 785], [505, 785]],
+    "reflection_chroma_threshold": 10.0,
+    "reflection_chroma_reduction": 0.72,
+    "glass_polygon": [[505, 624], [720, 578], [1160, 589], [1270, 716], [1172, 746], [650, 749]],
+    "glass_low_gain": 0.30,
+    "glass_maximum_delta_L": 6.0,
+    "glass_chroma_reduction": 0.24,
+    "glass_feather_px": 8.0
+  },
+  "acceptance": {
+    "changed_pixels_outside_mask": 0,
+    "chroma_ratio": [0.90, 1.02],
+    "near_white_percent_L240_max": 0.10,
+    "mean_absolute_delta_L_max": 10.0,
+    "p95_absolute_delta_L_max": 16.0
+  }
+}

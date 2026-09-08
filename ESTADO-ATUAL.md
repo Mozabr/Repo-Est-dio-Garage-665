@@ -14,6 +14,17 @@ validam somente composição antes do tratamento por ângulo; as internas estão
 fotograficamente preservadas. Ler `31-master-v8-e-previews-serie.md` antes de
 criar outra master.
 
+## Etapa ativa — série multivista v9
+
+Por orientação do usuário, as demais externas e internas também devem parecer
+capturadas no mesmo Studio H. O perfil é a calibração inicial. Um doador visual
+confirmou a direção, mas não é publicável por deslocamento geométrico; a
+recomposição contida v02 preserva a fonte e passou tecnicamente. O caminho
+oficial GPT Image 2 API está pronto em `./scripts/executar_perfil_serie_v9_api.sh`
+e aguarda execução no Terminal que possui `OPENAI_API_KEY`. Não avançar em lote
+nem criar novas masters antes de aprovar o perfil. Ler
+`32-serie-v9-padrao-multivista.md`.
+
 ## Etapa atual — harmonização integral v8 sobre o M11 v6
 
 Por decisão explícita do usuário em 07/09/2026, `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png` passou a ser a autoridade visual e geométrica do quadro atual. A regra anterior da v7, que a tratava somente como referência, foi substituída. A fotografia original continua arquivada para auditoria e a cor física absoluta não pode ser certificada sem RAW/ColorChecker.
