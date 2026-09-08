@@ -71,3 +71,26 @@ As V02 são candidatas de validação, não masters publicáveis. Antes da chama
 paga, conferir em 100% a ótica dos faróis, o brasão, instrumentos, costuras,
 controles e o tamanho do tampa-placa. A base financeira está em
 `36-custos-gpt-image-2.md`.
+
+## Frontal V04 — recuperação de detalhe
+
+A frontal V02 eliminou a divisão do capô, mas foi reprovada por suavizar detalhes
+do capô e do restante do carro. A V04 corrige isso por recomposição contida:
+
+- arquivo: `externas/frontal-candidata-v04-capo-detalhe-final.png`;
+- comparativo ampliado: `frontal-v03-detail-lock/comparacao-capo-v01-v02-v04.jpg`;
+- máscara auditável: `frontal-v03-detail-lock/mascara-capo-contida.png`;
+- relatório: `frontal-v03-detail-lock/qa-v04.json`;
+- rotina: `scripts/recompor_capo_frontal_v12.py`.
+
+A V02 fornece apenas a direção contínua da iluminação. A banda fina de detalhe
+vem da V01, enquanto as duas bordas artificiais verticais são excluídas dessa
+transferência. Todo pixel fora da máscara é copiado da V01. O relatório registra
+zero mudança externa e razão de microdetalhe 0,9796, aproximadamente 98% da
+referência. A folha `03-folha-externas-identificada-v02.jpg` foi atualizada para
+mostrar a V04 no segundo quadro.
+
+A primeira recomposição V03 foi arquivada como rejeitada porque recuperou também
+as emendas e criou uma transição escura ao redor do brasão. Ela existe somente
+para auditoria em `frontal-v03-detail-lock/frontal-v03-rejeitada.png` e não deve
+ser usada como entrada de produção.

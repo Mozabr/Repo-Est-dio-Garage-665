@@ -32,6 +32,20 @@ Prompt aplicado:
 > redesign any component. Do not change color, wheel angle, proportions,
 > badges, text, background, or framing.
 
+### Refinamento de detalhe V04
+
+A tentativa generativa seguinte foi usada somente como estudo e descartada por
+introduzir textura sintética. A candidata final não usa seus pixels. O fluxo
+V04 parte de duas autoridades alinhadas:
+
+- V01: geometria, pixels externos, cor e microdetalhe fotográfico;
+- V02: iluminação contínua do capô, sem o painel central retangular.
+
+O script `scripts/recompor_capo_frontal_v12.py` mantém o campo Lab doador,
+reinsere somente a banda fina Lab da V01, suprime as duas bordas verticais
+conhecidas e limita a composição à máscara contida do capô. Nenhum pixel externo
+à máscara pode mudar.
+
 ## Interna motorista — luz difusa de estúdio
 
 Referências, nesta ordem:
@@ -62,4 +76,3 @@ Prompt aplicado:
 > not redesign, simplify, add or remove controls. Do not change interior
 > colors. Avoid CGI smoothness, fake bloom, excessive darkness and
 > overexposure.
-
