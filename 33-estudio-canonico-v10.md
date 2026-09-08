@@ -50,12 +50,14 @@ Prévia local sem cobrança:
 ./scripts/gerar_previews_panamera_v10.sh
 ```
 
-Edição oficial GPT Image 2 high, três chamadas no máximo e trava individual
-contra repetição:
+Primeiro teste oficial GPT Image 2 high, somente para a vista crítica do painel:
 
 ```bash
-./scripts/executar_interiores_serie_v10_api.sh
+./scripts/executar_interiores_serie_v10_api.sh painel-instrumentos
 ```
+
+Depois da aprovação, `interior-amplo`, `interior-motorista` ou `todos` podem ser
+passados como argumento. Cada vista possui trava própria contra repetição.
 
 Antes da API, revisar os arquivos `revisao-mascara.jpg` em
 `trabalhos/panamera/serie-v10/interiores-api/preparo`. Se uma máscara tocar
