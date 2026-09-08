@@ -1,0 +1,65 @@
+# V12 — correções localizadas frontal e interna motorista
+
+Modo de execução: ferramenta integrada de geração/edição de imagens.
+Data: 08/09/2026.
+
+## Frontal — capô contínuo
+
+Referências, nesta ordem:
+
+1. `frontal-candidata-v01.png`: alvo exato de composição;
+2. fotografia frontal original: autoridade de identidade do carro;
+3. `panamera-master-estudio-canonico-v01.png`: autoridade de luz e material.
+
+Prompt aplicado:
+
+> IMAGE EDIT — precision relighting only. Image 1 is the exact target and
+> composition. Image 2 is the real vehicle identity reference. Image 3 is the
+> approved Garage 665 studio lighting/material reference. Correct ONLY the
+> artificial lighting division on the hood of the front-facing Porsche
+> Panamera. Remove the obvious rectangular central block, its two vertical
+> borders, tonal seams and banding. The entire hood must read as one physically
+> continuous curved painted metal panel, with no invented crease or inserted
+> rectangle. Replace it with a natural, broad, soft overhead studio softbox
+> reflection: a smooth continuous gradient that gently brightens the
+> center/front of the hood and falls off toward both edges, following the real
+> curvature. Preserve polished metallic graphite paint and clear-coat specular
+> response; not matte, not wrapped, not plastic. Preserve exact camera, crop,
+> perspective, vehicle position, original body geometry, hood perimeter panel
+> gaps, Porsche crest, headlights and internal optics, mirrors, wheels pointing
+> straight, bumper, sensors, grille, black plate cover and its exact size,
+> studio walls/floor, wall plaque/logo, and contact shadow. Do not regenerate or
+> redesign any component. Do not change color, wheel angle, proportions,
+> badges, text, background, or framing.
+
+## Interna motorista — luz difusa de estúdio
+
+Referências, nesta ordem:
+
+1. `interior-motorista-candidata-v01.png`: alvo exato de composição;
+2. fotografia interna original: autoridade de geometria e detalhes;
+3. `panamera-master-estudio-canonico-v01.png`: autoridade de luz e balanço.
+
+Prompt aplicado:
+
+> IMAGE EDIT — studio relighting only. Image 1 is the exact target
+> composition. Image 2 is the real Panamera interior identity and detail
+> authority. Image 3 defines the approved Garage 665 studio: neutral 5200K,
+> large diffused overhead/front softboxes, soft contrast, off-white cyclorama.
+> Make this driver-cockpit photograph look genuinely captured inside that same
+> professional studio. Remove the harsh direct-sun character: eliminate the
+> hard bright sun patch on the front seat and abrupt directional highlights on
+> dashboard, steering wheel, door leather, chrome and center console. Replace
+> them with broad, soft, physically coherent studio illumination and gentle
+> fill: smooth leather gradients, controlled chrome highlights, readable black
+> materials, natural soft shadows and moderate contrast. Outside the windows
+> should remain a restrained, softly out-of-focus off-white studio cyclorama
+> with realistic glass transmission; no visible sun, sky, street, lamps, logo
+> or invented room geometry. Preserve the exact camera position, crop,
+> perspective, dashboard and steering-wheel geometry, Porsche crest,
+> instruments, buttons, vents, stitching, brown/black material colors, center
+> console, gear selector, cup holder, door, mirror and seat construction. Do
+> not redesign, simplify, add or remove controls. Do not change interior
+> colors. Avoid CGI smoothness, fake bloom, excessive darkness and
+> overexposure.
+

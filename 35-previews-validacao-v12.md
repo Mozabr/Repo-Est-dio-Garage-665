@@ -49,3 +49,25 @@ O usuário deve validar primeiro a direção conjunta das duas folhas. Depois:
    necessário;
 4. gerar 4096 × 3072 apenas das vistas aprovadas;
 5. derivar Feed, Story e Webmotors do mesmo master.
+
+## Correções V02 — frontal e interna motorista
+
+Em 08/09/2026 foram executadas duas edições localizadas com a ferramenta
+integrada de imagem, mantendo as V01 arquivadas:
+
+- `externas/frontal-candidata-v02-capo-corrigido.png`: removida a divisão
+  retangular e as duas emendas verticais artificiais do centro do capô; a
+  leitura agora é de uma única chapa curva com reflexão ampla de softbox;
+- `interiores/interior-motorista-candidata-v02-studio-soft.png`: removida a
+  mancha dura de sol sobre o banco e reduzidos os highlights direcionais; o
+  interior passa a usar iluminação difusa neutra compatível com a master;
+- `03-folha-externas-identificada-v02.jpg`: comparação das sete externas com a
+  dianteira 3/4 aprovada identificada na primeira posição;
+- `04-folha-interiores-identificada-v02.jpg`: comparação das três internas com
+  a interna motorista V02 na terceira posição;
+- prompts e referências: `prompts/v12/correcoes-frontal-interior-v02.txt`.
+
+As V02 são candidatas de validação, não masters publicáveis. Antes da chamada
+paga, conferir em 100% a ótica dos faróis, o brasão, instrumentos, costuras,
+controles e o tamanho do tampa-placa. A base financeira está em
+`36-custos-gpt-image-2.md`.

@@ -1,6 +1,16 @@
 # Estado de retomada — Garage 665
-Atualizado em 08/09/2026. A dianteira 3/4 `teste 05` está aprovada; as previews
-v10 das demais vistas foram reprovadas como resultado visual.
+Atualizado em 08/09/2026. A dianteira 3/4 `teste 05` está aprovada. A frontal
+V02 teve a divisão artificial do capô removida e a interna motorista V02 foi
+reiluminada com luz difusa de estúdio. Ambas aguardam validação visual.
+
+## Validação imediata — folhas identificadas V02
+
+Abrir `trabalhos/panamera/previews-validacao-v12/03-folha-externas-identificada-v02.jpg`
+e `04-folha-interiores-identificada-v02.jpg`. A primeira imagem da folha externa
+é a master dianteira 3/4 aprovada; a segunda é a frontal V02 corrigida. A terceira
+imagem da folha interna é a versão motorista V02. As V01 foram preservadas.
+Prompts em `prompts/v12/correcoes-frontal-interior-v02.txt` e orçamento em
+`36-custos-gpt-image-2.md`.
 
 ## Conjunto atual para validação — previews v12
 
