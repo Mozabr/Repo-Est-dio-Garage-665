@@ -1,9 +1,11 @@
 # Prompt para retomar em outro chat ou agente
 
-Copie o texto abaixo somente depois de disponibilizar o repositório para a nova ferramenta. A atualização v10 abaixo substitui qualquer indicação histórica de Studio H como sala ativa:
+Copie o texto abaixo somente depois de disponibilizar o repositório para a nova ferramenta. A atualização v11 abaixo substitui os fluxos multivista anteriores:
 
 ```text
-Continue o projeto de tratamento fotográfico Garage 665 a partir do estado real registrado no repositório. Antes de executar qualquer ação, leia integralmente README.md, COMECE-AQUI.md, HANDOFF.md, ESTADO-ATUAL.md, 33-estudio-canonico-v10.md, 30-harmonizacao-integral-v8.md, 31-master-v8-e-previews-serie.md e 32-serie-v9-padrao-multivista.md. Depois valide os arquivos e relatórios citados nesses documentos. O ambiente ativo é Studio G / master teste 05, com teto contínuo sem painel luminoso retangular. Use a lateral v9 apenas como direção de verniz. Em interiores, edite somente o exterior visível através das máscaras dos vidros; preserve integralmente volante, instrumentos, textos e materiais.
+Continue o projeto de tratamento fotográfico Garage 665 a partir do estado real registrado no repositório. Antes de executar qualquer ação, leia integralmente README.md, COMECE-AQUI.md, HANDOFF.md, ESTADO-ATUAL.md e 34-padrao-mestre-teste-05-v11.md. Depois valide os arquivos e relatórios citados nesses documentos. A master teste 05 é autoridade integral de sala, teto, parede, piso, placa, temperatura, contraste, sombra e resposta do verniz. A fotografia original de cada ângulo é autoridade de identidade, geometria, cor base e detalhes. As previews v10 foram reprovadas como resultado visual e servem somente de alvo técnico já posicionado no Studio G.
+
+O primeiro teste ativo é exclusivamente o perfil em 1600x1200 pelo comando `./scripts/executar_externa_serie_v11_api.sh perfil`. Não execute a série em lote. Confira `trabalhos/panamera/serie-v11/perfil/api-v01/comparacao-master-alvo-candidata.jpg` e só avance após aprovação humana. A dianteira 3/4 teste 05 já está aprovada e não deve ser regenerada. O modelo fica fixo em `gpt-image-2-2026-04-21`, qualidade high.
 
 Não reinicie o projeto e não repita etapas concluídas. O foco atual é a vista dianteira 3/4 da Porsche Panamera na harmonização integral v8. Leia também `30-harmonizacao-integral-v8.md`. Por decisão explícita do usuário, `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png` é a autoridade visual e geométrica do quadro atual. A candidata a avaliar é `refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`. Os doadores integrais já existem; nunca repita essas gerações nem chamadas pagas cujos doadores estejam arquivados.
 

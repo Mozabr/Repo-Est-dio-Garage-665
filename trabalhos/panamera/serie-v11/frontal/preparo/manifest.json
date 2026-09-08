@@ -1,0 +1,9 @@
+{
+  "vista": "frontal",
+  "target": "trabalhos/panamera/previews-serie-v10-studio-canonico/externas/frontal/preview.png",
+  "vehicle_alpha": "trabalhos/panamera/previews-serie-v10-studio-canonico/externas/frontal/alpha-veiculo-preview.png",
+  "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05 (1).jpg",
+  "editable_percent": 23.238541666666666,
+  "edge_policy": "vehicle alpha >=245 editable; silhouette transition locked",
+  "mask_review": "trabalhos/panamera/serie-v11/frontal/preparo/revisao-mascara.jpg"
+}

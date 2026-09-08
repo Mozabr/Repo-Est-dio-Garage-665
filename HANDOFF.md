@@ -2,11 +2,10 @@
 
 Atualizado em 08/09/2026. Este documento é o ponto de entrada para continuar o trabalho em outra conta ou computador.
 
-> Antes de executar qualquer etapa, ler `33-estudio-canonico-v10.md`. A sala
-> ativa passou a ser Studio G / master `teste 05`, com teto contínuo. Não voltar
-> ao painel luminoso visível do Studio H. Nas internas, editar exclusivamente o
-> exterior visto pelos vidros e nunca regenerar volante, instrumentos, textos ou
-> materiais.
+> Antes de executar qualquer etapa, ler `34-padrao-mestre-teste-05-v11.md`. A
+> master `teste 05` controla integralmente o Studio G e sua iluminação. As
+> previews v10 foram reprovadas como resultado visual e servem somente como
+> alvos técnicos. Não executar a série em lote.
 
 ## Situação real
 
@@ -24,15 +23,18 @@ geométrica do quadro v8. A candidata
 foi aprovada; os doadores integrais já estão arquivados e não devem ser gerados
 novamente. Processo e saídas em `31-master-v8-e-previews-serie.md`.
 
-## Próximo passo exato
+## Próximo passo exato — v11
 
-1. Ler `30-harmonizacao-integral-v8.md`, `31-master-v8-e-previews-serie.md` e `32-serie-v9-padrao-multivista.md`.
-2. Não refazer a v07 nem a master dianteira 3/4: ambas já estão concluídas.
-3. Abrir `trabalhos/panamera/previews-serie-v8/01-previews-externas.jpg` e `02-previews-interiores.jpg`.
-4. Executar/avaliar primeiro o perfil v9; o comando oficial de API é `./scripts/executar_perfil_serie_v9_api.sh` e possui trava de cobrança.
-5. Obter aprovação humana do perfil antes de processar os demais ângulos ou criar novas masters.
-6. Adaptar o tratamento v07 separadamente a cada externa aprovada, preservando todo elemento fora da máscara.
-7. Nas internas, manter o interior original e tratar separadamente o ambiente visível pelos vidros.
+1. Ler `34-padrao-mestre-teste-05-v11.md`.
+2. Não refazer a dianteira 3/4 `teste 05`: ela já é a master visual aprovada.
+3. Executar apenas `./scripts/executar_externa_serie_v11_api.sh perfil` no
+   Terminal que contém `OPENAI_API_KEY`.
+4. Abrir `trabalhos/panamera/serie-v11/perfil/api-v01/comparacao-master-alvo-candidata.jpg`.
+5. Aprovar ou recalibrar o perfil antes de qualquer outro ângulo ou master 4K.
+6. Após aprovação, seguir a ordem definida em `config/serie-v11-vistas.json`,
+   sempre uma vista por vez.
+7. Tratar interiores somente depois das externas, preservando integralmente
+   volante, instrumentos, textos, comandos e materiais.
 
 ## Não repetir a chamada paga
 
@@ -84,7 +86,10 @@ Os ambientes virtuais e pesos não são enviados ao GitHub. O script recria os d
 - `config/superficies-carroceria-v6f.json`: máscaras e ordem da lateral.
 - `config/rig-iluminacao-studio-v6b.json`: rig de luz congelado.
 - `prompts/v6f/`: prompts e manifesto com hashes.
-- `estudio-mestre/STUDIO_H-photo-bay-v06-oficial.png`: sala ativa.
+- `referencias/autoridades/panamera-master-estudio-canonico-v01.png`: autoridade
+  visual ativa do Studio G.
+- `config/pipeline-serie-v11.json`: modelo, master, rig e políticas congeladas.
+- `prompts/v11/`: prompt operacional ativo para externas.
 - `referencias/originais-panamera/`: as dez fotografias recebidas.
 - `referencias/panamera-cor-estudio/`: referências classificadas; a referência azul é proibida para cor.
 - `trabalhos/panamera/refinamento-dianteira-v6f/`: doador, tentativas, máscaras e relatórios.

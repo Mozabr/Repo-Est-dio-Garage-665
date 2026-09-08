@@ -1,0 +1,35 @@
+{
+  "version": "serie-v11-master-teste-05-lock",
+  "openai_image_edit": {
+    "model": "gpt-image-2-2026-04-21",
+    "quality": "high",
+    "size": "1600x1200",
+    "output_format": "png"
+  },
+  "master": {
+    "path": "referencias/autoridades/panamera-master-estudio-canonico-v01.png",
+    "sha256": "8fb6dfb73e162bf92d5baf418ccd43ca308dfadde87f9457bcada27fa2ccb27e",
+    "role": "autoridade integral de ambiente, luz, contraste, sombra e resposta do verniz"
+  },
+  "studio_lock": {
+    "architecture": "Studio G: teto plano continuo, parede off-white, cyclorama e piso cinza claro",
+    "visible_ceiling_panel": false,
+    "wall_sign": "placa fisica matte, quatro afastadores, sombra curta e logo oficial sem brilho artificial",
+    "white_balance_kelvin": 5200,
+    "key": "fonte grande e macia, alta, frontal-esquerda, fora do quadro",
+    "right_fill_relative_ev": -2.0,
+    "front_fill_relative_ev": -3.0,
+    "floor_bounce_relative_ev": -3.5,
+    "paint_response": "grafite metalico escuro com verniz polido, highlight largo e flake fino; nunca fosco"
+  },
+  "policy": {
+    "approval_size": "1600x1200",
+    "master_size": "4096x3072",
+    "one_paid_view_at_a_time": true,
+    "first_calibration_view": "perfil",
+    "approved_master_view_not_regenerated": "dianteira-3-4",
+    "generated_result_status": "candidate_only_until_visual_approval",
+    "outside_vehicle_mask_hard_locked": true,
+    "source_photo_is_identity_authority": true
+  }
+}

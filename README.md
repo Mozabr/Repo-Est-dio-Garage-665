@@ -1,8 +1,22 @@
 # Projeto de Tratativa de Imagens — Garage 665
 
-> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md), o [estúdio canônico v10](33-estudio-canonico-v10.md), a [harmonização integral v8](30-harmonizacao-integral-v8.md) e o [padrão multivista v9](32-serie-v9-padrao-multivista.md). A v07 dianteira 3/4 foi aprovada; a arquitetura atual é o Studio G com teto contínuo da master `teste 05`. O Studio H permanece apenas como histórico. Não repetir doadores já arquivados.
+> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md), o [padrão mestre v11](34-padrao-mestre-teste-05-v11.md) e [ESTADO-ATUAL.md](ESTADO-ATUAL.md). A dianteira 3/4 `teste 05` está aprovada e é a autoridade integral do Studio G. As previews v10 foram reprovadas como resultado visual; não executar a série em lote nem repetir doadores já arquivados.
 
-## Fluxo ativo — estúdio v2 (06/09/2026)
+## Fluxo ativo — série v11 com lock da master `teste 05` (08/09/2026)
+
+O `teste 05` controla toda a assinatura visual: teto contínuo, parede, piso,
+placa, balanço de branco, contraste, sombra e resposta do verniz. Cada fotografia
+original continua controlando geometria, cor base e detalhes. A primeira
+calibração é somente o perfil, em GPT Image 2 high e 1600 × 1200:
+
+```bash
+./scripts/executar_externa_serie_v11_api.sh perfil
+```
+
+Não gerar as demais vistas antes da aprovação do comparativo criado pelo script.
+O processo completo está em `34-padrao-mestre-teste-05-v11.md`.
+
+## Histórico — estúdio v2 (06/09/2026)
 
 Retomada registrada em [ESTADO-ATUAL.md](ESTADO-ATUAL.md): sete vistas externas,
 21 exportações e duas tampa-placas com revisão pendente. Consultar esse arquivo

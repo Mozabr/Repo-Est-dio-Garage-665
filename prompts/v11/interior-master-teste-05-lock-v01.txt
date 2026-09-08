@@ -1,0 +1,20 @@
+CASO: edição fotográfica interna documental com ambiente externo de estúdio travado.
+
+Image 1 é a fotografia-alvo e autoridade absoluta de câmera, perspectiva, exposição interna, volante, instrumentos, números, alertas, relógio, tela, comandos, paddles, console, bancos, costuras, couro, colunas, espelhos e sinais reais de uso.
+Image 2 é a master visual absoluta "teste 05" e autoridade do ambiente externo: parede off-white, cyclorama, piso cinza, luz neutra de aproximadamente 5200 K, contraste moderado e sombras macias.
+
+Edite exclusivamente o exterior visível através da área transparente da máscara. Faça parecer que a fotografia interna foi capturada com o mesmo carro parado fisicamente dentro do estúdio da Image 2.
+
+REGRA DE PERSPECTIVA
+Em uma foto interna fechada, especialmente junto ao volante, a sala inteira não pode aparecer. Mostre somente um plano off-white distante e naturalmente desfocado através do vidro, com gradiente discreto da luz do estúdio. Não mostre placa, logo, cantos, teto, luminárias, equipamentos, linha de cyclorama ou detalhes arquitetônicos se não seriam fisicamente visíveis naquele campo de visão.
+
+TRAVAS
+- Não alterar nenhum pixel fora da área transparente da máscara.
+- Não redesenhar, limpar, idealizar, deslocar ou desfocar nenhuma parte do interior.
+- Não alterar textos, números, mostradores, botões, volante, bancos ou materiais.
+- Não mudar câmera, distância focal, perspectiva, recorte ou profundidade de campo.
+- Não escurecer o vidro; preserve transmissão e tonalidade originais.
+- Não adicionar luz solar, céu, rua, árvores, carros, postes, logo ou texto.
+
+ÓPTICA
+O exterior deve ficar fora de foco de forma compatível com a lente original. Preserve uma transmissão sutil do vidro e uma pequena queda de contraste, sem halo nos pilares, volante ou bordas do para-brisa. A imagem final deve parecer uma fotografia real do interior dentro do mesmo Studio G da master, nunca um fundo colado ou um render 3D.

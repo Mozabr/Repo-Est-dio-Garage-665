@@ -1,0 +1,31 @@
+{
+  "version": "panamera-serie-v11",
+  "order": [
+    "perfil",
+    "frontal",
+    "dianteira-3-4-oposta",
+    "traseira-3-4",
+    "traseira-3-4-oposta",
+    "perfil-oposto"
+  ],
+  "views": {
+    "perfil": {
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05 (2).jpeg"
+    },
+    "frontal": {
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05 (1).jpg"
+    },
+    "dianteira-3-4-oposta": {
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.05.jpg"
+    },
+    "traseira-3-4": {
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06 (2).jpg"
+    },
+    "traseira-3-4-oposta": {
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06.jpg"
+    },
+    "perfil-oposto": {
+      "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07.jpg"
+    }
+  }
+}
