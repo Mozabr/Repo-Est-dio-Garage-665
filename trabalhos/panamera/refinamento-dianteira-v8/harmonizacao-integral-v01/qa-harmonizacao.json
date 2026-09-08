@@ -1,0 +1,84 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "profile_id": "GARAGE665-M11V6-HARMONIZACAO-INTEGRAL-V8",
+  "authority_sha256": "070d60d6bd07c24649c7ee2edd22577b9b53ef643e062c329e9b47bdeab0564b",
+  "lighting_donor_sha256": "69a2fbff61376b2564002a53a3fdc57f7f6201f667826dfd2cd2d8ce1b092751",
+  "method": "registered_generated_donor_low_frequency_L_only",
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "source_geometry_used": true,
+  "source_chroma_used": true,
+  "source_details_reinserted": true,
+  "registration": {
+    "matches": 1403,
+    "inlier_fraction": 0.8296507483962936,
+    "maximum_registration_displacement_px": 0.8018587827682495,
+    "transform": [
+      [
+        1.0011424466476384,
+        0.00016435166232285536,
+        -0.352910456236703
+      ],
+      [
+        0.0004703176378040809,
+        1.0008457671162092,
+        -0.4660690095362887
+      ],
+      [
+        4.5165317667820285e-07,
+        3.308534781841449e-07,
+        1.0
+      ]
+    ],
+    "passed": true
+  },
+  "surfaces": {
+    "M13-paralama-proximo": {
+      "active_pixels": 67761,
+      "mean_delta_L": 6.792618751525879,
+      "p95_absolute_delta_L": 15.0
+    },
+    "M14-portas-superiores": {
+      "active_pixels": 35673,
+      "mean_delta_L": 10.314908981323242,
+      "p95_absolute_delta_L": 14.0
+    },
+    "M15-portas-inferiores": {
+      "active_pixels": 32028,
+      "mean_delta_L": 1.804710865020752,
+      "p95_absolute_delta_L": 6.946591854095459
+    },
+    "M10-teto-pintura": {
+      "active_pixels": 763,
+      "mean_delta_L": 2.8109424114227295,
+      "p95_absolute_delta_L": 4.424034118652344
+    },
+    "M16-para-brisa": {
+      "active_pixels": 89640,
+      "mean_delta_L": 2.716169834136963,
+      "p95_absolute_delta_L": 5.779232025146484
+    },
+    "M17-vidros-laterais": {
+      "active_pixels": 37243,
+      "mean_delta_L": 4.499013900756836,
+      "p95_absolute_delta_L": 7.0
+    }
+  },
+  "metrics": {
+    "changed_pixels_outside_union": 0,
+    "changed_pixels_in_protected_mask": 0,
+    "mean_absolute_delta_L": 5.394694805145264,
+    "p95_absolute_delta_L": 15.0,
+    "near_white_percent_L240": 0.0075491121214720765,
+    "chroma_ratio_to_source": 1.0147240161895752
+  },
+  "checks": {
+    "changed_pixels_outside_union": true,
+    "changed_pixels_in_protected_mask": true,
+    "mean_absolute_delta_L": true,
+    "p95_absolute_delta_L": true,
+    "near_white_percent_L240": true,
+    "chroma_ratio_to_source": true,
+    "registration": true
+  }
+}

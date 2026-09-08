@@ -1,5 +1,7 @@
 # Auditoria de convergência v7 — base correta para a entrega
 
+> **Substituída em 07/09/2026:** por decisão explícita do usuário, o M11 v6 passou a ser a autoridade visual e geométrica do quadro v8. Para continuar, use `30-harmonizacao-integral-v8.md`. Este arquivo permanece como histórico da auditoria.
+
 Data: 07/09/2026. A candidata M13 v03 foi retirada da posição de melhor versão. Nenhuma candidata desta auditoria está aprovada para publicação.
 
 ## Resultado da varredura
