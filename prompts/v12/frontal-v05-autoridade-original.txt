@@ -1,0 +1,38 @@
+# Frontal V05 — autoridade direta da fotografia original
+
+Modo: ferramenta integrada de geração/edição de imagens, seguida por contenção
+determinística com `scripts/conter_edicao_local.py`.
+
+## Entradas
+
+1. V04: alvo exato de enquadramento e estúdio;
+2. `WhatsApp Image 2025-11-24 at 09.57.05 (1).jpg`: autoridade absoluta do
+   capô real;
+3. master canônica: autoridade somente de iluminação do estúdio.
+
+## Prompt
+
+> Use case: precise-object-edit. Correct ONLY the hood in Image 1 so it is
+> structurally faithful to the exact hood in Image 2. Reproduce the same
+> physical hood perimeter, width, length, upper transition beneath the
+> windshield, side shoulders, subtle factory curvature, lower leading edge,
+> panel gaps and crest placement. Remove the outdoor building, sky and cloud
+> reflections from Image 2; replace them with one broad diffused studio-light
+> gradient that follows those real curves. The hood must look like the real
+> graphite metallic Panamera in Image 2 photographed inside the studio: fine
+> metallic flake, deep glossy clear coat, restrained softbox reflection,
+> natural microcontrast and crisp real panel gaps. It must not look matte,
+> wrapped, airbrushed, flat, featureless or CGI. Do not change the car's width,
+> height, windshield, roof, headlights or their internal optics, fenders,
+> mirrors, bumper, sensors, grille, wheels, black plate cover, shadows, studio
+> walls, floor, wall plaque/logo, camera, crop or perspective. Do not invent
+> hood creases. Do not retain or create any rectangular central lighting panel,
+> vertical seam or hard tonal division.
+
+## Contenção
+
+A resposta foi registrada contra a V04 usando somente pixels externos à máscara
+do capô. O gate mediu 1.908 correspondências, 90,78% de inliers e deslocamento
+máximo de 0,074 px. Depois do alinhamento, somente a máscara contida do capô foi
+aceita; todos os demais pixels vieram da V04.
+

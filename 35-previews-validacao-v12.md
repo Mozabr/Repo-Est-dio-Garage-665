@@ -94,3 +94,22 @@ A primeira recomposição V03 foi arquivada como rejeitada porque recuperou tamb
 as emendas e criou uma transição escura ao redor do brasão. Ela existe somente
 para auditoria em `frontal-v03-detail-lock/frontal-v03-rejeitada.png` e não deve
 ser usada como entrada de produção.
+
+## Frontal V05 — fotografia original como autoridade
+
+O usuário esclareceu que a autoridade frontal é o arquivo original
+`WhatsApp Image 2025-11-24 at 09.57.05 (1).jpg`. A V04 foi, portanto,
+substituída por uma edição que usa essa fotografia diretamente para perímetro,
+proporções, ombros, volume, transições, emblema e material do capô. A master
+canônica controla somente a resposta da luz de estúdio.
+
+- candidata: `externas/frontal-candidata-v05-original-authority.png`;
+- comparação: `frontal-v05-original-authority/comparacao-original-v04-v05.jpg`;
+- QA: `frontal-v05-original-authority/qa-registro-v05.json`;
+- prompt: `prompts/v12/frontal-v05-autoridade-original.txt`.
+
+A resposta passou pelo gate de alinhamento com 1.908 correspondências, 90,78%
+de inliers e deslocamento máximo de 0,074 px. A contenção registra zero mudança
+fora do capô. A folha externa foi atualizada para mostrar a V05 no segundo
+quadro. Ela ainda é candidata de validação; somente a aprovação visual libera a
+master paga e as demais vistas.
