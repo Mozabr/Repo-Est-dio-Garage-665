@@ -15,8 +15,8 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Resultado final: ainda não aprovado para publicação.
 - Doadores do capô e de M13: já gerados e arquivados; não repetir nenhuma chamada paga.
 - Base atual: `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png`, escolhida explicitamente pelo usuário como autoridade do quadro.
-- Candidata atual: `refinamento-dianteira-v8/harmonizacao-integral-v03/candidato-quadro-completo.png`.
-- O doador integral v8 já existe; não executar uma nova geração para repetir o mesmo passe.
+- Candidata atual: `refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`.
+- Os dois doadores integrais v8 já existem; não executar uma nova geração para repetir esses passes.
 - Vidros: devem manter transparência real e apenas reduzir reflexos; não escurecer artificialmente.
 - Logo: arte oficial aplicada por composição sobre placa física matte com quatro fixadores; nunca pedir para a IA recriar o logo.
 - Tampa-placa: aplicação por perspectiva limitada ao quadrilátero medido na fotografia.
@@ -59,8 +59,8 @@ Histórico da calibração: v21 passou tecnicamente, mas ainda mostrou vestígio
 
 1. Não repetir nenhuma chamada paga já arquivada.
 2. Ler `30-harmonizacao-integral-v8.md`; ele substitui a autoridade tripla da v7.
-3. Abrir e avaliar visualmente a candidata v03; v01 e v02 são reprovadas por emenda na M13.
-4. Se a v03 for aprovada, avançar ao master. Se houver reprovação localizada, redesenhar apenas a máscara física contínua daquela área.
+3. Abrir e avaliar visualmente a candidata v07; v01/v02 têm emenda, v03 ainda é fosca e v06 excedeu o gate de quase-brancos.
+4. Se a v07 for aprovada, avançar ao master. Se houver reprovação localizada, redesenhar apenas a máscara física contínua daquela área.
 5. Validar rodas, esterçamento, pneus, pinças, faróis, emblemas, badge E-Hybrid, maçanetas e vãos por comparação com a fonte.
 6. Criar um único master 4096 × 3072.
 7. Derivar Feed, Story horizontal e Webmotors desse mesmo master.

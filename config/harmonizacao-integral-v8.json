@@ -2,7 +2,7 @@
   "schema_version": "8.0",
   "id": "GARAGE665-M11V6-HARMONIZACAO-INTEGRAL-V8",
   "authority": "trabalhos/panamera/refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png",
-  "lighting_donor": "trabalhos/panamera/refinamento-dianteira-v8/geracao-integral-doador-v01/geracao-bruta-candidata.png",
+  "lighting_donor": "trabalhos/panamera/refinamento-dianteira-v8/geracao-integral-doador-v02-clearcoat/geracao-bruta-candidata.png",
   "mask_root": "trabalhos/panamera/refinamento-dianteira-v6/mascaras",
   "protected_mask": "M19-detalhes-protegidos.png",
   "registration_mask": "M20-uniao-editavel.png",
@@ -13,12 +13,13 @@
   },
   "seam_smoothing_sigma": 10.0,
   "surfaces": [
-    {"id": "M13-paralama-proximo", "mask": "M13-paralama-proximo-editar.png", "gain": 0.18, "maximum_delta_L": 5.0, "low_sigma": 28.0, "transition_px": 26.0, "lift_L": 0.25},
-    {"id": "M14-portas-superiores", "mask": "M14-portas-superiores-editar.png", "gain": 0.58, "maximum_delta_L": 14.0, "low_sigma": 28.0, "transition_px": 16.0, "lift_L": 1.0},
-    {"id": "M15-portas-inferiores", "mask": "M15-portas-inferiores-editar.png", "gain": 0.50, "maximum_delta_L": 12.0, "low_sigma": 30.0, "transition_px": 18.0, "lift_L": 0.5},
-    {"id": "M10-teto-pintura", "mask": "M10-teto-pintura-editar.png", "gain": 0.48, "maximum_delta_L": 11.0, "low_sigma": 28.0, "transition_px": 16.0, "lift_L": 1.5},
-    {"id": "M16-para-brisa", "mask": "M16-para-brisa-editar.png", "gain": 0.32, "maximum_delta_L": 8.0, "low_sigma": 34.0, "transition_px": 20.0, "lift_L": 1.0},
-    {"id": "M17-vidros-laterais", "mask": "M17-vidros-laterais-editar.png", "gain": 0.30, "maximum_delta_L": 7.0, "low_sigma": 32.0, "transition_px": 18.0, "lift_L": 1.0}
+    {"id": "M11U-capo-integral", "mask": "M11U-capo-integral-editar.png", "gain": 0.0, "maximum_delta_L": 0.0, "low_sigma": 30.0, "transition_px": 24.0, "lift_L": 0.0, "mid_frequency_gain": 0.34, "mid_sigma_inner": 5.0, "mid_sigma_outer": 30.0, "maximum_mid_delta_L": 4.5, "source_clearcoat_gain": 0.55, "source_clearcoat_sigma": 34.0, "maximum_source_clearcoat_L": 7.0},
+    {"id": "M13-paralama-proximo", "mask": "M13-paralama-proximo-editar.png", "gain": 0.18, "maximum_delta_L": 5.0, "low_sigma": 28.0, "transition_px": 26.0, "lift_L": 0.25, "mid_frequency_gain": 0.28, "mid_sigma_inner": 5.0, "mid_sigma_outer": 28.0, "maximum_mid_delta_L": 4.0, "source_clearcoat_gain": 0.45, "source_clearcoat_sigma": 30.0, "maximum_source_clearcoat_L": 6.0},
+    {"id": "M14-portas-superiores", "mask": "M14-portas-superiores-editar.png", "gain": 0.58, "maximum_delta_L": 14.0, "low_sigma": 28.0, "transition_px": 16.0, "lift_L": 1.0, "mid_frequency_gain": 0.38, "mid_sigma_inner": 5.0, "mid_sigma_outer": 30.0, "maximum_mid_delta_L": 5.0, "source_clearcoat_gain": 0.45, "source_clearcoat_sigma": 32.0, "maximum_source_clearcoat_L": 6.0},
+    {"id": "M15-portas-inferiores", "mask": "M15-portas-inferiores-editar.png", "gain": 0.50, "maximum_delta_L": 12.0, "low_sigma": 30.0, "transition_px": 18.0, "lift_L": 0.5, "mid_frequency_gain": 0.25, "mid_sigma_inner": 6.0, "mid_sigma_outer": 32.0, "maximum_mid_delta_L": 3.5, "source_clearcoat_gain": 0.25, "source_clearcoat_sigma": 34.0, "maximum_source_clearcoat_L": 4.0},
+    {"id": "M10-teto-pintura", "mask": "M10-teto-pintura-editar.png", "gain": 0.48, "maximum_delta_L": 11.0, "low_sigma": 28.0, "transition_px": 16.0, "lift_L": 1.5, "mid_frequency_gain": 0.30, "mid_sigma_inner": 5.0, "mid_sigma_outer": 28.0, "maximum_mid_delta_L": 4.0, "source_clearcoat_gain": 0.35, "source_clearcoat_sigma": 30.0, "maximum_source_clearcoat_L": 5.0},
+    {"id": "M16-para-brisa", "mask": "M16-para-brisa-editar.png", "gain": 0.32, "maximum_delta_L": 8.0, "low_sigma": 34.0, "transition_px": 20.0, "lift_L": 1.0, "mid_frequency_gain": 0.08, "mid_sigma_inner": 7.0, "mid_sigma_outer": 34.0, "maximum_mid_delta_L": 1.5},
+    {"id": "M17-vidros-laterais", "mask": "M17-vidros-laterais-editar.png", "gain": 0.30, "maximum_delta_L": 7.0, "low_sigma": 32.0, "transition_px": 18.0, "lift_L": 1.0, "mid_frequency_gain": 0.08, "mid_sigma_inner": 7.0, "mid_sigma_outer": 32.0, "maximum_mid_delta_L": 1.5}
   ],
   "acceptance": {
     "changed_pixels_outside_union": 0,

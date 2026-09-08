@@ -99,6 +99,26 @@ def main() -> None:
             -surface["maximum_delta_L"],
             surface["maximum_delta_L"],
         )
+        mid_gain = float(surface.get("mid_frequency_gain", 0.0))
+        mid_delta = np.zeros_like(delta)
+        if mid_gain > 0:
+            inner = float(surface.get("mid_sigma_inner", 5.0))
+            outer = float(surface.get("mid_sigma_outer", surface["low_sigma"]))
+            source_mid = cv2.GaussianBlur(source_L, (0, 0), inner) - cv2.GaussianBlur(source_L, (0, 0), outer)
+            donor_mid = cv2.GaussianBlur(donor_L, (0, 0), inner) - cv2.GaussianBlur(donor_L, (0, 0), outer)
+            mid_limit = float(surface.get("maximum_mid_delta_L", 4.0))
+            mid_delta = np.clip((donor_mid - source_mid) * mid_gain, -mid_limit, mid_limit)
+        clearcoat_gain = float(surface.get("source_clearcoat_gain", 0.0))
+        source_clearcoat = np.zeros_like(delta)
+        if clearcoat_gain > 0:
+            clearcoat_sigma = float(surface.get("source_clearcoat_sigma", 32.0))
+            clearcoat_limit = float(surface.get("maximum_source_clearcoat_L", 6.0))
+            source_highlight = np.maximum(
+                source_L - cv2.GaussianBlur(source_L, (0, 0), clearcoat_sigma),
+                0.0,
+            )
+            source_clearcoat = np.clip(source_highlight * clearcoat_gain, 0.0, clearcoat_limit)
+        delta += mid_delta + source_clearcoat
         accumulated_delta += delta * weight
         accumulated_weight += weight
         active = weight >= 0.05
@@ -106,6 +126,10 @@ def main() -> None:
             "active_pixels": int(active.sum()),
             "mean_delta_L": float(delta[active].mean()) if np.any(active) else 0.0,
             "p95_absolute_delta_L": float(np.percentile(np.abs(delta[active]), 95)) if np.any(active) else 0.0,
+            "mid_frequency_gain": mid_gain,
+            "mid_frequency_rms_L": float(np.sqrt(np.mean(mid_delta[active] ** 2))) if np.any(active) else 0.0,
+            "source_clearcoat_gain": clearcoat_gain,
+            "source_clearcoat_mean_L": float(source_clearcoat[active].mean()) if np.any(active) else 0.0,
         }
 
     union = accumulated_weight > 0
@@ -125,7 +149,12 @@ def main() -> None:
     normalized_delta = np.zeros_like(source_L)
     normalized_delta[union] = continuous_delta[union]
     target_lab = source_lab.copy()
-    target_lab[:, :, 0] = np.clip(source_L + normalized_delta, 0, 255)
+    candidate_L = np.clip(source_L + normalized_delta, 0, 255)
+    # Preserve highlights already present in the authority, but keep newly
+    # introduced clear-coat energy below the near-white clipping gate.
+    new_near_white = (source_L < 240) & (candidate_L >= 240)
+    candidate_L[new_near_white] = 239
+    target_lab[:, :, 0] = candidate_L
     result = cv2.cvtColor(target_lab.astype(np.uint8), cv2.COLOR_LAB2RGB)
 
     protected = np.asarray(Image.open(mask_root / cfg["protected_mask"]).convert("L"), dtype=np.uint8) > 0
@@ -160,13 +189,15 @@ def main() -> None:
         "profile_id": cfg["id"],
         "authority_sha256": sha(source_path),
         "lighting_donor_sha256": sha(donor_path),
-        "method": "registered_generated_donor_low_frequency_L_only",
+        "method": "registered_donor_L_low_mid_plus_source_positive_clearcoat",
         "seam_smoothing_sigma": seam_sigma,
         "generated_rgb_used": False,
         "generated_texture_used": False,
+        "generated_mid_frequency_luminance_used": True,
         "source_geometry_used": True,
         "source_chroma_used": True,
         "source_details_reinserted": True,
+        "new_near_white_highlights_compressed": int(new_near_white.sum()),
         "registration": registration,
         "surfaces": surface_reports,
         "metrics": metrics,
