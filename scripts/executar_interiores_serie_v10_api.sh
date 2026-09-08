@@ -35,7 +35,18 @@ run_one() {
 
 # Cada item ausente corresponde a uma chamada paga. Resultados existentes são
 # sempre ignorados, permitindo retomar o lote sem cobrança duplicada.
-run_one interior-amplo
-run_one painel-instrumentos
-run_one interior-motorista
+REQUESTED="${1:-todos}"
+case "$REQUESTED" in
+  interior-amplo|painel-instrumentos|interior-motorista) run_one "$REQUESTED" ;;
+  todos)
+    run_one interior-amplo
+    run_one painel-instrumentos
+    run_one interior-motorista
+    ;;
+  *)
+    print -u2 "Vista invalida: $REQUESTED"
+    print -u2 "Use: interior-amplo, painel-instrumentos, interior-motorista ou todos"
+    exit 2
+    ;;
+esac
 print "$ROOT/trabalhos/panamera/serie-v10/interiores-api"

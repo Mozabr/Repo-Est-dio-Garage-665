@@ -20,11 +20,12 @@ Três internas, somente após revisar as máscaras em
 `trabalhos/panamera/serie-v10/interiores-api/preparo`:
 
 ```bash
-./scripts/executar_interiores_serie_v10_api.sh
+./scripts/executar_interiores_serie_v10_api.sh painel-instrumentos
 ```
 
-O último comando faz no máximo três chamadas, uma por interior ausente, e pula
-resultados já existentes para impedir cobrança duplicada.
+Após a aprovação, substitua o argumento por `interior-amplo`,
+`interior-motorista` ou `todos`. Cada resultado existente é ignorado para
+impedir cobrança duplicada.
 
 ## Modo 1 — continuar neste Mac
 
