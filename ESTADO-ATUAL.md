@@ -7,7 +7,7 @@ Por decisão explícita do usuário em 07/09/2026, `refinamento-dianteira-v6/tes
 
 Foi criado um doador integral com a ferramenta de imagem e ele foi registrado com 1.403 correspondências, 82,97% de inliers e deslocamento máximo de 0,802 px. O RGB, a textura fina, a geometria e a cromia gerados foram descartados da candidata conservadora; somente luminância Lab L de baixa frequência foi transferida nas máscaras M10 e M13–M17, com M19 protegida.
 
-As harmonizações v01 e v02 passaram nos gates automáticos, mas foram reprovadas visualmente por emenda no para-lama. A v03 reduziu a interferência da M13 e passou: zero mudança fora da união, zero mudança em detalhes protegidos, diferença média 3,783 Lab L, P95 10, quase-brancos 0,0065% e razão de cromia 1,014. Arquivo para aprovação: `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v03/candidato-quadro-completo.png`. Processo completo em `30-harmonizacao-integral-v8.md`.
+As harmonizações v01 e v02 passaram nos gates automáticos, mas foram reprovadas visualmente por emenda no para-lama. A v03 eliminou a emenda, mas foi reprovada pelo usuário por aparência ainda fosca. Um segundo doador de clear-coat foi criado; a v06 recuperou highlights do próprio M11 v6, porém falhou por 0,501% de quase-brancos. A candidata v07 comprime somente novos highlights acima de Lab L=239 e passou: zero mudança fora da união, zero em detalhes protegidos, diferença média 2,267 Lab L, P95 6, quase-brancos 0,080% e razão de cromia 1,010. Arquivo para aprovação: `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`. Processo completo em `30-harmonizacao-integral-v8.md`.
 
 ## Histórico substituído — auditoria v7 concluída; referência visual v6 recuperada
 

@@ -1,6 +1,6 @@
 # Harmonização integral v8 — M11 v6 como autoridade visual
 
-Data: 07/09/2026. Estado: candidata técnica, aguardando aprovação visual.
+Data: 07/09/2026. Estado: candidata v07 técnica, aguardando aprovação visual.
 
 ## Decisão que substitui a v7
 
@@ -47,7 +47,7 @@ Visualmente convincente, mas proibido como entrega porque é uma reinterpretaç�
 
 Passaram nos gates automáticos, mas a M13 criou um remendo perceptível entre capô, para-lama e porta. Não usar como base.
 
-### Harmonização v03 — candidata atual
+### Harmonização v03 — candidata conservadora anterior
 
 `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v03/candidato-quadro-completo.png`
 
@@ -61,7 +61,32 @@ O ganho da M13 foi reduzido e as correções independentes passaram por convolu�
 - razão de cromia para o M11 v6: 1,014;
 - RGB e textura gerados: não usados.
 
-A candidata v03 precisa de aprovação visual. Ela é deliberadamente conservadora: vidros continuam translúcidos, teto e portas recebem mais luz, e a identidade do M11 v6 é mantida. Reflexos quentes residuais da parte inferior das portas não devem ser removidos com preenchimento uniforme; se forem reprovados, o próximo passe deve usar uma nova máscara contínua desenhada sobre a superfície física completa.
+A v03 passou tecnicamente, mas foi reprovada pelo usuário por aparência ainda fosca.
+
+### Harmonização v04–v07 — recuperação controlada do verniz
+
+Foi produzido um segundo doador específico de clear-coat em `geracao-integral-doador-v02-clearcoat/geracao-bruta-candidata.png`, com o prompt `prompts/v8/harmonizacao-integral-m11v6-clearcoat-v02.txt`. A geração permanece apenas como doadora de luz.
+
+A v04 introduziu luminância de frequência intermediária para representar reflexos de softbox sem importar textura fina. A v05 passou a usar o segundo doador. A v06 acrescentou highlights positivos derivados do próprio M11 v6, mas foi reprovada pelo gate por criar 0,501% de pixels quase brancos.
+
+A candidata atual é:
+
+`trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`
+
+Na v07, os novos highlights acima de Lab L=239 são comprimidos, enquanto pontos claros já existentes no M11 v6 permanecem intactos. Resultado:
+
+- 1.527 correspondências e 81,99% de inliers;
+- deslocamento máximo de registro: 0,622 px;
+- zero alteração fora da união editável;
+- zero alteração dentro dos detalhes protegidos;
+- diferença média de luminância: 2,267 Lab L;
+- P95 da diferença: 6 Lab L;
+- pixels quase brancos: 0,080%;
+- razão de cromia: 1,010;
+- 1.841 novos highlights comprimidos abaixo do gate;
+- cor, geometria e microtextura fina provenientes do M11 v6.
+
+Comparação v03/v07: `trabalhos/panamera/refinamento-dianteira-v8/comparacao-v03-v07.png`, com v03 à esquerda e v07 à direita.
 
 ## Execução sem nova chamada paga
 
@@ -69,11 +94,11 @@ A candidata v03 precisa de aprovação visual. Ela é deliberadamente conservado
 ./scripts/executar_harmonizacao_integral_v8.sh
 ```
 
-O comando reutiliza o doador já arquivado e grava a candidata e o relatório técnico em `harmonizacao-integral-v03`.
+O comando reutiliza o doador já arquivado e grava a candidata e o relatório técnico em `harmonizacao-integral-v07-clearcoat-final`.
 
 ## Próxima decisão
 
-1. Aprovar ou reprovar visualmente a v03.
+1. Aprovar ou reprovar visualmente a v07.
 2. Se aprovada, criar master 4096x3072 e derivar Feed, Story horizontal e Webmotors.
 3. Se reprovada apenas na lateral inferior, redesenhar uma máscara contínua física e executar um passe local; não gerar novamente o carro inteiro.
 4. Não alterar logo, placa, rodas ou outros detalhes na etapa de harmonização.

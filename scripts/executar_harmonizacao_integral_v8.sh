@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT="${0:A:h:h}"
 cd "$ROOT"
 PYTHON="$ROOT/.venv-mask/bin/python"
-OUT="trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v03"
+OUT="trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final"
 mkdir -p "$OUT"
 
 "$PYTHON" scripts/transferir_iluminacao_integral_v8.py \

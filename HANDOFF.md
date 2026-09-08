@@ -8,12 +8,12 @@ O projeto está em piloto técnico e nenhuma imagem está aprovada para publica�
 
 O último doador do GPT Image 2 foi registrado com 1.164 correspondências, 86,60% de inliers, erro P95 de 1,707 px e deslocamento máximo de 0,281 px. Nenhum pixel fora da máscara foi alterado. O RGB e a textura fina gerados pela IA não são usados na recomposição.
 
-Ainda não existe imagem aprovada para publicação. Por decisão explícita do usuário, o M11 v6 passou a ser a autoridade visual e geométrica do quadro v8. A candidata conservadora atual é `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v03/candidato-quadro-completo.png`; o doador integral já está arquivado e não deve ser gerado novamente.
+Ainda não existe imagem aprovada para publicação. Por decisão explícita do usuário, o M11 v6 passou a ser a autoridade visual e geométrica do quadro v8. A candidata atual é `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`; os doadores integrais já estão arquivados e não devem ser gerados novamente.
 
 ## Próximo passo exato
 
 1. Ler `30-harmonizacao-integral-v8.md`.
-2. Avaliar visualmente a candidata v03 contra o M11 v6.
+2. Avaliar visualmente a candidata v07 contra o M11 v6 e a comparação v03/v07.
 3. Não repetir a geração integral: o doador já existe.
 4. Se a v03 for aprovada, produzir o master 4096 × 3072 e derivar os demais formatos.
 5. Se houver reprovação localizada, criar uma máscara contínua apenas para a região e preservar todo o restante pixel a pixel.

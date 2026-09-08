@@ -1,0 +1,120 @@
+{
+  "status": "technical_pass_visual_approval_required",
+  "profile_id": "GARAGE665-M11V6-HARMONIZACAO-INTEGRAL-V8",
+  "authority_sha256": "070d60d6bd07c24649c7ee2edd22577b9b53ef643e062c329e9b47bdeab0564b",
+  "lighting_donor_sha256": "8fb6dfb73e162bf92d5baf418ccd43ca308dfadde87f9457bcada27fa2ccb27e",
+  "method": "registered_donor_L_low_mid_plus_source_positive_clearcoat",
+  "seam_smoothing_sigma": 10.0,
+  "generated_rgb_used": false,
+  "generated_texture_used": false,
+  "generated_mid_frequency_luminance_used": true,
+  "source_geometry_used": true,
+  "source_chroma_used": true,
+  "source_details_reinserted": true,
+  "new_near_white_highlights_compressed": 1841,
+  "registration": {
+    "matches": 1527,
+    "inlier_fraction": 0.8199083169613621,
+    "maximum_registration_displacement_px": 0.621719479560852,
+    "transform": [
+      [
+        1.0006530793381516,
+        8.618508443694911e-05,
+        -0.1732216393427184
+      ],
+      [
+        0.0002849007108123423,
+        1.0003670342332929,
+        0.027100263232785523
+      ],
+      [
+        3.0649297205617816e-07,
+        1.5426230680271733e-07,
+        0.9999999999999999
+      ]
+    ],
+    "passed": true
+  },
+  "surfaces": {
+    "M11U-capo-integral": {
+      "active_pixels": 138746,
+      "mean_delta_L": 2.327374219894409,
+      "p95_absolute_delta_L": 8.574307441711426,
+      "mid_frequency_gain": 0.34,
+      "mid_frequency_rms_L": 2.5108416080474854,
+      "source_clearcoat_gain": 0.55,
+      "source_clearcoat_mean_L": 2.397108316421509
+    },
+    "M13-paralama-proximo": {
+      "active_pixels": 68565,
+      "mean_delta_L": 1.9344501495361328,
+      "p95_absolute_delta_L": 7.335368633270264,
+      "mid_frequency_gain": 0.28,
+      "mid_frequency_rms_L": 1.22793710231781,
+      "source_clearcoat_gain": 0.45,
+      "source_clearcoat_mean_L": 1.4762879610061646
+    },
+    "M14-portas-superiores": {
+      "active_pixels": 37650,
+      "mean_delta_L": 5.074848175048828,
+      "p95_absolute_delta_L": 11.691444396972656,
+      "mid_frequency_gain": 0.38,
+      "mid_frequency_rms_L": 1.467905879020691,
+      "source_clearcoat_gain": 0.45,
+      "source_clearcoat_mean_L": 1.4983583688735962
+    },
+    "M15-portas-inferiores": {
+      "active_pixels": 33494,
+      "mean_delta_L": 1.6713557243347168,
+      "p95_absolute_delta_L": 3.87400484085083,
+      "mid_frequency_gain": 0.25,
+      "mid_frequency_rms_L": 0.8392006754875183,
+      "source_clearcoat_gain": 0.25,
+      "source_clearcoat_mean_L": 1.8299916982650757
+    },
+    "M10-teto-pintura": {
+      "active_pixels": 2122,
+      "mean_delta_L": 2.0763587951660156,
+      "p95_absolute_delta_L": 6.261902809143066,
+      "mid_frequency_gain": 0.3,
+      "mid_frequency_rms_L": 0.4127056896686554,
+      "source_clearcoat_gain": 0.35,
+      "source_clearcoat_mean_L": 1.1146107912063599
+    },
+    "M16-para-brisa": {
+      "active_pixels": 93462,
+      "mean_delta_L": 1.6765483617782593,
+      "p95_absolute_delta_L": 5.771662712097168,
+      "mid_frequency_gain": 0.08,
+      "mid_frequency_rms_L": 0.44288262724876404,
+      "source_clearcoat_gain": 0.0,
+      "source_clearcoat_mean_L": 0.0
+    },
+    "M17-vidros-laterais": {
+      "active_pixels": 38776,
+      "mean_delta_L": 1.658328890800476,
+      "p95_absolute_delta_L": 2.8095922470092773,
+      "mid_frequency_gain": 0.08,
+      "mid_frequency_rms_L": 0.19028189778327942,
+      "source_clearcoat_gain": 0.0,
+      "source_clearcoat_mean_L": 0.0
+    }
+  },
+  "metrics": {
+    "changed_pixels_outside_union": 0,
+    "changed_pixels_in_protected_mask": 0,
+    "mean_absolute_delta_L": 2.267429828643799,
+    "p95_absolute_delta_L": 6.0,
+    "near_white_percent_L240": 0.08005031734232947,
+    "chroma_ratio_to_source": 1.0102919340133667
+  },
+  "checks": {
+    "changed_pixels_outside_union": true,
+    "changed_pixels_in_protected_mask": true,
+    "mean_absolute_delta_L": true,
+    "p95_absolute_delta_L": true,
+    "near_white_percent_L240": true,
+    "chroma_ratio_to_source": true,
+    "registration": true
+  }
+}

@@ -1,6 +1,6 @@
 # Projeto de Tratativa de Imagens — Garage 665
 
-> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md) e a [harmonização integral v8](30-harmonizacao-integral-v8.md). Por decisão explícita do usuário, o M11 v6 é a autoridade visual e geométrica do quadro em desenvolvimento. A candidata atual é a v03; não repetir chamadas pagas já arquivadas.
+> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md) e a [harmonização integral v8](30-harmonizacao-integral-v8.md). Por decisão explícita do usuário, o M11 v6 é a autoridade visual e geométrica do quadro em desenvolvimento. A candidata atual é a v07 clear-coat; não repetir doadores já arquivados.
 
 ## Fluxo ativo — estúdio v2 (06/09/2026)
 
