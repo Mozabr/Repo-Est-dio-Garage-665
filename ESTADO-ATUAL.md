@@ -1,7 +1,15 @@
 # Estado de retomada — Garage 665
 Atualizado em 07/09/2026. Piloto técnico, NÃO aprovado para publicação.
 
-## Etapa atual — auditoria v7 concluída; referência visual v6 recuperada
+## Etapa atual — harmonização integral v8 sobre o M11 v6
+
+Por decisão explícita do usuário em 07/09/2026, `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png` passou a ser a autoridade visual e geométrica do quadro atual. A regra anterior da v7, que a tratava somente como referência, foi substituída. A fotografia original continua arquivada para auditoria e a cor física absoluta não pode ser certificada sem RAW/ColorChecker.
+
+Foi criado um doador integral com a ferramenta de imagem e ele foi registrado com 1.403 correspondências, 82,97% de inliers e deslocamento máximo de 0,802 px. O RGB, a textura fina, a geometria e a cromia gerados foram descartados da candidata conservadora; somente luminância Lab L de baixa frequência foi transferida nas máscaras M10 e M13–M17, com M19 protegida.
+
+As harmonizações v01 e v02 passaram nos gates automáticos, mas foram reprovadas visualmente por emenda no para-lama. A v03 reduziu a interferência da M13 e passou: zero mudança fora da união, zero mudança em detalhes protegidos, diferença média 3,783 Lab L, P95 10, quase-brancos 0,0065% e razão de cromia 1,014. Arquivo para aprovação: `trabalhos/panamera/refinamento-dianteira-v8/harmonizacao-integral-v03/candidato-quadro-completo.png`. Processo completo em `30-harmonizacao-integral-v8.md`.
+
+## Histórico substituído — auditoria v7 concluída; referência visual v6 recuperada
 
 O usuário aprovou visualmente o capô v25. A lateral foi retomada em uma máscara contínua M13+M14+M15. As tentativas v01–v04 foram rejeitadas por aparência uniforme, escurecimento e leitura do contorno. Um novo doador fotométrico foi gerado e arquivado apenas como diagnóstico; sua geometria, RGB e textura são proibidos no resultado.
 
