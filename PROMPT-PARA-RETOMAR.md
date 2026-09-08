@@ -3,7 +3,7 @@
 Copie o texto abaixo somente depois de disponibilizar o repositório para a nova ferramenta:
 
 ```text
-Continue o projeto de tratamento fotográfico Garage 665 a partir do estado real registrado no repositório. Antes de executar qualquer ação, leia integralmente README.md, COMECE-AQUI.md, HANDOFF.md, ESTADO-ATUAL.md, 30-harmonizacao-integral-v8.md e 31-master-v8-e-previews-serie.md. Depois valide os arquivos e relatórios citados nesses documentos.
+Continue o projeto de tratamento fotográfico Garage 665 a partir do estado real registrado no repositório. Antes de executar qualquer ação, leia integralmente README.md, COMECE-AQUI.md, HANDOFF.md, ESTADO-ATUAL.md, 30-harmonizacao-integral-v8.md, 31-master-v8-e-previews-serie.md e 32-serie-v9-padrao-multivista.md. Depois valide os arquivos e relatórios citados nesses documentos.
 
 Não reinicie o projeto e não repita etapas concluídas. O foco atual é a vista dianteira 3/4 da Porsche Panamera na harmonização integral v8. Leia também `30-harmonizacao-integral-v8.md`. Por decisão explícita do usuário, `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png` é a autoridade visual e geométrica do quadro atual. A candidata a avaliar é `refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`. Os doadores integrais já existem; nunca repita essas gerações nem chamadas pagas cujos doadores estejam arquivados.
 

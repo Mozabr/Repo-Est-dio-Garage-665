@@ -14,6 +14,7 @@ Criar uma série padronizada de fotografias da Garage 665 com aparência de est�
 - Etapa: harmonização integral v8 sobre o M11 v6.
 - Resultado da dianteira 3/4: v07 aprovada e master exportada.
 - Demais vistas: seis externas e três internas em preview, aguardando validação humana.
+- Fluxo ativo: calibração multivista v9 pelo perfil; leia `32-serie-v9-padrao-multivista.md`.
 - Doadores do capô e de M13: já gerados e arquivados; não repetir nenhuma chamada paga.
 - Base atual: `refinamento-dianteira-v6/teste-M11-capo-centro-api/geracao-bruta-api.png`, escolhida explicitamente pelo usuário como autoridade do quadro.
 - Candidata atual: `refinamento-dianteira-v8/harmonizacao-integral-v07-clearcoat-final/candidato-quadro-completo.png`.

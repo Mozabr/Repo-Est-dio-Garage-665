@@ -76,6 +76,9 @@ def render_external(job, studio, stage_size, preview_size, alpha_root, out_root)
     preview = preview.resize(preview_size, Image.Resampling.LANCZOS)
     preview_path = output_dir / "preview.png"
     save_rgb(preview_path, preview)
+    alpha_preview = Image.fromarray(np.round(np.clip(stage_alpha, 0, 1) * 255).astype(np.uint8))
+    alpha_preview = alpha_preview.resize(preview_size, Image.Resampling.LANCZOS)
+    alpha_preview.save(output_dir / "alpha-veiculo-preview.png")
     report = {
         "id": job["id"],
         "type": "external_preview",
