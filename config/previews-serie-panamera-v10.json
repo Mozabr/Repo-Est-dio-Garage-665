@@ -1,0 +1,25 @@
+{
+  "version": "panamera-v10-studio-g-canonical",
+  "status": "PREVIEW_ONLY_STUDIO_GEOMETRY_LOCKED",
+  "workdir": "trabalhos/panamera/previews-serie-v10-studio-canonico",
+  "studio_base": "estudio-mestre/STUDIO_G-cyclorama-placa-matte-v05-base.png",
+  "studio_preview": "trabalhos/panamera/previews-serie-v10-studio-canonico/studio-canonico-oficial.png",
+  "external_config_source": "config/piloto-v2.json",
+  "external_alpha_root": "trabalhos/panamera/studio-v2",
+  "excluded_external_views": ["dianteira-3-4"],
+  "stage_size": [2048, 1536],
+  "preview_size": [1600, 1200],
+  "wall_logo_finish": "matte_physical",
+  "interiors": [
+    {"id": "interior-amplo", "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.06 (3).jpeg"},
+    {"id": "painel-instrumentos", "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07 (1).jpeg"},
+    {"id": "interior-motorista", "source": "referencias/originais-panamera/WhatsApp Image 2025-11-24 at 09.57.07 (2).jpeg"}
+  ],
+  "preview_policy": [
+    "O teto canonico e continuo, sem painel luminoso retangular visivel.",
+    "A geometria vem do Studio G e a direcao visual vem da master aprovada teste 05.",
+    "Logo oficial aplicado deterministicamente sobre placa fisica matte.",
+    "Externas validam composicao antes do tratamento de material por angulo.",
+    "Interiores recebem o estudio somente nas areas externas vistas pelos vidros."
+  ]
+}

@@ -1,6 +1,12 @@
 # Continuidade do projeto Garage 665
 
-Atualizado em 07/09/2026. Este documento é o ponto de entrada para continuar o trabalho em outra conta ou computador.
+Atualizado em 08/09/2026. Este documento é o ponto de entrada para continuar o trabalho em outra conta ou computador.
+
+> Antes de executar qualquer etapa, ler `33-estudio-canonico-v10.md`. A sala
+> ativa passou a ser Studio G / master `teste 05`, com teto contínuo. Não voltar
+> ao painel luminoso visível do Studio H. Nas internas, editar exclusivamente o
+> exterior visto pelos vidros e nunca regenerar volante, instrumentos, textos ou
+> materiais.
 
 ## Situação real
 

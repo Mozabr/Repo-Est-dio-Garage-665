@@ -1,6 +1,6 @@
 # Projeto de Tratativa de Imagens — Garage 665
 
-> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md), a [harmonização integral v8](30-harmonizacao-integral-v8.md), o [marco de master/previews](31-master-v8-e-previews-serie.md) e o [padrão multivista v9](32-serie-v9-padrao-multivista.md). A v07 dianteira 3/4 foi aprovada e exportada; o perfil é a calibração ativa para levar o mesmo Studio H às demais vistas. Não repetir doadores já arquivados.
+> **Retomada em outra conta/computador:** comece por [COMECE-AQUI.md](COMECE-AQUI.md), leia [HANDOFF.md](HANDOFF.md), o [estúdio canônico v10](33-estudio-canonico-v10.md), a [harmonização integral v8](30-harmonizacao-integral-v8.md) e o [padrão multivista v9](32-serie-v9-padrao-multivista.md). A v07 dianteira 3/4 foi aprovada; a arquitetura atual é o Studio G com teto contínuo da master `teste 05`. O Studio H permanece apenas como histórico. Não repetir doadores já arquivados.
 
 ## Fluxo ativo — estúdio v2 (06/09/2026)
 

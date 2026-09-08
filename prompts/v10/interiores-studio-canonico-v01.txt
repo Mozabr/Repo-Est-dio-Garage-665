@@ -1,0 +1,22 @@
+MODO: edição fotográfica localizada de uma imagem documental.
+
+AUTORIDADES
+- Imagem 1 é a fotografia original e autoridade absoluta de geometria, câmera, interior, volante, instrumentos, textos, materiais, costuras, comandos e sinais reais de uso.
+- Imagem 2 é autoridade somente do ambiente Garage 665: ciclorama off-white, parede com textura discreta, teto contínuo sem painel luminoso retangular visível, piso cinza neutro e luz suave a 5200 K.
+
+TAREFA
+Substitua exclusivamente o ambiente externo visível através da área transparente da máscara. Faça parecer que a fotografia original foi capturada com o mesmo carro parado dentro do estúdio da Imagem 2. Em enquadramentos internos fechados, o estúdio deve aparecer apenas como parede off-white distante e suavemente desfocada através do vidro; não mostre a sala inteira, cantos, placa ou logo se eles não seriam fisicamente visíveis naquele campo de visão.
+
+TRAVAS OBRIGATÓRIAS
+- Não altere nenhum pixel fora da área transparente da máscara.
+- Não redesenhe volante, aro, botões, paddle shifts, painel, mostradores, números, alertas, relógio, tela, mapa, banco, console, colunas, retrovisor ou molduras.
+- Não mude o ponto de vista, distância focal, perspectiva, recorte ou proporções.
+- Não escureça os vidros artificialmente.
+- Não adicione texto, logo, placa, equipamentos de iluminação ou arquitetura inventada.
+- Não transforme o interior em render 3D e não aplique nitidez, blur ou redução de ruído ao interior protegido.
+
+ÓPTICA
+Parede distante fora de foco de modo compatível com a profundidade de campo original; transmissão sutil do vidro; contraste e balanço de branco coerentes com luz de estúdio ampla, neutra e macia. A transição junto às bordas do para-brisa deve ser fotográfica, sem halo, contorno branco ou vazamento de cenário urbano.
+
+RESULTADO
+Uma edição invisível e realista: o interior continua sendo exatamente a fotografia original, e somente o exterior visto pelos vidros passa a pertencer ao estúdio canônico Garage 665.

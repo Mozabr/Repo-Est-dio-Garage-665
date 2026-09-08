@@ -6,11 +6,23 @@ Este arquivo permite continuar o projeto sem acesso ao chat original. Leia tamb�
 
 Criar uma série padronizada de fotografias da Garage 665 com aparência de estúdio profissional, preservando a identidade documental de cada carro. O veículo não pode ser redesenhado, reinterpretado, envelopado ou transformado em um modelo apenas parecido.
 
-## Estado no momento da transferência — v8
+## Estado atual — v10 canônico
+
+- Ler primeiro `33-estudio-canonico-v10.md`.
+- A master `teste 05`, copiada para `referencias/autoridades`, é a autoridade do
+  estúdio. Studio H é histórico e seu painel luminoso visível não deve voltar.
+- A lateral v9 aprovada orienta apenas verniz e luz do carro.
+- As externas v10 têm composição coerente, porém reflexos urbanos ainda não
+  tratados; não são masters.
+- Nas internas, somente o exterior visto pelos vidros pode ser editado. A foto
+  próxima ao volante deve mostrar parede distante desfocada, sem logo ou sala
+  inteira, e preservar integralmente instrumentos e comandos.
+
+## Estado histórico no momento da transferência — v8
 
 - Veículo: Porsche Panamera E-Hybrid cinza metálico.
 - Vista em desenvolvimento: dianteira 3/4.
-- Estúdio ativo: Studio H.
+- Estúdio histórico desta etapa: Studio H, substituído pelo Studio G canônico v10.
 - Etapa: harmonização integral v8 sobre o M11 v6.
 - Resultado da dianteira 3/4: v07 aprovada e master exportada.
 - Demais vistas: seis externas e três internas em preview, aguardando validação humana.
