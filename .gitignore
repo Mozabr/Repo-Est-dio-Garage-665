@@ -21,3 +21,7 @@ modelos/hf-cache/
 .ruff_cache/
 tmp/
 
+
+# Iteracoes de render: pesadas e nao versionadas.
+# Ficam no disco, fora do git. Ver ESTADO-ATUAL.md.
+trabalhos/
